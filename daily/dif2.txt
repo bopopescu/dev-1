@@ -1,0 +1,6 @@
+<built-in method now of type object at 0x109478640>, <built-in method now of type object at 0x109478640>, <built-in method now of type object at 0x109478640>, <built-in method now of type object at 0x109478640>, <built-in method now of type object at 0x109478640>
+<built-in method now of type object at 0x109478640>, <built-in method now of type object at 0x109478640>
+<built-in method now of type object at 0x109478640>2014-08-19 11:14:48.637174
+0:00:04.655566
+0:00:02.495723, 0:00:00.919747, 0:00:00.785684, 0:00:08.959364
+0:00:04.311481, 0:00:02.152058, 0:00:00.959824, 0:00:07.423363
