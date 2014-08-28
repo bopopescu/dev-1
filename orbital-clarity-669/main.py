@@ -3,7 +3,19 @@ import cgi
 import re
 import jinja2
 import os
+import hmac
 from google.appengine.ext import db
+SECRET = "imsosecret"
+def hash_str(s):
+	return hmac.new(SECRET,s).hexdigest()
+
+def make_secure_val(s):
+	return "%s|%s" % (s,hash_str(s))
+
+def check_secure_val(h):
+	val = h.split('|')[0]
+	if h == make_secure_val(val):
+		return val
 
 template_dir = os.path.join(os.path.dirname(__file__),'templates') 
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir), autoescape = True) 
@@ -124,13 +136,31 @@ class ProductHandler(Handler):
 		self.render("perma.html", blog = blog)
 
 
-class MainPage(webapp2.RequestHandler):
+class MainPage(Handler):
 	def write_form(self, us_er="", us_ps="", us_vr="", us_em="", username="", email=""):
 		self.response.out.write(form %{"us_er": us_er, "us_ps": us_ps, "us_vr": us_vr, "us_em": us_em, "username":username,"email":email})
 		
 
 	def get(self):
-		self.write_form()
+		self.response.headers['Content-Type'] = 'text/plain'
+		visits = 0
+		visits_cookie_str = self.request.cookies.get('visits')
+		if visits_cookie_str:
+			cookie_val = check_secure_val(visits_cookie_str)
+			if cookie_val:
+				visits = int(cookie_val)
+		
+		visits += 1
+
+		new_cookie_val = make_secure_val(str(visits))
+		self.response.headers.add_header('Set-Cookie', 'visits=%s' % new_cookie_val)
+
+		if visits > 10:
+			self.write("You are the best ever!")
+		else:
+			self.write("You've been here %s times!" % visits)
+		
+		#self.write_form()
 		#self.render('fizzbuzz.html')
 	def post(self):
 		user_name = valid_username(self.request.get('username'))
