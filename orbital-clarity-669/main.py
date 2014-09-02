@@ -34,27 +34,7 @@ def valid_email(email):
 	return EMAIL_RE.match(email) or not email
 
 form="""
-<form method="post">
-	<h2>Signup</h2>
-	<label>
-		Name <input name="username" value="%(username)s"> </input>%(us_er)s
-		<br>
-	</label>
-	<label>
-		Password <input type="password" name="password" > </input>%(us_ps)s
-		<br>
-	</label>
-	<label>
-		Verify <input type="password" name="verify" > </input>%(us_vr)s
-		<br>
-	</label>
-	<label>
-		Email <input name="email" value="%(email)s"> </input> %(us_em)s
-		<br>
-	</label>
-	
-	<input type="submit">
-</form>
+
 """
 # That's not a valid username. That wasn't a valid password. Your passwords didn't match. That's not a valid email
 class Handler(webapp2.RequestHandler):
@@ -136,13 +116,14 @@ class ProductHandler(Handler):
 		self.render("perma.html", blog = blog)
 
 
-class MainPage(Handler):
-	def write_form(self, us_er="", us_ps="", us_vr="", us_em="", username="", email=""):
-		self.response.out.write(form %{"us_er": us_er, "us_ps": us_ps, "us_vr": us_vr, "us_em": us_em, "username":username,"email":email})
+class SignUpPage(Handler):
+	def write_form(self, username="", password="", verify="", email="", a = '', b = '', c = '', d = ''):
+		self.render("signup.html", username = username, password = password, verify=  verify, email= email, a = a, b = b, c = c, d = d)
 		
 
 	def get(self):
-		self.response.headers['Content-Type'] = 'text/plain'
+		self.write_form()
+		"""self.response.headers['Content-Type'] = 'text/plain'
 		visits = 0
 		visits_cookie_str = self.request.cookies.get('visits')
 		if visits_cookie_str:
@@ -158,11 +139,12 @@ class MainPage(Handler):
 		if visits > 10:
 			self.write("You are the best ever!")
 		else:
-			self.write("You've been here %s times!" % visits)
+			self.write("You've been here %s times!" % visits)"""
 		
 		#self.write_form()
 		#self.render('fizzbuzz.html')
 	def post(self):
+		
 		user_name = valid_username(self.request.get('username'))
 		user_pass = valid_password(self.request.get('password'))
 		user_ver = verify(self.request.get('password'),self.request.get('verify'))
@@ -180,15 +162,15 @@ class MainPage(Handler):
 				c = "Your passwords didn't match"
 			if not user_email:
 				d = "That's not a valid email"
+			self.write_form(self.request.get('username'),"","",self.request.get('email'),a,b,c,d)
 			
-			self.write_form(a,b,c,d,self.request.get('username'),self.request.get('email'))
 		else:
 			self.redirect("/welcome?username="+self.request.get('username'))
-
+		
 class SucessPage(webapp2.RequestHandler):
 	def get(self):
 		q = self.request.get("username")
 		self.response.out.write("Welcome, " + q+"!")
 		#self.render('fizzbuzz.html')
 
-app = webapp2.WSGIApplication([('/',MainPage),('/welcome',SucessPage),('/fizzbuzz',FizzBuzzHandler),('/ascii',AsciiHandler),('/blog',BlogHandler),('/blog/(\d+)',ProductHandler),('/blog/newpost',FormHandler)], debug=True)
+app = webapp2.WSGIApplication([('/signup',SignUpPage),('/welcome',SucessPage),('/fizzbuzz',FizzBuzzHandler),('/ascii',AsciiHandler),('/blog',BlogHandler),('/blog/(\d+)',ProductHandler),('/blog/newpost',FormHandler)], debug=True)
