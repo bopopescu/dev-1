@@ -10,7 +10,7 @@ let label = "The width is "
 let width = 94
 let widthLabel = label + String(width)
 let appleSummary = "I have \(width) apples"
-
+let stringSum = "hello" + " world!"
 var list = [1,3,4]
 println(list[1])
 list[1]
@@ -99,3 +99,6 @@ func makeIncrementer() -> (Int -> Int) {
 }
 var increment = makeIncrementer()
 increment(7)
+
+increment(increment(8))
+
