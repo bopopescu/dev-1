@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F90FBE19BCCF8F0035DFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */; };
+		D6F90FC019BCCF8F0035DFC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FBF19BCCF8F0035DFC1 /* CoreGraphics.framework */; };
+		D6F90FC219BCCF8F0035DFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FC119BCCF8F0035DFC1 /* UIKit.framework */; };
+		D6F90FC819BCCF8F0035DFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6F90FC619BCCF8F0035DFC1 /* InfoPlist.strings */; };
+		D6F90FCA19BCCF8F0035DFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F90FC919BCCF8F0035DFC1 /* main.m */; };
+		D6F90FCE19BCCF8F0035DFC1 /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F90FCD19BCCF8F0035DFC1 /* PMAppDelegate.m */; };
+		D6F90FD119BCCF8F0035DFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F90FCF19BCCF8F0035DFC1 /* Main.storyboard */; };
+		D6F90FD419BCCF8F0035DFC1 /* PMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F90FD319BCCF8F0035DFC1 /* PMViewController.m */; };
+		D6F90FD619BCCF8F0035DFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F90FD519BCCF8F0035DFC1 /* Images.xcassets */; };
+		D6F90FDD19BCCF8F0035DFC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FDC19BCCF8F0035DFC1 /* XCTest.framework */; };
+		D6F90FDE19BCCF8F0035DFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */; };
+		D6F90FDF19BCCF8F0035DFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FC119BCCF8F0035DFC1 /* UIKit.framework */; };
+		D6F90FE719BCCF8F0035DFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6F90FE519BCCF8F0035DFC1 /* InfoPlist.strings */; };
+		D6F90FE919BCCF8F0035DFC1 /* PortManteauTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F90FE819BCCF8F0035DFC1 /* PortManteauTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F90FE019BCCF8F0035DFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F90FB219BCCF8F0035DFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F90FB919BCCF8F0035DFC1;
+			remoteInfo = PortManteau;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F90FBA19BCCF8F0035DFC1 /* PortManteau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortManteau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6F90FBF19BCCF8F0035DFC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6F90FC119BCCF8F0035DFC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6F90FC519BCCF8F0035DFC1 /* PortManteau-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PortManteau-Info.plist"; sourceTree = "<group>"; };
+		D6F90FC719BCCF8F0035DFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6F90FC919BCCF8F0035DFC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F90FCB19BCCF8F0035DFC1 /* PortManteau-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PortManteau-Prefix.pch"; sourceTree = "<group>"; };
+		D6F90FCC19BCCF8F0035DFC1 /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		D6F90FCD19BCCF8F0035DFC1 /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
+		D6F90FD019BCCF8F0035DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F90FD219BCCF8F0035DFC1 /* PMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMViewController.h; sourceTree = "<group>"; };
+		D6F90FD319BCCF8F0035DFC1 /* PMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMViewController.m; sourceTree = "<group>"; };
+		D6F90FD519BCCF8F0035DFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6F90FDB19BCCF8F0035DFC1 /* PortManteauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortManteauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F90FDC19BCCF8F0035DFC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6F90FE419BCCF8F0035DFC1 /* PortManteauTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PortManteauTests-Info.plist"; sourceTree = "<group>"; };
+		D6F90FE619BCCF8F0035DFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6F90FE819BCCF8F0035DFC1 /* PortManteauTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortManteauTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F90FB719BCCF8F0035DFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FC019BCCF8F0035DFC1 /* CoreGraphics.framework in Frameworks */,
+				D6F90FC219BCCF8F0035DFC1 /* UIKit.framework in Frameworks */,
+				D6F90FBE19BCCF8F0035DFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F90FD819BCCF8F0035DFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FDD19BCCF8F0035DFC1 /* XCTest.framework in Frameworks */,
+				D6F90FDF19BCCF8F0035DFC1 /* UIKit.framework in Frameworks */,
+				D6F90FDE19BCCF8F0035DFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F90FB119BCCF8F0035DFC1 = {
+			isa = PBXGroup;
+			children = (
+				D6F90FC319BCCF8F0035DFC1 /* PortManteau */,
+				D6F90FE219BCCF8F0035DFC1 /* PortManteauTests */,
+				D6F90FBC19BCCF8F0035DFC1 /* Frameworks */,
+				D6F90FBB19BCCF8F0035DFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F90FBB19BCCF8F0035DFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FBA19BCCF8F0035DFC1 /* PortManteau.app */,
+				D6F90FDB19BCCF8F0035DFC1 /* PortManteauTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F90FBC19BCCF8F0035DFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */,
+				D6F90FBF19BCCF8F0035DFC1 /* CoreGraphics.framework */,
+				D6F90FC119BCCF8F0035DFC1 /* UIKit.framework */,
+				D6F90FDC19BCCF8F0035DFC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F90FC319BCCF8F0035DFC1 /* PortManteau */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FCC19BCCF8F0035DFC1 /* PMAppDelegate.h */,
+				D6F90FCD19BCCF8F0035DFC1 /* PMAppDelegate.m */,
+				D6F90FCF19BCCF8F0035DFC1 /* Main.storyboard */,
+				D6F90FD219BCCF8F0035DFC1 /* PMViewController.h */,
+				D6F90FD319BCCF8F0035DFC1 /* PMViewController.m */,
+				D6F90FD519BCCF8F0035DFC1 /* Images.xcassets */,
+				D6F90FC419BCCF8F0035DFC1 /* Supporting Files */,
+			);
+			path = PortManteau;
+			sourceTree = "<group>";
+		};
+		D6F90FC419BCCF8F0035DFC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FC519BCCF8F0035DFC1 /* PortManteau-Info.plist */,
+				D6F90FC619BCCF8F0035DFC1 /* InfoPlist.strings */,
+				D6F90FC919BCCF8F0035DFC1 /* main.m */,
+				D6F90FCB19BCCF8F0035DFC1 /* PortManteau-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F90FE219BCCF8F0035DFC1 /* PortManteauTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FE819BCCF8F0035DFC1 /* PortManteauTests.m */,
+				D6F90FE319BCCF8F0035DFC1 /* Supporting Files */,
+			);
+			path = PortManteauTests;
+			sourceTree = "<group>";
+		};
+		D6F90FE319BCCF8F0035DFC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F90FE419BCCF8F0035DFC1 /* PortManteauTests-Info.plist */,
+				D6F90FE519BCCF8F0035DFC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F90FB919BCCF8F0035DFC1 /* PortManteau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F90FEC19BCCF8F0035DFC1 /* Build configuration list for PBXNativeTarget "PortManteau" */;
+			buildPhases = (
+				D6F90FB619BCCF8F0035DFC1 /* Sources */,
+				D6F90FB719BCCF8F0035DFC1 /* Frameworks */,
+				D6F90FB819BCCF8F0035DFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortManteau;
+			productName = PortManteau;
+			productReference = D6F90FBA19BCCF8F0035DFC1 /* PortManteau.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F90FDA19BCCF8F0035DFC1 /* PortManteauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F90FEF19BCCF8F0035DFC1 /* Build configuration list for PBXNativeTarget "PortManteauTests" */;
+			buildPhases = (
+				D6F90FD719BCCF8F0035DFC1 /* Sources */,
+				D6F90FD819BCCF8F0035DFC1 /* Frameworks */,
+				D6F90FD919BCCF8F0035DFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F90FE119BCCF8F0035DFC1 /* PBXTargetDependency */,
+			);
+			name = PortManteauTests;
+			productName = PortManteauTests;
+			productReference = D6F90FDB19BCCF8F0035DFC1 /* PortManteauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F90FB219BCCF8F0035DFC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sam Svenningsen";
+				TargetAttributes = {
+					D6F90FDA19BCCF8F0035DFC1 = {
+						TestTargetID = D6F90FB919BCCF8F0035DFC1;
+					};
+				};
+			};
+			buildConfigurationList = D6F90FB519BCCF8F0035DFC1 /* Build configuration list for PBXProject "PortManteau" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F90FB119BCCF8F0035DFC1;
+			productRefGroup = D6F90FBB19BCCF8F0035DFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F90FB919BCCF8F0035DFC1 /* PortManteau */,
+				D6F90FDA19BCCF8F0035DFC1 /* PortManteauTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F90FB819BCCF8F0035DFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FD619BCCF8F0035DFC1 /* Images.xcassets in Resources */,
+				D6F90FC819BCCF8F0035DFC1 /* InfoPlist.strings in Resources */,
+				D6F90FD119BCCF8F0035DFC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F90FD919BCCF8F0035DFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FE719BCCF8F0035DFC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F90FB619BCCF8F0035DFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FCA19BCCF8F0035DFC1 /* main.m in Sources */,
+				D6F90FD419BCCF8F0035DFC1 /* PMViewController.m in Sources */,
+				D6F90FCE19BCCF8F0035DFC1 /* PMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F90FD719BCCF8F0035DFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F90FE919BCCF8F0035DFC1 /* PortManteauTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F90FE119BCCF8F0035DFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F90FB919BCCF8F0035DFC1 /* PortManteau */;
+			targetProxy = D6F90FE019BCCF8F0035DFC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F90FC619BCCF8F0035DFC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F90FC719BCCF8F0035DFC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6F90FCF19BCCF8F0035DFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F90FD019BCCF8F0035DFC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F90FE519BCCF8F0035DFC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F90FE619BCCF8F0035DFC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F90FEA19BCCF8F0035DFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6F90FEB19BCCF8F0035DFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F90FED19BCCF8F0035DFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PortManteau/PortManteau-Prefix.pch";
+				INFOPLIST_FILE = "PortManteau/PortManteau-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6F90FEE19BCCF8F0035DFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PortManteau/PortManteau-Prefix.pch";
+				INFOPLIST_FILE = "PortManteau/PortManteau-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6F90FF019BCCF8F0035DFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PortManteau.app/PortManteau";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PortManteau/PortManteau-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PortManteauTests/PortManteauTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6F90FF119BCCF8F0035DFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PortManteau.app/PortManteau";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PortManteau/PortManteau-Prefix.pch";
+				INFOPLIST_FILE = "PortManteauTests/PortManteauTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F90FB519BCCF8F0035DFC1 /* Build configuration list for PBXProject "PortManteau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F90FEA19BCCF8F0035DFC1 /* Debug */,
+				D6F90FEB19BCCF8F0035DFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F90FEC19BCCF8F0035DFC1 /* Build configuration list for PBXNativeTarget "PortManteau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F90FED19BCCF8F0035DFC1 /* Debug */,
+				D6F90FEE19BCCF8F0035DFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6F90FEF19BCCF8F0035DFC1 /* Build configuration list for PBXNativeTarget "PortManteauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F90FF019BCCF8F0035DFC1 /* Debug */,
+				D6F90FF119BCCF8F0035DFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F90FB219BCCF8F0035DFC1 /* Project object */;
+}

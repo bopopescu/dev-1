@@ -12,8 +12,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *myAwesomeLabel;
 @property (assign, nonatomic) int myCounter;
 @property (strong, nonatomic) IBOutlet UITextField *myTextField;
-@property (assign, nonatomic) NSMutableArray *myTestArray;
-@property (assign,nonatomic) NSMutableArray *validPasswords;
+@property (strong, nonatomic) NSMutableArray *myTestArray;
+@property (strong,nonatomic) NSArray *validPasswords;
 @end
 
 @implementation HWViewController
@@ -21,7 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.validPasswords = @[@"eggs", @"milk", @"eggs"];
+    self.validPasswords = @[@"eggs", @"milk", @"ham"];
 	// Do any additional setup after loading the view, typically from a nib.
     
 //    self.myAwesomeLabel.text = @"Goat";
@@ -89,10 +89,10 @@
 //    NSString *myString = [NSString stringWithFormat:@"pressed %d",self.myCounter];
 //    self.myAwesomeLabel.text = myString;
     BOOL valid = NO;
-    for (int i = 0; i < self.myTestArray.count; i++){
-        NSString *validEntry = [self.myTestArray objectAtIndex:i];
-        NSLog(validEntry);
-        if ([self.myTextField.text isEqualToString:validEntry]){
+    NSString *attemptedPassword = self.myTextField.text;
+    for (int i = 0; i < self.validPasswords.count; i++){
+        NSString *validEntry = [self.validPasswords objectAtIndex:i];
+        if ([attemptedPassword isEqualToString:validEntry]){
             valid = YES;
         }
     }
