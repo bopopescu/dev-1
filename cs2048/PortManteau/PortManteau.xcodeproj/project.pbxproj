@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62AA56319C4B240005AB966 /* 4Nqdvx6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D62AA56219C4B240005AB966 /* 4Nqdvx6.jpg */; };
 		D6F90FBE19BCCF8F0035DFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */; };
 		D6F90FC019BCCF8F0035DFC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FBF19BCCF8F0035DFC1 /* CoreGraphics.framework */; };
 		D6F90FC219BCCF8F0035DFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F90FC119BCCF8F0035DFC1 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D62AA56219C4B240005AB966 /* 4Nqdvx6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4Nqdvx6.jpg; path = ../../../../4Nqdvx6.jpg; sourceTree = "<group>"; };
 		D6F90FBA19BCCF8F0035DFC1 /* PortManteau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortManteau.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F90FBD19BCCF8F0035DFC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6F90FBF19BCCF8F0035DFC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				D6F90FCF19BCCF8F0035DFC1 /* Main.storyboard */,
 				D6F90FD219BCCF8F0035DFC1 /* PMViewController.h */,
 				D6F90FD319BCCF8F0035DFC1 /* PMViewController.m */,
+				D62AA56219C4B240005AB966 /* 4Nqdvx6.jpg */,
 				D6F90FD519BCCF8F0035DFC1 /* Images.xcassets */,
 				D6F90FC419BCCF8F0035DFC1 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F90FD619BCCF8F0035DFC1 /* Images.xcassets in Resources */,
+				D62AA56319C4B240005AB966 /* 4Nqdvx6.jpg in Resources */,
 				D6F90FC819BCCF8F0035DFC1 /* InfoPlist.strings in Resources */,
 				D6F90FD119BCCF8F0035DFC1 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +461,7 @@
 				D6F90FEE19BCCF8F0035DFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6F90FEF19BCCF8F0035DFC1 /* Build configuration list for PBXNativeTarget "PortManteauTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				D6F90FF119BCCF8F0035DFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

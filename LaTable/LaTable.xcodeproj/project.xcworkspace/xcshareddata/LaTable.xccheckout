@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>80413BE0-F8AD-4A03-AF6A-ED78C14D2188</string>
+	<string>8188D305-7404-4755-90E2-AACE9F6E1400</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PortManteau</string>
+	<string>LaTable</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>88CF44FE5F626EFAD359EF476EEFA26DFE8AABAB</key>
 		<string>https://github.com/altock/dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cs2048/PortManteau/PortManteau.xcodeproj/project.xcworkspace</string>
+	<string>LaTable/LaTable.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>88CF44FE5F626EFAD359EF476EEFA26DFE8AABAB</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/altock/dev.git</string>
