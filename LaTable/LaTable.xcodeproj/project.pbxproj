@@ -15,6 +15,7 @@
 		D682C95019C4C03100CE0FEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D682C94E19C4C03100CE0FEB /* LaunchScreen.xib */; };
 		D682C95C19C4C03100CE0FEB /* LaTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D682C95B19C4C03100CE0FEB /* LaTableTests.m */; };
 		D682C96D19C4C0EC00CE0FEB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D682C96C19C4C0EC00CE0FEB /* TableViewController.m */; };
+		D6C84FE819C5344700DC2E72 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C84FE719C5344700DC2E72 /* HomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		D682C95B19C4C03100CE0FEB /* LaTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaTableTests.m; sourceTree = "<group>"; };
 		D682C96B19C4C0EC00CE0FEB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		D682C96C19C4C0EC00CE0FEB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D6C84FE619C5344700DC2E72 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		D6C84FE719C5344700DC2E72 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				D682C96B19C4C0EC00CE0FEB /* TableViewController.h */,
 				D682C96C19C4C0EC00CE0FEB /* TableViewController.m */,
+				D6C84FE619C5344700DC2E72 /* HomeTableViewController.h */,
+				D6C84FE719C5344700DC2E72 /* HomeTableViewController.m */,
 				D682C94319C4C03100CE0FEB /* AppDelegate.h */,
 				D682C94419C4C03100CE0FEB /* AppDelegate.m */,
 				D682C94619C4C03100CE0FEB /* ViewController.h */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D682C94819C4C03100CE0FEB /* ViewController.m in Sources */,
+				D6C84FE819C5344700DC2E72 /* HomeTableViewController.m in Sources */,
 				D682C94519C4C03100CE0FEB /* AppDelegate.m in Sources */,
 				D682C94219C4C03100CE0FEB /* main.m in Sources */,
 				D682C96D19C4C0EC00CE0FEB /* TableViewController.m in Sources */,
@@ -418,6 +424,7 @@
 				D682C96119C4C03100CE0FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D682C96219C4C03100CE0FEB /* Build configuration list for PBXNativeTarget "LaTableTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				D682C96419C4C03100CE0FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,10 +8,11 @@
 
 #import "ViewController.h"
 #import "TableViewController.h"
+#import "HomeTableViewController.h"
 @interface ViewController ()
 
-@property (nonatomic,strong) TableViewController *myTableViewController;
-@property (strong, nonatomic) IBOutlet UISegmentedControl *mySegmentedControl;
+@property (nonatomic, strong) TableViewController *myTableViewController;
+@property (nonatomic, strong) HomeTableViewController *myHomeTableViewController;
 
 
 @end
@@ -23,10 +24,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.myTableViewController = [[TableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    self. myTableViewController.view.frame = self.view.bounds;
+    self.myTableViewController.view.frame = self.view.bounds;
     
-    NSString *theValue = [[NSUserDefaults standardUserDefaults] valueForKey:@"the key"];
-    NSLog(@"the value is: %@", theValue);
+    self.myTableViewController = [[TableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    self.myTableViewController.view.frame = self.view.bounds;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.myHomeTableViewController];
+    [self presentViewController:navController animated:NO completion:nil];
 
     
     
@@ -40,11 +43,6 @@
     [self.myTableViewController.navigationItem setRightBarButtonItem:doneButton];
 }
 
-- (IBAction)mySegmentedControlerValueChanged:(id)sender {
-    
-    int selectedIndex = self.mySegmentedControl.selectedSegmentIndex;
-    NSLog(@"User selected index %d", selectedIndex);
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
