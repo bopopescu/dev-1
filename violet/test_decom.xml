@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE decom_database SYSTEM "packet_decom.dtd">
+<decom_database>
+
+	<key name="MID" word="0" bit="5" len="11"> <!-- Primary key is the CCSDS APID	field -->
+		<packet value="B0" name="CDH_HkPacket" len="14" />
+		<!--<packet value="FIX ME!" name="SunSensorTlm" len="" />-->
+		<packet value="B2" name="GPSTlm" len="88" /> <!-- there are two GPSs; FIX ME TOO -->
+		<packet value="B4" name="StarTrackerTlm" len="28" />
+		<packet value="B5" name="PowerTlm" len="185" />
+		<packet value="null" name="CFE_ES_DriverRegistryPacket" len="319" />
+		<packet value="00" name="CFE_ES_HkPacket" len="156" />
+		<packet value="0B" name="CFE_ES_OneAppTlm" len="200" />
+		<packet value="10" name="CFE_ES_PoolStatsTlm" len="44" />
+		<packet value="0F" name="CFE_ES_ShellPacket" len="76" />
+		<packet value="08" name="CFE_EVS_Packet" len="168" />
+		<packet value="01" name="CFE_EVS_TlmPkt" len="36" />
+		<packet value="04" name="CFE_TBL_HkPacket" len="252" />
+		<packet value="0C" name="CFE_TBL_TblRegPacket" len="164" />
+		<packet value="06" name="CFE_TIME_DiagPacket" len="212" />
+		<packet value="05" name="CFE_TIME_HkPacket" len="52" />
+		<packet value="C1" name="CMG_HkPacket" len="80" /> <!-- changed length-->
+		<packet value="C2" name="CMG_CmgTlm" len="141" />
+		<packet value="A4" name="CS_HkPacket" len="68" />
+		<packet value="B8" name="DS_HkPacket" len="136" />
+		<packet value="null" name="FM_DirListMsg" len="312" />
+		<packet value="8B" name="FM_FileInfoMsg" len="92" />
+		<packet value="8A" name="FM_HkMsg" len="84" />
+		<packet value="8D" name="FM_OpenFileInfoMsg" len="97" />
+		<packet value="BC" name="FOG_HkPacket" len="43" />
+		<packet value="BD" name="FOG_400Hz_Telem" len="40" />
+		<packet value="BE" name="FOG_Telem_Data" len="58" />
+		<packet value="9B" name="HK_HkPacket" len="24" />
+		<packet value="AD" name="HS_HkPacket" len="164" />
+		<packet value="A7" name="LC_HkPacket" len="178" />
+		<packet value="91" name="MD_DwellPkt" len="152" />
+		<packet value="90" name="MD_HkTlm" len="64" />
+		<packet value="87" name="MM_HkPacket" len="92" />
+		<packet value="98" name="SCH_DiagPacket" len="140" />
+		<packet value="97" name="SCH_HkPacket" len="68" />
+		<packet value="AA" name="SC_HkTlm" len="84" />
+		<packet value="FIX ME!" name="TT_HkPacket" len="16" />
+		<packet value="FIX ME!" name="UU_HkPacket" len="16" />
+		<packet value="84" name="ci_hk_tlm" len="28" />
+		<packet value="FIX ME!" name="pil_hk_tlm" len="28" />
+		<packet value="FIX ME!" name="pil_out_hk_tlm" len="16" />
+		<packet value="80" name="to_hk_tlm" len="16" />
+		<packet value="D1" name="EKF_Telem" len="64" />
+		
+	</key>
+
+	<decom_table>
+		<decom id="Last_MID" packet="all" word="0" bit="5" />
+		
+		<!-- CDH_HkPacket_t -->
+		<decom id="CDH_HkPacket_CmdCounter" packet="CDH_HkPacket" word="12" bit="0" />
+		<decom id="CDH_HkPacket_ErrCounter" packet="CDH_HkPacket" word="13" bit="0" />
+		
+		<!-- SunSensorTlm_t -->
+		
+		
+		<!-- GPSTlm_t -->
+		<decom id="GPSTlm_StatusRegister" packet="GPSTlm" word="12" bit="0" />
+		<decom id="GPSTlm_Vcc" packet="GPSTlm" word="13" bit="0" />
+		<decom id="GPSTlm_GPS_temp" packet="GPSTlm" word="14" bit="0" />
+		<decom id="GPSTlm_Radio_temp" packet="GPSTlm" word="15" bit="0" />
+		<decom id="GPSTlm_Last_command" packet="GPSTlm" word="16" bit="0" />
+		<decom id="GPSTlm_Command_success" packet="GPSTlm" word="17" bit="0" />
+		<decom id="GPSTlm_Last_satellite" packet="GPSTlm" word="18" bit="0" />
+		<decom id="GPSTlm_Reserved" packet="GPSTlm" word="19" bit="0" />
+		<decom id="GPSTlm_second" packet="GPSTlm" word="20" bit="0" />
+		<decom id="GPSTlm_ecef_pos_x" packet="GPSTlm" word="24" bit="0" />
+		<decom id="GPSTlm_ecef_pos_y" packet="GPSTlm" word="28" bit="0" />
+		<decom id="GPSTlm_ecef_pos_z" packet="GPSTlm" word="32" bit="0" />
+		<decom id="GPSTlm_ecef_vel_x" packet="GPSTlm" word="36" bit="0" />
+		<decom id="GPSTlm_ecef_vel_y" packet="GPSTlm" word="40" bit="0" />
+		<decom id="GPSTlm_ecef_vel_z" packet="GPSTlm" word="44" bit="0" />
+		<decom id="GPSTlm_gdop" packet="GPSTlm" word="48" bit="0" />
+		<decom id="GPSTlm_pdop" packet="GPSTlm" word="52" bit="0" />
+		<decom id="GPSTlm_vdop" packet="GPSTlm" word="56" bit="0" />
+		<decom id="GPSTlm_dopp_from_clk" packet="GPSTlm" word="60" bit="0" />
+		<decom id="GPSTlm_GPS_sec" packet="GPSTlm" word="64" bit="0" />
+		<decom id="GPSTlm_GPS_week" packet="GPSTlm" word="68" bit="0" />
+		<decom id="GPSTlm_year" packet="GPSTlm" word="72" bit="0" />
+		<decom id="GPSTlm_DeSecond" packet="GPSTlm" word="74" bit="0" />
+		<decom id="GPSTlm_navmode" packet="GPSTlm" word="76" bit="0" />
+		<decom id="GPSTlm_numsats" packet="GPSTlm" word="77" bit="0" />
+		<decom id="GPSTlm_tracktype" packet="GPSTlm" word="78" bit="0" />
+		<decom id="GPSTlm_day" packet="GPSTlm" word="79" bit="0" />
+		<decom id="GPSTlm_month" packet="GPSTlm" word="80" bit="0" />
+		<decom id="GPSTlm_hour" packet="GPSTlm" word="81" bit="0" />
+		<decom id="GPSTlm_minute" packet="GPSTlm" word="82" bit="0" />
+		<decom id="GPSTlm_Second2" packet="GPSTlm" word="83" bit="0" />
+		<decom id="GPSTlm_time_type" packet="GPSTlm" word="84" bit="0" />
+		<decom id="GPSTlm_system_status" packet="GPSTlm" word="85" bit="0" />
+		<decom id="GPSTlm_Pad" packet="GPSTlm" word="86" bit="0" />
+		
+		<!-- StarTrackerTlm_t -->
+		<decom id="StarTrackerTlm_q1" packet="StarTrackerTlm" word="12" bit="0" />
+		<decom id="StarTrackerTlm_q2" packet="StarTrackerTlm" word="16" bit="0" />
+		<decom id="StarTrackerTlm_q3" packet="StarTrackerTlm" word="20" bit="0" />
+		<decom id="StarTrackerTlm_q4" packet="StarTrackerTlm" word="24" bit="0" />
+		
+		<!-- PowerTlm_t -->
+		<decom id="PowerTlm_all_PowerStates" packet="PowerTlm" word="12" bit="0" />
+		<decom id="PowerTlm_spectrometer_PowerState" packet="PowerTlm" word="16" bit="0" />
+		<decom id="PowerTlm_startracker_PowerState" packet="PowerTlm" word="17" bit="0" />
+		<decom id="PowerTlm_fc_PowerState" packet="PowerTlm" word="18" bit="0" />
+		<decom id="PowerTlm_gps1_PowerState" packet="PowerTlm" word="19" bit="0" />
+		<decom id="PowerTlm_gps2_PowerState" packet="PowerTlm" word="20" bit="0" />
+		<decom id="PowerTlm_ib_PowerState" packet="PowerTlm" word="21" bit="0" />
+		<decom id="PowerTlm_heater1_PowerState" packet="PowerTlm" word="22" bit="0" />
+		<decom id="PowerTlm_heater2_PowerState" packet="PowerTlm" word="23" bit="0" />
+		<decom id="PowerTlm_cmg_PowerState" packet="PowerTlm" word="24" bit="0" />
+		<decom id="PowerTlm_sunsensor_PowerState" packet="PowerTlm" word="25" bit="0" />
+		<decom id="PowerTlm_radio1_PowerState" packet="PowerTlm" word="26" bit="0" />
+		<decom id="PowerTlm_radio2_PowerState" packet="PowerTlm" word="27" bit="0" />
+		<decom id="PowerTlm_fog15_PowerState" packet="PowerTlm" word="28" bit="0" />
+		<decom id="PowerTlm_fog5_PowerState" packet="PowerTlm" word="29" bit="0" />
+		<decom id="PowerTlm_torquer1_PowerState" packet="PowerTlm" word="30" bit="0" />
+		<decom id="PowerTlm_torquer2_PowerState" packet="PowerTlm" word="31" bit="0" />
+		<decom id="PowerTlm_torquer3_PowerState" packet="PowerTlm" word="32" bit="0" />
+		<decom id="PowerTlm_spectrometer_Voltage" packet="PowerTlm" word="33" bit="0" />
+		<decom id="PowerTlm_startracker_Voltage" packet="PowerTlm" word="34" bit="0" />
+		<decom id="PowerTlm_fc5_Voltage" packet="PowerTlm" word="35" bit="0" />
+		<decom id="PowerTlm_fc33_Voltage" packet="PowerTlm" word="36" bit="0" />
+		<decom id="PowerTlm_gps1_Voltage" packet="PowerTlm" word="37" bit="0" />
+		<decom id="PowerTlm_ib_Voltage" packet="PowerTlm" word="38" bit="0" />
+		<decom id="PowerTlm_heater1_Voltage" packet="PowerTlm" word="39" bit="0" />
+		<decom id="PowerTlm_heater2_Voltage" packet="PowerTlm" word="40" bit="0" />
+		<decom id="PowerTlm_cmg_Voltage" packet="PowerTlm" word="41" bit="0" />
+		<decom id="PowerTlm_sunsensor_Voltage" packet="PowerTlm" word="42" bit="0" />
+		<decom id="PowerTlm_radio1_Voltage" packet="PowerTlm" word="43" bit="0" />
+		<decom id="PowerTlm_radio2_Voltage" packet="PowerTlm" word="44" bit="0" />
+		<decom id="PowerTlm_fog15_Voltage" packet="PowerTlm" word="45" bit="0" />
+		<decom id="PowerTlm_fog5_Voltage" packet="PowerTlm" word="46" bit="0" />
+		<decom id="PowerTlm_torquer1_Voltage" packet="PowerTlm" word="47" bit="0" />
+		<decom id="PowerTlm_torquer2_Voltage" packet="PowerTlm" word="48" bit="0" />
+		<decom id="PowerTlm_torquer3_Voltage" packet="PowerTlm" word="49" bit="0" />
+		<decom id="PowerTlm_battery1_Voltage" packet="PowerTlm" word="50" bit="0" />
+		<decom id="PowerTlm_battery2_Voltage" packet="PowerTlm" word="51" bit="0" />
+		<decom id="PowerTlm_solarfull_Voltage" packet="PowerTlm" word="52" bit="0" />
+		<decom id="PowerTlm_solar1_Voltage" packet="PowerTlm" word="53" bit="0" />
+		<decom id="PowerTlm_solar2_Voltage" packet="PowerTlm" word="54" bit="0" />
+		<decom id="PowerTlm_solar3_Voltage" packet="PowerTlm" word="55" bit="0" />
+		<decom id="PowerTlm_solar4_Voltage" packet="PowerTlm" word="56" bit="0" />
+		<decom id="PowerTlm_solar5_Voltage" packet="PowerTlm" word="57" bit="0" />
+		<decom id="PowerTlm_solar6_Voltage" packet="PowerTlm" word="58" bit="0" />
+		<decom id="PowerTlm_solar7_Voltage" packet="PowerTlm" word="59" bit="0" />
+		<decom id="PowerTlm_solar8_Voltage" packet="PowerTlm" word="60" bit="0" />
+		<decom id="PowerTlm_solar9_Voltage" packet="PowerTlm" word="61" bit="0" />
+		<decom id="PowerTlm_solar10_Voltage" packet="PowerTlm" word="62" bit="0" />
+		<decom id="PowerTlm_solar11_Voltage" packet="PowerTlm" word="63" bit="0" />
+		<decom id="PowerTlm_solar12_Voltage" packet="PowerTlm" word="64" bit="0" />
+		<decom id="PowerTlm_powerboard_Voltage" packet="PowerTlm" word="65" bit="0" />
+		<decom id="PowerTlm_spectrometer_VoltageError" packet="PowerTlm" word="66" bit="0" />
+		<decom id="PowerTlm_startracker_VoltageError" packet="PowerTlm" word="67" bit="0" />
+		<decom id="PowerTlm_fc5_VoltageError" packet="PowerTlm" word="68" bit="0" />
+		<decom id="PowerTlm_fc33_VoltageError" packet="PowerTlm" word="69" bit="0" />
+		<decom id="PowerTlm_gps1_VoltageError" packet="PowerTlm" word="70" bit="0" />
+		<decom id="PowerTlm_ib_VoltageError" packet="PowerTlm" word="71" bit="0" />
+		<decom id="PowerTlm_heater1_VoltageError" packet="PowerTlm" word="72" bit="0" />
+		<decom id="PowerTlm_heater2_VoltageError" packet="PowerTlm" word="73" bit="0" />
+		<decom id="PowerTlm_cmg_VoltageError" packet="PowerTlm" word="74" bit="0" />
+		<decom id="PowerTlm_sunsensor_VoltageError" packet="PowerTlm" word="75" bit="0" />
+		<decom id="PowerTlm_radio1_VoltageError" packet="PowerTlm" word="76" bit="0" />
+		<decom id="PowerTlm_radio2_VoltageError" packet="PowerTlm" word="77" bit="0" />
+		<decom id="PowerTlm_fog15_VoltageError" packet="PowerTlm" word="78" bit="0" />
+		<decom id="PowerTlm_fog5_VoltageError" packet="PowerTlm" word="79" bit="0" />
+		<decom id="PowerTlm_torquer1_VoltageError" packet="PowerTlm" word="80" bit="0" />
+		<decom id="PowerTlm_torquer2_VoltageError" packet="PowerTlm" word="81" bit="0" />
+		<decom id="PowerTlm_torquer3_VoltageError" packet="PowerTlm" word="82" bit="0" />
+		<decom id="PowerTlm_battery1_VoltageError" packet="PowerTlm" word="83" bit="0" />
+		<decom id="PowerTlm_battery2_VoltageError" packet="PowerTlm" word="84" bit="0" />
+		<decom id="PowerTlm_solarfull_VoltageError" packet="PowerTlm" word="85" bit="0" />
+		<decom id="PowerTlm_solar1_VoltageError" packet="PowerTlm" word="86" bit="0" />
+		<decom id="PowerTlm_solar2_VoltageError" packet="PowerTlm" word="87" bit="0" />
+		<decom id="PowerTlm_solar3_VoltageError" packet="PowerTlm" word="88" bit="0" />
+		<decom id="PowerTlm_solar4_VoltageError" packet="PowerTlm" word="89" bit="0" />
+		<decom id="PowerTlm_solar5_VoltageError" packet="PowerTlm" word="90" bit="0" />
+		<decom id="PowerTlm_solar6_VoltageError" packet="PowerTlm" word="91" bit="0" />
+		<decom id="PowerTlm_solar7_VoltageError" packet="PowerTlm" word="92" bit="0" />
+		<decom id="PowerTlm_solar8_VoltageError" packet="PowerTlm" word="93" bit="0" />
+		<decom id="PowerTlm_solar9_VoltageError" packet="PowerTlm" word="94" bit="0" />
+		<decom id="PowerTlm_solar10_VoltageError" packet="PowerTlm" word="95" bit="0" />
+		<decom id="PowerTlm_solar11_VoltageError" packet="PowerTlm" word="96" bit="0" />
+		<decom id="PowerTlm_solar12_VoltageError" packet="PowerTlm" word="97" bit="0" />
+		<decom id="PowerTlm_powerboard_VoltageError" packet="PowerTlm" word="98" bit="0" />
+		<decom id="PowerTlm_spectrometer_Current" packet="PowerTlm" word="99" bit="0" />
+		<decom id="PowerTlm_startracker_Current" packet="PowerTlm" word="100" bit="0" />
+		<decom id="PowerTlm_fc5_Current" packet="PowerTlm" word="101" bit="0" />
+		<decom id="PowerTlm_fc33_Current" packet="PowerTlm" word="102" bit="0" />
+		<decom id="PowerTlm_gps1_Current" packet="PowerTlm" word="103" bit="0" />
+		<decom id="PowerTlm_ib_Current" packet="PowerTlm" word="104" bit="0" />
+		<decom id="PowerTlm_heater1_Current" packet="PowerTlm" word="105" bit="0" />
+		<decom id="PowerTlm_heater2_Current" packet="PowerTlm" word="106" bit="0" />
+		<decom id="PowerTlm_cmg_Current" packet="PowerTlm" word="107" bit="0" />
+		<decom id="PowerTlm_sunsensor_Current" packet="PowerTlm" word="108" bit="0" />
+		<decom id="PowerTlm_radio1_Current" packet="PowerTlm" word="109" bit="0" />
+		<decom id="PowerTlm_radio2_Current" packet="PowerTlm" word="110" bit="0" />
+		<decom id="PowerTlm_fog15_Current" packet="PowerTlm" word="111" bit="0" />
+		<decom id="PowerTlm_fog5_Current" packet="PowerTlm" word="112" bit="0" />
+		<decom id="PowerTlm_torquer1_Current" packet="PowerTlm" word="113" bit="0" />
+		<decom id="PowerTlm_torquer2_Current" packet="PowerTlm" word="114" bit="0" />
+		<decom id="PowerTlm_torquer3_Current" packet="PowerTlm" word="115" bit="0" />
+		<decom id="PowerTlm_battery1_Current" packet="PowerTlm" word="116" bit="0" />
+		<decom id="PowerTlm_battery2_Current" packet="PowerTlm" word="117" bit="0" />
+		<decom id="PowerTlm_solarfull_Current" packet="PowerTlm" word="118" bit="0" />
+		<decom id="PowerTlm_solar1_Current" packet="PowerTlm" word="119" bit="0" />
+		<decom id="PowerTlm_solar2_Current" packet="PowerTlm" word="120" bit="0" />
+		<decom id="PowerTlm_solar3_Current" packet="PowerTlm" word="121" bit="0" />
+		<decom id="PowerTlm_solar4_Current" packet="PowerTlm" word="122" bit="0" />
+		<decom id="PowerTlm_solar5_Current" packet="PowerTlm" word="123" bit="0" />
+		<decom id="PowerTlm_solar6_Current" packet="PowerTlm" word="124" bit="0" />
+		<decom id="PowerTlm_solar7_Current" packet="PowerTlm" word="125" bit="0" />
+		<decom id="PowerTlm_solar8_Current" packet="PowerTlm" word="126" bit="0" />
+		<decom id="PowerTlm_solar9_Current" packet="PowerTlm" word="127" bit="0" />
+		<decom id="PowerTlm_solar10_Current" packet="PowerTlm" word="128" bit="0" />
+		<decom id="PowerTlm_solar11_Current" packet="PowerTlm" word="129" bit="0" />
+		<decom id="PowerTlm_solar12_Current" packet="PowerTlm" word="130" bit="0" />
+		<decom id="PowerTlm_powerboard_Current" packet="PowerTlm" word="131" bit="0" />
+		<decom id="PowerTlm_spectrometer_CurrentError" packet="PowerTlm" word="132" bit="0" />
+		<decom id="PowerTlm_startracker_CurrentError" packet="PowerTlm" word="133" bit="0" />
+		<decom id="PowerTlm_fc5_CurrentError" packet="PowerTlm" word="134" bit="0" />
+		<decom id="PowerTlm_fc33_CurrentError" packet="PowerTlm" word="135" bit="0" />
+		<decom id="PowerTlm_gps1_CurrentError" packet="PowerTlm" word="136" bit="0" />
+		<decom id="PowerTlm_ib_CurrentError" packet="PowerTlm" word="137" bit="0" />
+		<decom id="PowerTlm_heater1_CurrentError" packet="PowerTlm" word="138" bit="0" />
+		<decom id="PowerTlm_heater2_CurrentError" packet="PowerTlm" word="139" bit="0" />
+		<decom id="PowerTlm_cmg_CurrentError" packet="PowerTlm" word="140" bit="0" />
+		<decom id="PowerTlm_sunsensor_CurrentError" packet="PowerTlm" word="141" bit="0" />
+		<decom id="PowerTlm_radio1_CurrentError" packet="PowerTlm" word="142" bit="0" />
+		<decom id="PowerTlm_radio2_CurrentError" packet="PowerTlm" word="143" bit="0" />
+		<decom id="PowerTlm_fog15_CurrentError" packet="PowerTlm" word="144" bit="0" />
+		<decom id="PowerTlm_fog5_CurrentError" packet="PowerTlm" word="145" bit="0" />
+		<decom id="PowerTlm_torquer1_CurrentError" packet="PowerTlm" word="146" bit="0" />
+		<decom id="PowerTlm_torquer2_CurrentError" packet="PowerTlm" word="147" bit="0" />
+		<decom id="PowerTlm_torquer3_CurrentError" packet="PowerTlm" word="148" bit="0" />
+		<decom id="PowerTlm_battery1_CurrentError" packet="PowerTlm" word="149" bit="0" />
+		<decom id="PowerTlm_battery2_CurrentError" packet="PowerTlm" word="150" bit="0" />
+		<decom id="PowerTlm_solarfull_CurrentError" packet="PowerTlm" word="151" bit="0" />
+		<decom id="PowerTlm_solar1_CurrentError" packet="PowerTlm" word="152" bit="0" />
+		<decom id="PowerTlm_solar2_CurrentError" packet="PowerTlm" word="153" bit="0" />
+		<decom id="PowerTlm_solar3_CurrentError" packet="PowerTlm" word="154" bit="0" />
+		<decom id="PowerTlm_solar4_CurrentError" packet="PowerTlm" word="155" bit="0" />
+		<decom id="PowerTlm_solar5_CurrentError" packet="PowerTlm" word="156" bit="0" />
+		<decom id="PowerTlm_solar6_CurrentError" packet="PowerTlm" word="157" bit="0" />
+		<decom id="PowerTlm_solar7_CurrentError" packet="PowerTlm" word="158" bit="0" />
+		<decom id="PowerTlm_solar8_CurrentError" packet="PowerTlm" word="159" bit="0" />
+		<decom id="PowerTlm_solar9_CurrentError" packet="PowerTlm" word="160" bit="0" />
+		<decom id="PowerTlm_solar10_CurrentError" packet="PowerTlm" word="161" bit="0" />
+		<decom id="PowerTlm_solar11_CurrentError" packet="PowerTlm" word="162" bit="0" />
+		<decom id="PowerTlm_solar12_CurrentError" packet="PowerTlm" word="163" bit="0" />
+		<decom id="PowerTlm_powerboard_CurrentError" packet="PowerTlm" word="164" bit="0" />
+		<decom id="PowerTlm_startracker_Temperature" packet="PowerTlm" word="165" bit="0" />
+		<decom id="PowerTlm_battery1_Temperature" packet="PowerTlm" word="166" bit="0" />
+		<decom id="PowerTlm_battery2_Temperature" packet="PowerTlm" word="167" bit="0" />
+		<decom id="PowerTlm_solar1_Temperature" packet="PowerTlm" word="168" bit="0" />
+		<decom id="PowerTlm_solar2_Temperature" packet="PowerTlm" word="169" bit="0" />
+		<decom id="PowerTlm_solar3_Temperature" packet="PowerTlm" word="170" bit="0" />
+		<decom id="PowerTlm_solar4_Temperature" packet="PowerTlm" word="171" bit="0" />
+		<decom id="PowerTlm_solar5_Temperature" packet="PowerTlm" word="172" bit="0" />
+		<decom id="PowerTlm_solar9_Temperature" packet="PowerTlm" word="173" bit="0" />
+		<decom id="PowerTlm_powerboard_Temperature" packet="PowerTlm" word="174" bit="0" />
+		<decom id="PowerTlm_startracker_TemperatureError" packet="PowerTlm" word="175" bit="0" />
+		<decom id="PowerTlm_battery1_TemperatureError" packet="PowerTlm" word="176" bit="0" />
+		<decom id="PowerTlm_battery2_TemperatureError" packet="PowerTlm" word="177" bit="0" />
+		<decom id="PowerTlm_solar1_TemperatureError" packet="PowerTlm" word="178" bit="0" />
+		<decom id="PowerTlm_solar2_TemperatureError" packet="PowerTlm" word="179" bit="0" />
+		<decom id="PowerTlm_solar3_TemperatureError" packet="PowerTlm" word="180" bit="0" />
+		<decom id="PowerTlm_solar4_TemperatureError" packet="PowerTlm" word="181" bit="0" />
+		<decom id="PowerTlm_solar5_TemperatureError" packet="PowerTlm" word="182" bit="0" />
+		<decom id="PowerTlm_solar9_TemperatureError" packet="PowerTlm" word="183" bit="0" />
+		<decom id="PowerTlm_powerboard_TemperatureError" packet="PowerTlm" word="184" bit="0" />
+		
+		<!-- CFE_ES_DriverRegistryPacket telemetry -->
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_DriverName" packet="CFE_ES_DriverRegistryPacket" word="12" bit="0" />
+		<decom id="CFE_ES_DriverRegistry_CFE_ES_DeviceDriverRegistry" packet="CFE_ES_DriverRegistryPacket" word="32" bit="0" />
+		<decom id="CFE_ES_DriverRegistry_CFE_ES_DeviceDriverRegistry" packet="CFE_ES_DriverRegistryPacket" word="112" bit="0" />
+		<decom id="CFE_ES_DriverRegistry_CFE_ES_DeviceDriverRegistry" packet="CFE_ES_DriverRegistryPacket" word="192" bit="0" />
+		<decom id="CFE_ES_DriverRegistry_CFE_ES_DeviceDriverRegistry" packet="CFE_ES_DriverRegistryPacket" word="272" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_TaskPriority" packet="CFE_ES_DriverRegistryPacket" word="292" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_StackSize" packet="CFE_ES_DriverRegistryPacket" word="296" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_ChildTaskId" packet="CFE_ES_DriverRegistryPacket" word="300" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_LogicalIntId" packet="CFE_ES_DriverRegistryPacket" word="304" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_NumIntServiced" packet="CFE_ES_DriverRegistryPacket" word="308" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_SemId" packet="CFE_ES_DriverRegistryPacket" word="312" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_ChildTaskExitFlag" packet="CFE_ES_DriverRegistryPacket" word="316" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_DriverEnabledFlag" packet="CFE_ES_DriverRegistryPacket" word="317" bit="0" />
+		<decom id="CFE_ES_DriverRegistryPacket_CFE_ES_DeviceDriverRegistry_IsValid" packet="CFE_ES_DriverRegistryPacket" word="318" bit="0" />
+
+		<!-- CFE_ES_HkPacket telemetry -->
+		<decom id="CFE_ES_HkPacket_CmdCounter" packet="CFE_ES_HkPacket" word="12" bit="0" />
+		<decom id="CFE_ES_HkPacket_ErrCounter" packet="CFE_ES_HkPacket" word="13" bit="0" />
+		<decom id="CFE_ES_HkPacket_CFECoreChecksum" packet="CFE_ES_HkPacket" word="14" bit="0" />
+		<decom id="CFE_ES_HkPacket_CFEMajorVersion" packet="CFE_ES_HkPacket" word="16" bit="0" />
+		<decom id="CFE_ES_HkPacket_CFEMinorVersion" packet="CFE_ES_HkPacket" word="17" bit="0" />
+		<decom id="CFE_ES_HkPacket_CFESubMinorVersion" packet="CFE_ES_HkPacket" word="18" bit="0" />
+		<decom id="CFE_ES_HkPacket_OSALMajorVersion" packet="CFE_ES_HkPacket" word="19" bit="0" />
+		<decom id="CFE_ES_HkPacket_OSALMinorVersion" packet="CFE_ES_HkPacket" word="20" bit="0" />
+		<decom id="CFE_ES_HkPacket_Padding1" packet="CFE_ES_HkPacket" word="21" bit="0" />
+		<decom id="CFE_ES_HkPacket_Padding2" packet="CFE_ES_HkPacket" word="22" bit="0" />
+		<decom id="CFE_ES_HkPacket_Padding3" packet="CFE_ES_HkPacket" word="23" bit="0" />
+		<decom id="CFE_ES_HkPacket_SysLogBytesUsed" packet="CFE_ES_HkPacket" word="24" bit="0" />
+		<decom id="CFE_ES_HkPacket_SysLogSize" packet="CFE_ES_HkPacket" word="28" bit="0" />
+		<decom id="CFE_ES_HkPacket_SysLogEntries" packet="CFE_ES_HkPacket" word="32" bit="0" />
+		<decom id="CFE_ES_HkPacket_SysLogMode" packet="CFE_ES_HkPacket" word="36" bit="0" />
+		<decom id="CFE_ES_HkPacket_ERLogIndex" packet="CFE_ES_HkPacket" word="40" bit="0" />
+		<decom id="CFE_ES_HkPacket_ERLogEntries" packet="CFE_ES_HkPacket" word="44" bit="0" />
+		<decom id="CFE_ES_HkPacket_RegisteredCoreApps" packet="CFE_ES_HkPacket" word="48" bit="0" />
+		<decom id="CFE_ES_HkPacket_RegisteredExternalApps" packet="CFE_ES_HkPacket" word="52" bit="0" />
+		<decom id="CFE_ES_HkPacket_RegisteredTasks" packet="CFE_ES_HkPacket" word="56" bit="0" />
+		<decom id="CFE_ES_HkPacket_RegisteredLibs" packet="CFE_ES_HkPacket" word="60" bit="0" />
+		<decom id="CFE_ES_HkPacket_ResetType" packet="CFE_ES_HkPacket" word="64" bit="0" />
+		<decom id="CFE_ES_HkPacket_ResetSubtype" packet="CFE_ES_HkPacket" word="68" bit="0" />
+		<decom id="CFE_ES_HkPacket_ProcessorResets" packet="CFE_ES_HkPacket" word="72" bit="0" />
+		<decom id="CFE_ES_HkPacket_MaxProcessorResets" packet="CFE_ES_HkPacket" word="76" bit="0" />
+		<decom id="CFE_ES_HkPacket_BootSource" packet="CFE_ES_HkPacket" word="80" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfState" packet="CFE_ES_HkPacket" word="84" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfMode" packet="CFE_ES_HkPacket" word="88" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfTriggerCount" packet="CFE_ES_HkPacket" word="92" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfFilterMask" packet="CFE_ES_HkPacket" word="96" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfTriggerMask" packet="CFE_ES_HkPacket" word="112" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfDataStart" packet="CFE_ES_HkPacket" word="128" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfDataEnd" packet="CFE_ES_HkPacket" word="132" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfDataCount" packet="CFE_ES_HkPacket" word="136" bit="0" />
+		<decom id="CFE_ES_HkPacket_PerfDataToWrite" packet="CFE_ES_HkPacket" word="140" bit="0" />
+		<decom id="CFE_ES_HkPacket_HeapBytesFree" packet="CFE_ES_HkPacket" word="144" bit="0" />
+		<decom id="CFE_ES_HkPacket_HeapBlocksFree" packet="CFE_ES_HkPacket" word="148" bit="0" />
+		<decom id="CFE_ES_HkPacket_HeapMaxBlockSize" packet="CFE_ES_HkPacket" word="152" bit="0" />
+
+		<!-- CFE_ES_OneAppTlm telemetry -->
+		<decom id="CFE_ES_OneAppTlm_AppInfo_AppId" packet="CFE_ES_OneAppTlm" word="12" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_Type" packet="CFE_ES_OneAppTlm" word="16" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_Name" packet="CFE_ES_OneAppTlm" word="20" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_EntryPoint" packet="CFE_ES_OneAppTlm" word="40" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_FileName" packet="CFE_ES_OneAppTlm" word="60" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_StackSize" packet="CFE_ES_OneAppTlm" word="124" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_ModuleId" packet="CFE_ES_OneAppTlmCFE_ES_OneAppTlm" word="128" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_AddressesAreValid" packet="CFE_ES_OneAppTlm" word="132" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_CodeAddress" packet="CFE_ES_OneAppTlm" word="136" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_CodeSize" packet="CFE_ES_OneAppTlm" word="140" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_DataAddress" packet="CFE_ES_OneAppTlm" word="144" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_DataSize" packet="CFE_ES_OneAppTlm" word="148" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_BSSAddress" packet="CFE_ES_OneAppTlm" word="152" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_BSSSize" packet="CFE_ES_OneAppTlm" word="156" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_StartAddress" packet="CFE_ES_OneAppTlm" word="160" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_ExceptionAction" packet="CFE_ES_OneAppTlm" word="164" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_Priority" packet="CFE_ES_OneAppTlm" word="166" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_MainTaskId" packet="CFE_ES_OneAppTlm" word="168" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_ExecutionCounter" packet="CFE_ES_OneAppTlm" word="172" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_MainTaskName" packet="CFE_ES_OneAppTlm" word="176" bit="0" />
+		<decom id="CFE_ES_OneAppTlm_AppInfo_NumOfChildTasks" packet="CFE_ES_OneAppTlm" word="196" bit="0" />
+
+		<!-- CFE_ES_PoolStatsTlm telemetry -->
+		<decom id="CFE_ES_PoolStatsTlm_PoolHandle" packet="CFE_ES_PoolStatsTlm" word="12" bit="0" />
+		<decom id="CFE_ES_PoolStatsTlm_PoolStats_PoolSize" packet="CFE_ES_PoolStatsTlm" word="16" bit="0" />
+		<decom id="CFE_ES_PoolStatsTlm_PoolStats_NumBlocksRequested" packet="CFE_ES_PoolStatsTlm" word="20" bit="0" />
+		<decom id="CFE_ES_PoolStatsTlm_PoolStats_CheckErrCtr" packet="CFE_ES_PoolStatsTlm" word="24" bit="0" />
+		<decom id="CFE_ES_PoolStatsTlm_PoolStats_NumFreeBytes" packet="CFE_ES_PoolStatsTlm" word="28" bit="0" />
+		<decom id="CFE_ES_MemPoolStats_BlockStats_BlockSize" packet="CFE_ES_PoolStatsTlm" word="32" bit="0" />
+		<decom id="CFE_ES_MemPoolStats_BlockStats_NumCreated" packet="CFE_ES_PoolStatsTlm" word="36" bit="0" />
+		<decom id="CFE_ES_MemPoolStats_BlockStats_NumFree" packet="CFE_ES_PoolStatsTlm" word="40" bit="0" />
+
+		<!-- CFE_ES_ShellPacket telemetry -->
+		<decom id="CFE_ES_ShellPacket_ShellOutput" packet="CFE_ES_ShellPacket" word="12" bit="0" />
+
+		<!-- CFE_EVS_Packet telemetry -->
+		<decom id="CFE_EVS_Packet_PacketID_AppName" packet="CFE_EVS_Packet" word="12" bit="0" />
+		<decom id="CFE_EVS_Packet_PacketID_EventID" packet="CFE_EVS_Packet" word="32" bit="0" />
+		<decom id="CFE_EVS_Packet_PacketID_EventType" packet="CFE_EVS_Packet" word="34" bit="0" />
+		<decom id="CFE_EVS_Packet_PacketID_SpacecraftID" packet="CFE_EVS_Packet" word="36" bit="0" />
+		<decom id="CFE_EVS_Packet_PacketID_ProcessorID" packet="CFE_EVS_Packet" word="40" bit="0" />
+		<decom id="CFE_EVS_Packet_Message" packet="CFE_EVS_Packet" word="44" bit="0" />
+		<decom id="CFE_EVS_Packet_Spare1" packet="CFE_EVS_Packet" word="166" bit="0" />
+		<decom id="CFE_EVS_Packet_Spare2" packet="CFE_EVS_Packet" word="167" bit="0" />
+
+		<!-- CFE_EVS_TlmPkt telemetry -->
+		<decom id="CFE_EVS_TlmPkt_CommandCounter" packet="CFE_EVS_TlmPkt" word="12" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_CommandErrCounter" packet="CFE_EVS_TlmPkt" word="13" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_MessageFormatMode" packet="CFE_EVS_TlmPkt" word="14" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_MessageTruncCounter" packet="CFE_EVS_TlmPkt" word="15" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_UnregisteredAppCounter" packet="CFE_EVS_TlmPkt" word="16" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_OutputPort" packet="CFE_EVS_TlmPkt" word="17" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_LogFullFlag" packet="CFE_EVS_TlmPkt" word="18" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_LogMode" packet="CFE_EVS_TlmPkt" word="19" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_MessageSendCounter" packet="CFE_EVS_TlmPkt" word="20" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_LogOverflowCounter" packet="CFE_EVS_TlmPkt" word="22" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_MemPoolHandle" packet="CFE_EVS_TlmPkt" word="24" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_AppData_AppID" packet="CFE_EVS_TlmPkt" word="28" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_AppData_AppMessageSentCounter" packet="CFE_EVS_TlmPkt" word="32" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_AppData_AppEnableStatus" packet="CFE_EVS_TlmPkt" word="34" bit="0" />
+		<decom id="CFE_EVS_TlmPkt_AppData_Padding" packet="CFE_EVS_TlmPkt" word="35" bit="0" />
+
+		<!-- CFE_TBL_HkPacket telemetry -->
+		<decom id="CFE_TBL_HkPacket_CmdCounter" packet="CFE_TBL_HkPacket" word="12" bit="0" />
+		<decom id="CFE_TBL_HkPacket_ErrCounter" packet="CFE_TBL_HkPacket" word="13" bit="0" />
+		<decom id="CFE_TBL_HkPacket_NumTables" packet="CFE_TBL_HkPacket" word="14" bit="0" />
+		<decom id="CFE_TBL_HkPacket_NumLoadPending" packet="CFE_TBL_HkPacket" word="16" bit="0" />
+		<decom id="CFE_TBL_HkPacket_ValidationCtr" packet="CFE_TBL_HkPacket" word="18" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastValCrc" packet="CFE_TBL_HkPacket" word="20" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastValStatus" packet="CFE_TBL_HkPacket" word="24" bit="0" />
+		<decom id="CFE_TBL_HkPacket_ActiveBuffer" packet="CFE_TBL_HkPacket" word="28" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastValTableName" packet="CFE_TBL_HkPacket" word="29" bit="0" />
+		<decom id="CFE_TBL_HkPacket_SuccessValCtr" packet="CFE_TBL_HkPacket" word="67" bit="0" />
+		<decom id="CFE_TBL_HkPacket_FailedValCtr" packet="CFE_TBL_HkPacket" word="68" bit="0" />
+		<decom id="CFE_TBL_HkPacket_NumValRequests" packet="CFE_TBL_HkPacket" word="69" bit="0" />
+		<decom id="CFE_TBL_HkPacket_NumFreeSharedBufs" packet="CFE_TBL_HkPacket" word="70" bit="0" />
+		<decom id="CFE_TBL_HkPacket_ByteAlignPad1" packet="CFE_TBL_HkPacket" word="71" bit="0" />
+		<decom id="CFE_TBL_HkPacket_MemPoolHandle" packet="CFE_TBL_HkPacket" word="72" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastUpdateTime_Seconds" packet="CFE_TBL_HkPacket" word="76" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastUpdateTime_Subseconds" packet="CFE_TBL_HkPacket" word="80" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastUpdatedTbl" packet="CFE_TBL_HkPacket" word="84" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastFileLoaded" packet="CFE_TBL_HkPacket" word="122" bit="0" />
+		<decom id="CFE_TBL_HkPacket_LastFileDumped" packet="CFE_TBL_HkPacket" word="186" bit="0" />
+		<decom id="CFE_TBL_HkPacket_ByteAlignPad2" packet="CFE_TBL_HkPacket" word="250" bit="0" />
+
+		<!-- CFE_TBL_TblRegPacket telemetry -->
+		<decom id="CFE_TBL_TblRegPacket_Size" packet="CFE_TBL_TblRegPacket" word="12" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_ValidationFuncPtr" packet="CFE_TBL_TblRegPacket" word="16" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_TimeOfLastUpdate_Seconds" packet="CFE_TBL_TblRegPacket" word="20" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_TimeOfLastUpdate_Subseconds" packet="CFE_TBL_TblRegPacket" word="24" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_FileCreateTimeSecs" packet="CFE_TBL_TblRegPacket" word="28" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_FileCreateTimeSubSecs" packet="CFE_TBL_TblRegPacket" word="32" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_TableLoadedOnce" packet="CFE_TBL_TblRegPacket" word="36" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_LoadPending" packet="CFE_TBL_TblRegPacket" word="37" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_DumpOnly" packet="CFE_TBL_TblRegPacket" word="38" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_DblBuffered" packet="CFE_TBL_TblRegPacket" word="39" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_Name" packet="CFE_TBL_TblRegPacket" word="40" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_LastFileLoaded" packet="CFE_TBL_TblRegPacket" word="78" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_OwnerAppName" packet="CFE_TBL_TblRegPacket" word="142" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_Critical" packet="CFE_TBL_TblRegPacket" word="162" bit="0" />
+		<decom id="CFE_TBL_TblRegPacket_ByteAlign4" packet="CFE_TBL_TblRegPacket" word="163" bit="0" />
+
+		<!-- CFE_TIME_DiagPacket telemetry -->
+		<decom id="CFE_TIME_DiagPacket_AtToneMET_Seconds" packet="CFE_TIME_DiagPacket" word="12" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneMET_Subseconds" packet="CFE_TIME_DiagPacket" word="16" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneSTCF_Seconds" packet="CFE_TIME_DiagPacket" word="20" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneSTCF_Subseconds" packet="CFE_TIME_DiagPacket" word="24" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneDelay_Seconds" packet="CFE_TIME_DiagPacket" word="28" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneDelay_Subseconds" packet="CFE_TIME_DiagPacket" word="32" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneLatch_Seconds" packet="CFE_TIME_DiagPacket" word="36" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneLatch_Subseconds" packet="CFE_TIME_DiagPacket" word="40" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_AtToneLeaps" packet="CFE_TIME_DiagPacket" word="44" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockStateAPI" packet="CFE_TIME_DiagPacket" word="46" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_TimeSinceTone_Seconds" packet="CFE_TIME_DiagPacket" word="48" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_TimeSinceTone_Subseconds" packet="CFE_TIME_DiagPacket" word="52" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentLatch_Seconds" packet="CFE_TIME_DiagPacket" word="56" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentLatch_Subseconds" packet="CFE_TIME_DiagPacket" word="60" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentMET_Seconds" packet="CFE_TIME_DiagPacket" word="64" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentMET_Subseconds" packet="CFE_TIME_DiagPacket" word="68" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentTAI_Seconds" packet="CFE_TIME_DiagPacket" word="72" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentTAI_Subseconds" packet="CFE_TIME_DiagPacket" word="76" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentUTC_Seconds" packet="CFE_TIME_DiagPacket" word="80" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_CurrentUTC_Subseconds" packet="CFE_TIME_DiagPacket" word="84" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockSetState" packet="CFE_TIME_DiagPacket" word="88" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockFlyState" packet="CFE_TIME_DiagPacket" word="90" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockSource" packet="CFE_TIME_DiagPacket" word="92" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockSignal" packet="CFE_TIME_DiagPacket" word="94" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ServerFlyState" packet="CFE_TIME_DiagPacket" word="96" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_Forced2Fly" packet="CFE_TIME_DiagPacket" word="98" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ClockStateFlags" packet="CFE_TIME_DiagPacket" word="100" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneTimeDirection" packet="CFE_TIME_DiagPacket" word="102" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneHzDirection" packet="CFE_TIME_DiagPacket" word="104" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_DelayDirection" packet="CFE_TIME_DiagPacket" word="106" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneTimeAdjust_Seconds" packet="CFE_TIME_DiagPacket" word="108" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneTimeAdjust_Subseconds" packet="CFE_TIME_DiagPacket" word="112" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneHzAdjust_Seconds" packet="CFE_TIME_DiagPacket" word="116" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_OneHzAdjust_Subseconds" packet="CFE_TIME_DiagPacket" word="120" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneSignalLatch_Seconds" packet="CFE_TIME_DiagPacket" word="124" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneSignalLatch_Subseconds" packet="CFE_TIME_DiagPacket" word="128" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneDataLatch_Seconds" packet="CFE_TIME_DiagPacket" word="132" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneDataLatch_Subseconds" packet="CFE_TIME_DiagPacket" word="136" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneMatchCount" packet="CFE_TIME_DiagPacket" word="140" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneMatchErrors" packet="CFE_TIME_DiagPacket" word="144" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneSignalCount" packet="CFE_TIME_DiagPacket" word="148" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneDataCount" packet="CFE_TIME_DiagPacket" word="152" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneIntCount" packet="CFE_TIME_DiagPacket" word="156" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneIntErrors" packet="CFE_TIME_DiagPacket" word="160" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneTaskCount" packet="CFE_TIME_DiagPacket" word="164" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_VersionCount" packet="CFE_TIME_DiagPacket" word="168" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_LocalIntCount" packet="CFE_TIME_DiagPacket" word="172" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_LocalTaskCount" packet="CFE_TIME_DiagPacket" word="176" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_VirtualMET" packet="CFE_TIME_DiagPacket" word="180" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_MinElapsed" packet="CFE_TIME_DiagPacket" word="184" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_MaxElapsed" packet="CFE_TIME_DiagPacket" word="188" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_MaxLocalClock_Seconds" packet="CFE_TIME_DiagPacket" word="192" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_MaxLocalClock_Subseconds" packet="CFE_TIME_DiagPacket" word="196" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneOverLimit" packet="CFE_TIME_DiagPacket" word="200" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_ToneUnderLimit" packet="CFE_TIME_DiagPacket" word="204" bit="0" />
+		<decom id="CFE_TIME_DiagPacket_DataStoreStatus" packet="CFE_TIME_DiagPacket" word="208" bit="0" />
+
+		<!-- CFE_TIME_HkPacket telemetry -->
+		<decom id="CFE_TIME_HkPacket_CmdCounter" packet="CFE_TIME_HkPacket" word="12" bit="0" />
+		<decom id="CFE_TIME_HkPacket_ErrCounter" packet="CFE_TIME_HkPacket" word="13" bit="0" />
+		<decom id="CFE_TIME_HkPacket_ClockStateFlags" packet="CFE_TIME_HkPacket" word="14" bit="0" />
+		<decom id="CFE_TIME_HkPacket_ClockStateAPI" packet="CFE_TIME_HkPacket" word="16" bit="0" />
+		<decom id="CFE_TIME_HkPacket_LeapSeconds" packet="CFE_TIME_HkPacket" word="18" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SecondsMET" packet="CFE_TIME_HkPacket" word="20" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SubsecsMET" packet="CFE_TIME_HkPacket" word="24" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SecondsSTCF" packet="CFE_TIME_HkPacket" word="28" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SubsecsSTCF" packet="CFE_TIME_HkPacket" word="32" bit="0" />
+		<decom id="CFE_TIME_HkPacket_Seconds1HzAdj" packet="CFE_TIME_HkPacket" word="36" bit="0" />
+		<decom id="CFE_TIME_HkPacket_Subsecs1HzAdj" packet="CFE_TIME_HkPacket" word="40" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SecondsDelay" packet="CFE_TIME_HkPacket" word="44" bit="0" />
+		<decom id="CFE_TIME_HkPacket_SubsecsDelay" packet="CFE_TIME_HkPacket" word="48" bit="0" />
+
+		<!-- CMG_HkPacket_t -->
+		<decom id="CMG_HkPacket_CmdCounter" packet="CMG_HkPacket" word="12" bit="0" />
+		<decom id="CMG_HkPacket_ErrCounter" packet="CMG_HkPacket" word="13" bit="0" />
+		<decom id="CMG_HkPacket_Enabled" packet="CMG_HkPacket" word="14" bit="0" />
+		<decom id="CMG_HkPacket_ErrorListCount" packet="CMG_HkPacket" word="15" bit="0" />
+		<decom id="CMG_HkPacket_ExecuteSetupCount" packet="CMG_HkPacket" word="17" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelemSetupCount" packet="CMG_HkPacket" word="19" bit="0" />
+		<decom id="CMG_HkPacket_PoweredOnCount" packet="CMG_HkPacket" word="21" bit="0" />
+		<decom id="CMG_HkPacket_RegisterCount" packet="CMG_HkPacket" word="23" bit="0" />
+		<decom id="CMG_HkPacket_TemperTelemCount" packet="CMG_HkPacket" word="25" bit="0" />
+		<decom id="CMG_HkPacket_ACKCount" packet="CMG_HkPacket" word="27" bit="0" />
+		<decom id="CMG_HkPacket_InvHdrCount" packet="CMG_HkPacket" word="29" bit="0" />
+		<decom id="CMG_HkPacket_CommErrCount" packet="CMG_HkPacket" word="31" bit="0" />
+		<decom id="CMG_HkPacket_UnrecognizedCount" packet="CMG_HkPacket" word="33" bit="0" />
+		<decom id="CMG_HkPacket_CRCMismatchCount" packet="CMG_HkPacket" word="35" bit="0" />
+		<decom id="CMG_HkPacket_LastHdr" packet="CMG_HkPacket" word="37" bit="0" />
+		<decom id="CMG_HkPacket_GimbalPower" packet="CMG_HkPacket" word="38" bit="0" />
+		<decom id="CMG_HkPacket_GimbalPower_Rep" packet="CMG_HkPacket" word="39" bit="0" />
+		<decom id="CMG_HkPacket_RotorPower" packet="CMG_HkPacket" word="40" bit="0" />
+		<decom id="CMG_HkPacket_RotorPower_Rep" packet="CMG_HkPacket" word="41" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup1" packet="CMG_HkPacket" word="42" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup2" packet="CMG_HkPacket" word="43" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup3" packet="CMG_HkPacket" word="44" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup4" packet="CMG_HkPacket" word="45" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup_Rep1" packet="CMG_HkPacket" word="46" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup_Rep2" packet="CMG_HkPacket" word="47" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup_Rep3" packet="CMG_HkPacket" word="48" bit="0" />
+		<decom id="CMG_HkPacket_Execute_Setup_Rep4" packet="CMG_HkPacket" word="49" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup1" packet="CMG_HkPacket" word="50" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup2" packet="CMG_HkPacket" word="51" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup3" packet="CMG_HkPacket" word="52" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup4" packet="CMG_HkPacket" word="53" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup5" packet="CMG_HkPacket" word="54" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup6" packet="CMG_HkPacket" word="55" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep1" packet="CMG_HkPacket" word="56" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep2" packet="CMG_HkPacket" word="57" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep3" packet="CMG_HkPacket" word="58" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep4" packet="CMG_HkPacket" word="59" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep5" packet="CMG_HkPacket" word="60" bit="0" />
+		<decom id="CMG_HkPacket_CMGTelem_Setup_Rep6" packet="CMG_HkPacket" word="61" bit="0" />
+		<decom id="CMG_HkPacket_Temps01" packet="CMG_HkPacket" word="62" bit="0" />
+		<decom id="CMG_HkPacket_Temps02" packet="CMG_HkPacket" word="63" bit="0" />
+		<decom id="CMG_HkPacket_Temps03" packet="CMG_HkPacket" word="64" bit="0" />
+		<decom id="CMG_HkPacket_Temps04" packet="CMG_HkPacket" word="65" bit="0" />
+		<decom id="CMG_HkPacket_Temps05" packet="CMG_HkPacket" word="66" bit="0" />
+		<decom id="CMG_HkPacket_Temps06" packet="CMG_HkPacket" word="67" bit="0" />
+		<decom id="CMG_HkPacket_Temps07" packet="CMG_HkPacket" word="68" bit="0" />
+		<decom id="CMG_HkPacket_Temps08" packet="CMG_HkPacket" word="69" bit="0" />
+		<decom id="CMG_HkPacket_Temps09" packet="CMG_HkPacket" word="70" bit="0" />
+		<decom id="CMG_HkPacket_Temps10" packet="CMG_HkPacket" word="71" bit="0" />
+		<decom id="CMG_HkPacket_Temps11" packet="CMG_HkPacket" word="72" bit="0" />
+		<decom id="CMG_HkPacket_Temps12" packet="CMG_HkPacket" word="73" bit="0" />
+		<decom id="CMG_HkPacket_Temps13" packet="CMG_HkPacket" word="74" bit="0" />
+		<decom id="CMG_HkPacket_Temps14" packet="CMG_HkPacket" word="75" bit="0" />
+		<decom id="CMG_HkPacket_Temps15" packet="CMG_HkPacket" word="76" bit="0" />
+		<decom id="CMG_HkPacket_Temps16" packet="CMG_HkPacket" word="77" bit="0" />
+		<decom id="CMG_HkPacket_Temps17" packet="CMG_HkPacket" word="78" bit="0" />
+		<decom id="CMG_HkPacket_Temps18" packet="CMG_HkPacket" word="79" bit="0" />
+		
+		<!-- CMG_CmgTlm_t -->
+		<decom id="CMG_CmgTlm_enabled_CMGs" packet="CMG_CmgTlm" word="12" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate1" packet="CMG_CmgTlm" word="13" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate2" packet="CMG_CmgTlm" word="17" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate3" packet="CMG_CmgTlm" word="21" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate4" packet="CMG_CmgTlm" word="25" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate5" packet="CMG_CmgTlm" word="29" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate6" packet="CMG_CmgTlm" word="33" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate7" packet="CMG_CmgTlm" word="37" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalRate8" packet="CMG_CmgTlm" word="41" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle1" packet="CMG_CmgTlm" word="45" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle2" packet="CMG_CmgTlm" word="49" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle3" packet="CMG_CmgTlm" word="53" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle4" packet="CMG_CmgTlm" word="57" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle5" packet="CMG_CmgTlm" word="61" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle6" packet="CMG_CmgTlm" word="65" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle7" packet="CMG_CmgTlm" word="69" bit="0" />
+		<decom id="CMG_CmgTlm_GimbalAngle8" packet="CMG_CmgTlm" word="73" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed1" packet="CMG_CmgTlm" word="77" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed2" packet="CMG_CmgTlm" word="81" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed3" packet="CMG_CmgTlm" word="85" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed4" packet="CMG_CmgTlm" word="89" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed5" packet="CMG_CmgTlm" word="93" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed6" packet="CMG_CmgTlm" word="97" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed7" packet="CMG_CmgTlm" word="101" bit="0" />
+		<decom id="CMG_CmgTlm_RotorSpeed8" packet="CMG_CmgTlm" word="105" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque1" packet="CMG_CmgTlm" word="109" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque2" packet="CMG_CmgTlm" word="113" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque3" packet="CMG_CmgTlm" word="117" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque4" packet="CMG_CmgTlm" word="121" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque5" packet="CMG_CmgTlm" word="125" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque6" packet="CMG_CmgTlm" word="129" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque7" packet="CMG_CmgTlm" word="133" bit="0" />
+		<decom id="CMG_CmgTlm_RotorTorque8" packet="CMG_CmgTlm" word="137" bit="0" />
+
+		<!-- CS_HkPacket telemetry -->
+		<decom id="CS_HkPacket_CmdCounter" packet="CS_HkPacket" word="12" bit="0" />
+		<decom id="CS_HkPacket_CmdErrCounter" packet="CS_HkPacket" word="13" bit="0" />
+		<decom id="CS_HkPacket_ChecksumState" packet="CS_HkPacket" word="14" bit="0" />
+		<decom id="CS_HkPacket_EepromCSState" packet="CS_HkPacket" word="15" bit="0" />
+		<decom id="CS_HkPacket_MemoryCSState" packet="CS_HkPacket" word="16" bit="0" />
+		<decom id="CS_HkPacket_AppCSState" packet="CS_HkPacket" word="17" bit="0" />
+		<decom id="CS_HkPacket_TablesCSState" packet="CS_HkPacket" word="18" bit="0" />
+		<decom id="CS_HkPacket_OSCSState" packet="CS_HkPacket" word="19" bit="0" />
+		<decom id="CS_HkPacket_CfeCoreCSState" packet="CS_HkPacket" word="20" bit="0" />
+		<decom id="CS_HkPacket_Filler8" packet="CS_HkPacket" word="21" bit="0" />
+		<decom id="CS_HkPacket_Filler16" packet="CS_HkPacket" word="22" bit="0" />
+		<decom id="CS_HkPacket_EepromCSErrCounter" packet="CS_HkPacket" word="24" bit="0" />
+		<decom id="CS_HkPacket_MemoryCSErrCounter" packet="CS_HkPacket" word="26" bit="0" />
+		<decom id="CS_HkPacket_AppCSErrCounter" packet="CS_HkPacket" word="28" bit="0" />
+		<decom id="CS_HkPacket_TablesCSErrCounter" packet="CS_HkPacket" word="30" bit="0" />
+		<decom id="CS_HkPacket_CfeCoreCSErrCounter" packet="CS_HkPacket" word="32" bit="0" />
+		<decom id="CS_HkPacket_OSCSErrCounter" packet="CS_HkPacket" word="34" bit="0" />
+		<decom id="CS_HkPacket_CurrentCSTable" packet="CS_HkPacket" word="36" bit="0" />
+		<decom id="CS_HkPacket_CurrentEntryInTable" packet="CS_HkPacket" word="38" bit="0" />
+		<decom id="CS_HkPacket_EepromBaseline" packet="CS_HkPacket" word="40" bit="0" />
+		<decom id="CS_HkPacket_OSBaseline" packet="CS_HkPacket" word="44" bit="0" />
+		<decom id="CS_HkPacket_CfeCoreBaseline" packet="CS_HkPacket" word="48" bit="0" />
+		<decom id="CS_HkPacket_LastOneShotAddress" packet="CS_HkPacket" word="52" bit="0" />
+		<decom id="CS_HkPacket_LastOneShotSize" packet="CS_HkPacket" word="56" bit="0" />
+		<decom id="CS_HkPacket_LastOneShotChecksum" packet="CS_HkPacket" word="60" bit="0" />
+		<decom id="CS_HkPacket_PassCounter" packet="CS_HkPacket" word="64" bit="0" />
+
+		<!-- DS_HkPacket telemetry -->
+		<decom id="DS_HkPacket_CmdAcceptedCounter" packet="DS_HkPacket" word="12" bit="0" />
+		<decom id="DS_HkPacket_CmdRejectedCounter" packet="DS_HkPacket" word="14" bit="0" />
+		<decom id="DS_HkPacket_DisabledPktCounter" packet="DS_HkPacket" word="16" bit="0" />
+		<decom id="DS_HkPacket_IgnoredPktCounter" packet="DS_HkPacket" word="20" bit="0" />
+		<decom id="DS_HkPacket_FilteredPktCounter" packet="DS_HkPacket" word="24" bit="0" />
+		<decom id="DS_HkPacket_PassedPktCounter" packet="DS_HkPacket" word="28" bit="0" />
+		<decom id="DS_HkPacket_FileWriteCounter" packet="DS_HkPacket" word="32" bit="0" />
+		<decom id="DS_HkPacket_FileWriteErrCounter" packet="DS_HkPacket" word="34" bit="0" />
+		<decom id="DS_HkPacket_FileUpdateCounter" packet="DS_HkPacket" word="36" bit="0" />
+		<decom id="DS_HkPacket_FileUpdateErrCounter" packet="DS_HkPacket" word="38" bit="0" />
+		<decom id="DS_HkPacket_DestTblLoadCounter" packet="DS_HkPacket" word="40" bit="0" />
+		<decom id="DS_HkPacket_DestTblErrCounter" packet="DS_HkPacket" word="42" bit="0" />
+		<decom id="DS_HkPacket_FilterTblLoadCounter" packet="DS_HkPacket" word="44" bit="0" />
+		<decom id="DS_HkPacket_FilterTblErrCounter" packet="DS_HkPacket" word="46" bit="0" />
+		<decom id="DS_HkPacket_AppEnableState" packet="DS_HkPacket" word="48" bit="0" />
+		<decom id="DS_HkPacket_Spare" packet="DS_HkPacket" word="50" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_FileAge" packet="DS_HkPacket" word="52" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_FileSize" packet="DS_HkPacket" word="56" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_FileRate" packet="DS_HkPacket" word="60" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_SequenceCount" packet="DS_HkPacket" word="64" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_EnableState" packet="DS_HkPacket" word="68" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_OpenState" packet="DS_HkPacket" word="70" bit="0" />
+		<decom id="DS_HkPacket_HkFileStatus_FileName" packet="DS_HkPacket" word="72" bit="0" />
+
+		<!-- FM_DirListMsg telemetry -->
+		<decom id="FM_DirListMsg_DirSize" packet="FM_DirListMsg" word="12" bit="0" />
+		<decom id="FM_DirListMsg_DirOffset" packet="FM_DirListMsg" word="16" bit="0" />
+		<decom id="FM_DirListMsg_TotalFiles" packet="FM_DirListMsg" word="20" bit="0" />
+		<decom id="FM_DirListMsg_FileSizes" packet="FM_DirListMsg" word="24" bit="0" />
+		<decom id="FM_DirListMsg_FileLastModTimes" packet="FM_DirListMsg" word="104" bit="0" />
+		<decom id="FM_DirListMsg_DirName" packet="FM_DirListMsg" word="184" bit="0" />
+		<decom id="FM_DirListMsg_FileNames_Filename" packet="FM_DirListMsg" word="248" bit="0" />
+
+		<!-- FM_FileInfoMsg telemetry -->
+		<decom id="FM_FileInfoMsg_FileStatus" packet="FM_FileInfoMsg" word="12" bit="0" />
+		<decom id="FM_FileInfoMsg_CRC_Computed" packet="FM_FileInfoMsg" word="13" bit="0" />
+		<decom id="FM_FileInfoMsg_Spare" packet="FM_FileInfoMsg" word="14" bit="0" />
+		<decom id="FM_FileInfoMsg_CRC" packet="FM_FileInfoMsg" word="16" bit="0" />
+		<decom id="FM_FileInfoMsg_FileSize" packet="FM_FileInfoMsg" word="20" bit="0" />
+		<decom id="FM_FileInfoMsg_LastModifiedTime" packet="FM_FileInfoMsg" word="24" bit="0" />
+		<decom id="FM_FileInfoMsg_Filename" packet="FM_FileInfoMsg" word="28" bit="0" />
+
+		<!-- FM_HkMsg telemetry -->
+		<decom id="FM_HkMsg_CommandCounter" packet="FM_HkMsg" word="12" bit="0" />
+		<decom id="FM_HkMsg_CommandErrCounter" packet="FM_HkMsg" word="14" bit="0" />
+		<decom id="FM_HkMsg_NumOpenFiles" packet="FM_HkMsg" word="16" bit="0" />
+		<decom id="FM_HkMsg_Spare" packet="FM_HkMsg" word="18" bit="0" />
+		<decom id="FM_HkMsg_BlockSize" packet="FM_HkMsg" word="20" bit="0" />
+		<decom id="FM_HkMsg_NumBlocks" packet="FM_HkMsg" word="52" bit="0" />
+
+		<!-- FM_OpenFileInfoMsg telemetry -->
+		<decom id="FM_OpenFileInfoMsg_NumOpenFiles" packet="FM_OpenFileInfoMsg" word="12" bit="0" />
+		<decom id="FM_OpenFileInfoMsg_FileNames_Filename" packet="FM_OpenFileInfoMsg" word="13" bit="0" />
+		<decom id="FM_OpenFileInfoMsg_AppNames_Filename" packet="FM_OpenFileInfoMsg" word="77" bit="0" />
+
+		<!-- FOG_HkPacket_t -->
+		<decom id="FOG_HkPacket_FOG_HK_Telem_xDeltaVelocity" packet="FOG_HkPacket" word="12" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_yDeltaVelocity" packet="FOG_HkPacket" word="16" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_zDeltaVelocity" packet="FOG_HkPacket" word="20" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_xDeltaAngle" packet="FOG_HkPacket" word="24" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_yDeltaAngle" packet="FOG_HkPacket" word="28" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_zDeltaAngle" packet="FOG_HkPacket" word="32" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_imuStatusSummary" packet="FOG_HkPacket" word="36" bit="0" />
+		<decom id="FOG_HkPacket_FOG_HK_Telem_MUXID" packet="FOG_HkPacket" word="38" bit="0" />
+		<decom id="FOG_HkPacket_FOG_Read_Status" packet="FOG_HkPacket" word="40" bit="0" />
+		<decom id="FOG_HkPacket_CmdCounter" packet="FOG_HkPacket" word="41" bit="0" />
+		<decom id="FOG_HkPacket_ErrCounter" packet="FOG_HkPacket" word="42" bit="0" />
+		
+		<!-- FOG_Telem_Data_t -->
+		<decom id="FOG_Telem_Data_xDeltaVelocity" packet="FOG_Telem_Data" word="12" bit="0" />
+		<decom id="FOG_Telem_Data_yDeltaVelocity" packet="FOG_Telem_Data" word="16" bit="0" />
+		<decom id="FOG_Telem_Data_zDeltaVelocity" packet="FOG_Telem_Data" word="20" bit="0" />
+		<decom id="FOG_Telem_Data_xDeltaAngle" packet="FOG_Telem_Data" word="24" bit="0" />
+		<decom id="FOG_Telem_Data_yDeltaAngle" packet="FOG_Telem_Data" word="28" bit="0" />
+		<decom id="FOG_Telem_Data_zDeltaAngle" packet="FOG_Telem_Data" word="32" bit="0" />
+		<decom id="FOG_Telem_Data_imuStatusSummary" packet="FOG_Telem_Data" word="36" bit="0" />
+		<decom id="FOG_Telem_Data_MUXID" packet="FOG_Telem_Data" word="38" bit="0" />
+		<decom id="FOG_Telem_Data_multiplexedData" packet="FOG_Telem_Data" word="40" bit="0" />
+		<decom id="FOG_Telem_Data_xRawGyroCount" packet="FOG_Telem_Data" word="44" bit="0" />
+		<decom id="FOG_Telem_Data_yRawGyroCount" packet="FOG_Telem_Data" word="48" bit="0" />
+		<decom id="FOG_Telem_Data_zRawGyroCount" packet="FOG_Telem_Data" word="52" bit="0" />
+		<decom id="FOG_Telem_Data_checkSum" packet="FOG_Telem_Data" word="56" bit="0" />
+		
+		<!-- FOG_400Hz_Telem_t -->
+		<decom id="FOG_400Hz_Telem_xDeltaVelocity" packet="FOG_400Hz_Telem" word="12" bit="0" />
+		<decom id="FOG_400Hz_Telem_yDeltaVelocity" packet="FOG_400Hz_Telem" word="16" bit="0" />
+		<decom id="FOG_400Hz_Telem_zDeltaVelocity" packet="FOG_400Hz_Telem" word="20" bit="0" />
+		<decom id="FOG_400Hz_Telem_xDeltaAngle" packet="FOG_400Hz_Telem" word="24" bit="0" />
+		<decom id="FOG_400Hz_Telem_yDeltaAngle" packet="FOG_400Hz_Telem" word="28" bit="0" />
+		<decom id="FOG_400Hz_Telem_zDeltaAngle" packet="FOG_400Hz_Telem" word="32" bit="0" />
+		<decom id="FOG_400Hz_Telem_imuStatusSummary" packet="FOG_400Hz_Telem" word="36" bit="0" />
+		<decom id="FOG_400Hz_Telem_MUXID" packet="FOG_400Hz_Telem" word="38" bit="0" />
+
+		<!-- HK_HkPacket telemetry -->
+		<decom id="HK_HkPacket_CmdCounter" packet="HK_HkPacket" word="12" bit="0" />
+		<decom id="HK_HkPacket_ErrCounter" packet="HK_HkPacket" word="13" bit="0" />
+		<decom id="HK_HkPacket_Padding" packet="HK_HkPacket" word="14" bit="0" />
+		<decom id="HK_HkPacket_CombinedPacketsSent" packet="HK_HkPacket" word="16" bit="0" />
+		<decom id="HK_HkPacket_MissingDataCtr" packet="HK_HkPacket" word="18" bit="0" />
+		<decom id="HK_HkPacket_MemPoolHandle" packet="HK_HkPacket" word="20" bit="0" />
+
+		<!-- HS_HkPacket telemetry -->
+		<decom id="HS_HkPacket_CmdCount" packet="HS_HkPacket" word="12" bit="0" />
+		<decom id="HS_HkPacket_CmdErrCount" packet="HS_HkPacket" word="14" bit="0" />
+		<decom id="HS_HkPacket_CurrentAppMonState" packet="HS_HkPacket" word="16" bit="0" />
+		<decom id="HS_HkPacket_CurrentEventMonState" packet="HS_HkPacket" word="17" bit="0" />
+		<decom id="HS_HkPacket_CurrentAlivenessState" packet="HS_HkPacket" word="18" bit="0" />
+		<decom id="HS_HkPacket_StatusFlags" packet="HS_HkPacket" word="19" bit="0" />
+		<decom id="HS_HkPacket_ResetsPerformed" packet="HS_HkPacket" word="20" bit="0" />
+		<decom id="HS_HkPacket_MaxResets" packet="HS_HkPacket" word="22" bit="0" />
+		<decom id="HS_HkPacket_EventsMonitoredCount" packet="HS_HkPacket" word="24" bit="0" />
+		<decom id="HS_HkPacket_InvalidEventMonCount" packet="HS_HkPacket" word="28" bit="0" />
+		<decom id="HS_HkPacket_AppMonEnables" packet="HS_HkPacket" word="32" bit="0" />
+		<decom id="HS_HkPacket_ExeCounts" packet="HS_HkPacket" word="36" bit="0" />
+
+		<!-- LC_HkPacket telemetry -->
+		<decom id="LC_HkPacket_CmdCount" packet="LC_HkPacket" word="12" bit="0" />
+		<decom id="LC_HkPacket_CmdErrCount" packet="LC_HkPacket" word="14" bit="0" />
+		<decom id="LC_HkPacket_APSampleCount" packet="LC_HkPacket" word="16" bit="0" />
+		<decom id="LC_HkPacket_MonitoredMsgCount" packet="LC_HkPacket" word="20" bit="0" />
+		<decom id="LC_HkPacket_RTSExecCount" packet="LC_HkPacket" word="24" bit="0" />
+		<decom id="LC_HkPacket_PassiveRTSExecCount" packet="LC_HkPacket" word="28" bit="0" />
+		<decom id="LC_HkPacket_WPsInUse" packet="LC_HkPacket" word="30" bit="0" />
+		<decom id="LC_HkPacket_ActiveAPs" packet="LC_HkPacket" word="32" bit="0" />
+		<decom id="LC_HkPacket_Pad16" packet="LC_HkPacket" word="34" bit="0" />
+		<decom id="LC_HkPacket_CurrentLCState" packet="LC_HkPacket" word="36" bit="0" />
+		<decom id="LC_HkPacket_Pad8" packet="LC_HkPacket" word="37" bit="0" />
+		<decom id="LC_HkPacket_WPResults" packet="LC_HkPacket" word="40" bit="0" />
+		<decom id="LC_HkPacket_APResults" packet="LC_HkPacket" word="87" bit="0" />
+
+		<!-- MD_DwellPkt telemetry -->
+		<decom id="MD_DwellPkt_TableId" packet="MD_DwellPkt" word="12" bit="0" />
+		<decom id="MD_DwellPkt_AddrCount" packet="MD_DwellPkt" word="13" bit="0" />
+		<decom id="MD_DwellPkt_ByteCount" packet="MD_DwellPkt" word="14" bit="0" />
+		<decom id="MD_DwellPkt_Rate" packet="MD_DwellPkt" word="16" bit="0" />
+		<decom id="MD_DwellPkt_Signature" packet="MD_DwellPkt" word="20" bit="0" />
+		<decom id="MD_DwellPkt_Data" packet="MD_DwellPkt" word="52" bit="0" />
+
+		<!-- MD_HkTlm telemetry -->
+		<decom id="MD_HkTlm_InvalidCmdCntr" packet="MD_HkTlm" word="12" bit="0" />
+		<decom id="MD_HkTlm_ValidCmdCntr" packet="MD_HkTlm" word="13" bit="0" />
+		<decom id="MD_HkTlm_DwellEnabledMask" packet="MD_HkTlm" word="14" bit="0" />
+		<decom id="MD_HkTlm_DwellTblAddrCount" packet="MD_HkTlm" word="16" bit="0" />
+		<decom id="MD_HkTlm_NumWaitsPerPkt" packet="MD_HkTlm" word="24" bit="0" />
+		<decom id="MD_HkTlm_ByteCount" packet="MD_HkTlm" word="32" bit="0" />
+		<decom id="MD_HkTlm_DwellPktOffset" packet="MD_HkTlm" word="40" bit="0" />
+		<decom id="MD_HkTlm_DwellTblEntry" packet="MD_HkTlm" word="48" bit="0" />
+		<decom id="MD_HkTlm_Countdown" packet="MD_HkTlm" word="56" bit="0" />
+
+		<!-- MM_HkPacket telemetry -->
+		<decom id="MM_HkPacket_CmdCounter" packet="MM_HkPacket" word="12" bit="0" />
+		<decom id="MM_HkPacket_ErrCounter" packet="MM_HkPacket" word="13" bit="0" />
+		<decom id="MM_HkPacket_LastAction" packet="MM_HkPacket" word="14" bit="0" />
+		<decom id="MM_HkPacket_MemType" packet="MM_HkPacket" word="15" bit="0" />
+		<decom id="MM_HkPacket_Address" packet="MM_HkPacket" word="16" bit="0" />
+		<decom id="MM_HkPacket_FillPattern" packet="MM_HkPacket" word="20" bit="0" />
+		<decom id="MM_HkPacket_BytesProcessed" packet="MM_HkPacket" word="24" bit="0" />
+		<decom id="MM_HkPacket_FileName" packet="MM_HkPacket" word="28" bit="0" />
+
+		<!-- SCH_DiagPacket telemetry -->
+		<decom id="SCH_DiagPacket_EntryStates" packet="SCH_DiagPacket" word="12" bit="0" />
+		<decom id="SCH_DiagPacket_MsgIDs" packet="SCH_DiagPacket" word="138" bit="0" />
+
+		<!-- SCH_HkPacket telemetry -->
+		<decom id="SCH_HkPacket_CmdCounter" packet="SCH_HkPacket" word="12" bit="0" />
+		<decom id="SCH_HkPacket_ErrCounter" packet="SCH_HkPacket" word="14" bit="0" />
+		<decom id="SCH_HkPacket_ScheduleActivitySuccessCount" packet="SCH_HkPacket" word="16" bit="0" />
+		<decom id="SCH_HkPacket_ScheduleActivityFailureCount" packet="SCH_HkPacket" word="20" bit="0" />
+		<decom id="SCH_HkPacket_SlotsProcessedCount" packet="SCH_HkPacket" word="24" bit="0" />
+		<decom id="SCH_HkPacket_SkippedSlotsCount" packet="SCH_HkPacket" word="28" bit="0" />
+		<decom id="SCH_HkPacket_MultipleSlotsCount" packet="SCH_HkPacket" word="30" bit="0" />
+		<decom id="SCH_HkPacket_SameSlotCount" packet="SCH_HkPacket" word="32" bit="0" />
+		<decom id="SCH_HkPacket_BadTableDataCount" packet="SCH_HkPacket" word="34" bit="0" />
+		<decom id="SCH_HkPacket_TableVerifySuccessCount" packet="SCH_HkPacket" word="36" bit="0" />
+		<decom id="SCH_HkPacket_TableVerifyFailureCount" packet="SCH_HkPacket" word="38" bit="0" />
+		<decom id="SCH_HkPacket_TablePassCount" packet="SCH_HkPacket" word="40" bit="0" />
+		<decom id="SCH_HkPacket_ValidMajorFrameCount" packet="SCH_HkPacket" word="44" bit="0" />
+		<decom id="SCH_HkPacket_MissedMajorFrameCount" packet="SCH_HkPacket" word="48" bit="0" />
+		<decom id="SCH_HkPacket_UnexpectedMajorFrameCount" packet="SCH_HkPacket" word="52" bit="0" />
+		<decom id="SCH_HkPacket_MinorFramesSinceTone" packet="SCH_HkPacket" word="56" bit="0" />
+		<decom id="SCH_HkPacket_NextSlotNumber" packet="SCH_HkPacket" word="58" bit="0" />
+		<decom id="SCH_HkPacket_LastSyncMETSlot" packet="SCH_HkPacket" word="60" bit="0" />
+		<decom id="SCH_HkPacket_IgnoreMajorFrame" packet="SCH_HkPacket" word="62" bit="0" />
+		<decom id="SCH_HkPacket_UnexpectedMajorFrame" packet="SCH_HkPacket" word="63" bit="0" />
+		<decom id="SCH_HkPacket_SyncToMET" packet="SCH_HkPacket" word="64" bit="0" />
+		<decom id="SCH_HkPacket_MajorFrameSource" packet="SCH_HkPacket" word="65" bit="0" />
+		<decom id="SCH_HkPacket_Spare1" packet="SCH_HkPacket" word="66" bit="0" />
+		<decom id="SCH_HkPacket_Spare2" packet="SCH_HkPacket" word="67" bit="0" />
+
+		<!-- SC_HkTlm telemetry -->
+		<decom id="SC_HkTlm_AtsNumber" packet="SC_HkTlm" word="12" bit="0" />
+		<decom id="SC_HkTlm_AtpState" packet="SC_HkTlm" word="13" bit="0" />
+		<decom id="SC_HkTlm_ContinueAtsOnFailureFlag" packet="SC_HkTlm" word="14" bit="0" />
+		<decom id="SC_HkTlm_Padding8" packet="SC_HkTlm" word="15" bit="0" />
+		<decom id="SC_HkTlm_AtpCmdNumber" packet="SC_HkTlm" word="16" bit="0" />
+		<decom id="SC_HkTlm_SwitchPendFlag" packet="SC_HkTlm" word="20" bit="0" />
+		<decom id="SC_HkTlm_NumRtsActive" packet="SC_HkTlm" word="22" bit="0" />
+		<decom id="SC_HkTlm_RtsNumber" packet="SC_HkTlm" word="24" bit="0" />
+		<decom id="SC_HkTlm_CmdErrCtr" packet="SC_HkTlm" word="26" bit="0" />
+		<decom id="SC_HkTlm_CmdCtr" packet="SC_HkTlm" word="28" bit="0" />
+		<decom id="SC_HkTlm_RtsActiveCtr" packet="SC_HkTlm" word="30" bit="0" />
+		<decom id="SC_HkTlm_RtsActiveErrCtr" packet="SC_HkTlm" word="32" bit="0" />
+		<decom id="SC_HkTlm_AtsCmdCtr" packet="SC_HkTlm" word="34" bit="0" />
+		<decom id="SC_HkTlm_AtsCmdErrCtr" packet="SC_HkTlm" word="36" bit="0" />
+		<decom id="SC_HkTlm_RtsCmdCtr" packet="SC_HkTlm" word="38" bit="0" />
+		<decom id="SC_HkTlm_RtsCmdErrCtr" packet="SC_HkTlm" word="40" bit="0" />
+		<decom id="SC_HkTlm_LastAtsErrSeq" packet="SC_HkTlm" word="42" bit="0" />
+		<decom id="SC_HkTlm_LastAtsErrCmd" packet="SC_HkTlm" word="44" bit="0" />
+		<decom id="SC_HkTlm_LastRtsErrSeq" packet="SC_HkTlm" word="46" bit="0" />
+		<decom id="SC_HkTlm_LastRtsErrCmd" packet="SC_HkTlm" word="48" bit="0" />
+		<decom id="SC_HkTlm_Padding16" packet="SC_HkTlm" word="50" bit="0" />
+		<decom id="SC_HkTlm_AtpFreeBytes" packet="SC_HkTlm" word="52" bit="0" />
+		<decom id="SC_HkTlm_NextRtsTime" packet="SC_HkTlm" word="60" bit="0" />
+		<decom id="SC_HkTlm_NextAtsTime" packet="SC_HkTlm" word="64" bit="0" />
+		<decom id="SC_HkTlm_RtsExecutingStatus" packet="SC_HkTlm" word="68" bit="0" />
+		<decom id="SC_HkTlm_RtsDisabledStatus" packet="SC_HkTlm" word="76" bit="0" />
+
+		<!-- TT_HkPacket telemetry -->
+		<decom id="TT_HkPacket_CmdCount" packet="TT_HkPacket" word="12" bit="0" />
+		<decom id="TT_HkPacket_ErrCount" packet="TT_HkPacket" word="13" bit="0" />
+		<decom id="TT_HkPacket_UpdateCount" packet="TT_HkPacket" word="14" bit="0" />
+
+		<!-- UU_HkPacket telemetry -->
+		<decom id="UU_HkPacket_CmdCount" packet="UU_HkPacket" word="12" bit="0" />
+		<decom id="UU_HkPacket_ErrCount" packet="UU_HkPacket" word="13" bit="0" />
+		<decom id="UU_HkPacket_UpdateCount" packet="UU_HkPacket" word="14" bit="0" />
+
+		<!-- ci_hk_tlm telemetry -->
+		<decom id="ci_hk_tlm_ci_command_error_count" packet="ci_hk_tlm" word="12" bit="0" />
+		<decom id="ci_hk_tlm_ci_command_count" packet="ci_hk_tlm" word="13" bit="0" />
+		<decom id="ci_hk_tlm_ci_xsums_enabled" packet="ci_hk_tlm" word="14" bit="0" />
+		<decom id="ci_hk_tlm_spare" packet="ci_hk_tlm" word="15" bit="0" />
+		<decom id="ci_hk_tlm_IngestPackets" packet="ci_hk_tlm" word="16" bit="0" />
+		<decom id="ci_hk_tlm_IngestErrors" packet="ci_hk_tlm" word="20" bit="0" />
+		<decom id="ci_hk_tlm_SocketConnected" packet="ci_hk_tlm" word="24" bit="0" />
+		<decom id="ci_hk_tlm_unused" packet="ci_hk_tlm" word="25" bit="0" />
+
+		<!-- pil_hk_tlm telemetry -->
+		<decom id="pil_hk_tlm_pil_command_error_count" packet="pil_hk_tlm" word="12" bit="0" />
+		<decom id="pil_hk_tlm_pil_command_count" packet="pil_hk_tlm" word="13" bit="0" />
+		<decom id="pil_hk_tlm_pil_xsums_enabled" packet="pil_hk_tlm" word="14" bit="0" />
+		<decom id="pil_hk_tlm_spare" packet="pil_hk_tlm" word="15" bit="0" />
+		<decom id="pil_hk_tlm_IngestPackets" packet="pil_hk_tlm" word="16" bit="0" />
+		<decom id="pil_hk_tlm_IngestErrors" packet="pil_hk_tlm" word="20" bit="0" />
+		<decom id="pil_hk_tlm_SocketConnected" packet="pil_hk_tlm" word="24" bit="0" />
+		<decom id="pil_hk_tlm_unused" packet="pil_hk_tlm" word="25" bit="0" />
+
+		<!-- pil_out_hk_tlm telemetry -->
+		<decom id="pil_out_hk_tlm_command_counter" packet="pil_out_hk_tlm" word="12" bit="0" />
+		<decom id="pil_out_hk_tlm_command_error_counter" packet="pil_out_hk_tlm" word="13" bit="0" />
+		<decom id="pil_out_hk_tlm_spareToAlign" packet="pil_out_hk_tlm" word="14" bit="0" />
+
+		<!-- to_hk_tlm telemetry -->
+		<decom id="to_hk_tlm_command_counter" packet="to_hk_tlm" word="12" bit="0" />
+		<decom id="to_hk_tlm_command_error_counter" packet="to_hk_tlm" word="13" bit="0" />
+		<decom id="to_hk_tlm_spareToAlign" packet="to_hk_tlm" word="14" bit="0" />
+		
+		<!-- EKF Telemetry-->
+		<decom id="EKF_EKFtlm_MagField1" packet="EKF_Telem" word="12" bit="0" />
+		<decom id="EKF_EKFtlm_MagField2" packet="EKF_Telem" word="20" bit="0" />
+		<decom id="EKF_EKFtlm_MagField3" packet="EKF_Telem" word="28" bit="0" />
+		<decom id="EKF_EKFtlm_AngVelocity1" packet="EKF_Telem" word="36" bit="0" />
+		<decom id="EKF_EKFtlm_AngVelocity2" packet="EKF_Telem" word="40" bit="0" />
+		<decom id="EKF_EKFtlm_AngVelocity3" packet="EKF_Telem" word="44" bit="0" />
+		<decom id="EKF_EKFtlm_Quaternion1" packet="EKF_Telem" word="48" bit="0" />
+		<decom id="EKF_EKFtlm_Quaternion2" packet="EKF_Telem" word="52" bit="0" />		
+		<decom id="EKF_EKFtlm_Quaternion3" packet="EKF_Telem" word="56" bit="0" />
+		<decom id="EKF_EKFtlm_Quaternion4" packet="EKF_Telem" word="60" bit="0" />
+		
+	</decom_table>
+</decom_database>
