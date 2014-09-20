@@ -7,8 +7,11 @@
 //
 
 #import "TBTableViewController.h"
-
+#import "TBRemoteViewController.h"
+#import "TBLocalViewController.h"
 @interface TBTableViewController ()
+
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -125,11 +128,29 @@
     
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    
+    if (indexPath.section == 0){
+        if (indexPath.row == 0){
+            TBRemoteViewController *remoteVC = [[TBRemoteViewController alloc] init];
+            [self.navigationController pushViewController:remoteVC animated:YES];
+        }
+        if (indexPath.row == 1){
+            TBLocalViewController *remoteVC = [[TBLocalViewController alloc] init];
+            [self.navigationController pushViewController:remoteVC animated:YES];
+        }
+    }
+    if (indexPath.section == 1){
+        if (indexPath.row == 0){
+            self.timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector (timerFired:) userInfo:nil repeats:YES];
+        }
+    }
     
 }
 
-
+- (void) timerFired: (NSTimer *) timer{
+    
+    NSLog(@"I've been fired!");
+    
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
