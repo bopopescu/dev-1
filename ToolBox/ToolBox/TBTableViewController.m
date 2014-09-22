@@ -9,10 +9,11 @@
 #import "TBTableViewController.h"
 #import "TBRemoteViewController.h"
 #import "TBLocalViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 @interface TBTableViewController ()
 
 @property (nonatomic, strong) NSTimer *timer;
-
+@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
 @end
 
 @implementation TBTableViewController
@@ -137,12 +138,27 @@
             TBLocalViewController *remoteVC = [[TBLocalViewController alloc] init];
             [self.navigationController pushViewController:remoteVC animated:YES];
         }
+        if (indexPath.row == 2){
+            TBTableViewController *deeperTBTVC = [[TBTableViewController alloc] initWithStyle:UITableViewStylePlain];
+            deeperTBTVC.items = self.items;
+            [self.navigationController pushViewController:deeperTBTVC animated:YES];
+        }
     }
     if (indexPath.section == 1){
         if (indexPath.row == 0){
             self.timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector (timerFired:) userInfo:nil repeats:YES];
         }
+        if (indexPath.row == 2){
+            NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"fox2" ofType:@"mov"]];
+            self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:url];
+            
+            
+            [self.view addSubview:self.moviePlayer.view];
+            [self.moviePlayer setFullscreen:YES animated:NO];
+            self.moviePlayer.shouldAutoplay = YES;
+        }
     }
+    
     
 }
 

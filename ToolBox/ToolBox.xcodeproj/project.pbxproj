@@ -22,6 +22,7 @@
 		86DA499F19CDED6A000DC161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86DA499D19CDED6A000DC161 /* InfoPlist.strings */; };
 		86DA49A119CDED6A000DC161 /* ToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DA49A019CDED6A000DC161 /* ToolBoxTests.m */; };
 		86DA49AC19CDF261000DC161 /* TBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DA49AB19CDF261000DC161 /* TBTableViewController.m */; };
+		D662566519CE1169006A0454 /* fox2.mov in Resources */ = {isa = PBXBuildFile; fileRef = D662566419CE1169006A0454 /* fox2.mov */; };
 		D689129519CDFE9D00FF986A /* TBRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D689129319CDFE9D00FF986A /* TBRemoteViewController.m */; };
 		D689129619CDFE9D00FF986A /* TBRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D689129419CDFE9D00FF986A /* TBRemoteViewController.xib */; };
 		D689129A19CE067A00FF986A /* TBLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D689129819CE067A00FF986A /* TBLocalViewController.m */; };
@@ -61,6 +62,7 @@
 		86DA49A019CDED6A000DC161 /* ToolBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBoxTests.m; sourceTree = "<group>"; };
 		86DA49AA19CDF261000DC161 /* TBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTableViewController.h; sourceTree = "<group>"; };
 		86DA49AB19CDF261000DC161 /* TBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTableViewController.m; sourceTree = "<group>"; };
+		D662566419CE1169006A0454 /* fox2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = fox2.mov; sourceTree = "<group>"; };
 		D689129219CDFE9D00FF986A /* TBRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRemoteViewController.h; sourceTree = "<group>"; };
 		D689129319CDFE9D00FF986A /* TBRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRemoteViewController.m; sourceTree = "<group>"; };
 		D689129419CDFE9D00FF986A /* TBRemoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBRemoteViewController.xib; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				86DA498419CDED6A000DC161 /* TBAppDelegate.h */,
 				D689129C19CE08A100FF986A /* index.html */,
+				D662566419CE1169006A0454 /* fox2.mov */,
 				86DA498519CDED6A000DC161 /* TBAppDelegate.m */,
 				86DA498719CDED6A000DC161 /* Main.storyboard */,
 				86DA498A19CDED6A000DC161 /* TBViewController.h */,
@@ -256,6 +259,7 @@
 				D689129619CDFE9D00FF986A /* TBRemoteViewController.xib in Resources */,
 				D689129B19CE067A00FF986A /* TBLocalViewController.xib in Resources */,
 				86DA498E19CDED6A000DC161 /* Images.xcassets in Resources */,
+				D662566519CE1169006A0454 /* fox2.mov in Resources */,
 				D689129D19CE08A100FF986A /* index.html in Resources */,
 				86DA498019CDED6A000DC161 /* InfoPlist.strings in Resources */,
 				86DA498919CDED6A000DC161 /* Main.storyboard in Resources */,
