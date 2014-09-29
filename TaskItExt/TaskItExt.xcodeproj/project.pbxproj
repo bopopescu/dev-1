@@ -180,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D62AA53219C3AB2F005AB966 /* Build configuration list for PBXProject "TaskIt" */;
+			buildConfigurationList = D62AA53219C3AB2F005AB966 /* Build configuration list for PBXProject "TaskItExt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -407,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D62AA53219C3AB2F005AB966 /* Build configuration list for PBXProject "TaskIt" */ = {
+		D62AA53219C3AB2F005AB966 /* Build configuration list for PBXProject "TaskItExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D62AA55419C3AB2F005AB966 /* Debug */,
