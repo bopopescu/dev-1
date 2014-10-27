@@ -19,7 +19,7 @@ class sjs382TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let jsonData: NSData = NSData(contentsOfURL: NSURL(string: JSON_URL))
+        let jsonData: NSData = NSData(contentsOfURL: NSURL(string: JSON_URL)!)!
         
         if let jsonResult = NSJSONSerialization.JSONObjectWithData(jsonData, options: nil, error: nil) as? Array<AnyObject> {
             
@@ -31,7 +31,7 @@ class sjs382TableViewController: UITableViewController {
                     email = [i["email"] as String]
                 }
                 let image_url = i["picture"] as String
-                var imageData: NSData = NSData(contentsOfURL: NSURL(string:image_url))
+                var imageData: NSData = NSData(contentsOfURL: NSURL(string:image_url)!)!
                 var image = UIImage(data:imageData)
                 
                 let person: Person = Person(
@@ -39,7 +39,7 @@ class sjs382TableViewController: UITableViewController {
                     lname: i["lname"] as String,
                     phone: i["phone"] as String,
                     email: email,
-                    picture: image
+                    picture: image!
                 )
                 
                 people.append(person)
@@ -85,35 +85,26 @@ class sjs382TableViewController: UITableViewController {
     }
     
 
-    /*
-    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
+    
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
         // Return NO if you do not want the specified item to be editable.
         return true
     }
-    */
+    
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
         if editingStyle == .Delete {
             // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            people.removeAtIndex(indexPath.row)
+            tableView.reloadData()
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9Ys-wB-5Td">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9Ys-wB-5Td">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -39,10 +39,10 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4el-pG-odE">
                                             <rect key="frame" x="8" y="24" width="42" height="42"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emailIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Ym-sG-Kw8">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sjs382emailIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Ym-sG-Kw8">
                                             <rect key="frame" x="58" y="64" width="18" height="20"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phoneIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-2R-OJO">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sjs382phoneIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-2R-OJO">
                                             <rect key="frame" x="58" y="48" width="18" height="18"/>
                                         </imageView>
                                     </subviews>
@@ -84,8 +84,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="emailIcon.png" width="37" height="29"/>
-        <image name="phoneIcon.png" width="19" height="26"/>
+        <image name="sjs382emailIcon.png" width="37" height="29"/>
+        <image name="sjs382phoneIcon.png" width="19" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

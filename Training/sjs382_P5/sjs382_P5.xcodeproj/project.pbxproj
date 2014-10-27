@@ -15,8 +15,8 @@
 		D62E2AFE19FB10790093D8E0 /* sjs382TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2AFD19FB10790093D8E0 /* sjs382TableViewController.swift */; };
 		D62E2B0019FB113D0093D8E0 /* sjs382Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2AFF19FB113D0093D8E0 /* sjs382Person.swift */; };
 		D62E2B0219FB11960093D8E0 /* sjs382TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2B0119FB11960093D8E0 /* sjs382TableViewCell.swift */; };
-		D6AE11DB19FB248900A42D87 /* phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AE11DA19FB248900A42D87 /* phoneIcon.png */; };
-		D6AE11DD19FB249D00A42D87 /* emailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AE11DC19FB249D00A42D87 /* emailIcon.png */; };
+		D6AE11DB19FB248900A42D87 /* sjs382phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AE11DA19FB248900A42D87 /* sjs382phoneIcon.png */; };
+		D6AE11DD19FB249D00A42D87 /* sjs382emailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AE11DC19FB249D00A42D87 /* sjs382emailIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		D62E2AFD19FB10790093D8E0 /* sjs382TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sjs382TableViewController.swift; sourceTree = "<group>"; };
 		D62E2AFF19FB113D0093D8E0 /* sjs382Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sjs382Person.swift; sourceTree = "<group>"; };
 		D62E2B0119FB11960093D8E0 /* sjs382TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sjs382TableViewCell.swift; sourceTree = "<group>"; };
-		D6AE11DA19FB248900A42D87 /* phoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneIcon.png; sourceTree = "<group>"; };
-		D6AE11DC19FB249D00A42D87 /* emailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailIcon.png; sourceTree = "<group>"; };
+		D6AE11DA19FB248900A42D87 /* sjs382phoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sjs382phoneIcon.png; sourceTree = "<group>"; };
+		D6AE11DC19FB249D00A42D87 /* sjs382emailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sjs382emailIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		D62E2ADA19FB10250093D8E0 /* sjs382_P5 */ = {
 			isa = PBXGroup;
 			children = (
-				D6AE11DC19FB249D00A42D87 /* emailIcon.png */,
-				D6AE11DA19FB248900A42D87 /* phoneIcon.png */,
+				D6AE11DC19FB249D00A42D87 /* sjs382emailIcon.png */,
+				D6AE11DA19FB248900A42D87 /* sjs382phoneIcon.png */,
 				D62E2ADD19FB10260093D8E0 /* AppDelegate.swift */,
 				D62E2AFD19FB10790093D8E0 /* sjs382TableViewController.swift */,
 				D62E2AFF19FB113D0093D8E0 /* sjs382Person.swift */,
@@ -204,11 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6AE11DD19FB249D00A42D87 /* emailIcon.png in Resources */,
+				D6AE11DD19FB249D00A42D87 /* sjs382emailIcon.png in Resources */,
 				D62E2AE319FB10270093D8E0 /* Main.storyboard in Resources */,
 				D62E2AE819FB10270093D8E0 /* LaunchScreen.xib in Resources */,
 				D62E2AE519FB10270093D8E0 /* Images.xcassets in Resources */,
-				D6AE11DB19FB248900A42D87 /* phoneIcon.png in Resources */,
+				D6AE11DB19FB248900A42D87 /* sjs382phoneIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
