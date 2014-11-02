@@ -47,11 +47,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                                 <connections>
                                     <outlet property="emailLabel" destination="cQa-9L-hhz" id="PGK-xx-pEg"/>
                                     <outlet property="phoneLabel" destination="hvV-yy-G3x" id="O0O-qE-Evm"/>
                                     <outlet property="photoView" destination="4el-pG-odE" id="lYr-gl-wc6"/>
                                     <outlet property="titleLabel" destination="6v1-pg-OmA" id="47Y-wb-Yol"/>
+                                    <outletCollection property="gestureRecognizers" destination="cFA-tM-7Z0" appends="YES" id="5bI-qk-dgQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -63,6 +65,11 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="QjC-Ai-unf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IVX-gd-mBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="cFA-tM-7Z0">
+                    <connections>
+                        <action selector="reloader:" destination="nht-Mp-Yvc" id="XKP-OW-fFe"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="378" y="235"/>
         </scene>

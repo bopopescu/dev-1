@@ -18,7 +18,10 @@ class sjs382TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadView()
         
+    }
+    override func loadView() {
         let jsonData: NSData = NSData(contentsOfURL: NSURL(string: JSON_URL)!)!
         
         if let jsonResult = NSJSONSerialization.JSONObjectWithData(jsonData, options: nil, error: nil) as? Array<AnyObject> {
@@ -46,7 +49,14 @@ class sjs382TableViewController: UITableViewController {
             }
             
             println(people)
+            refreshControl = UIRefreshControl()
+            refreshControl!.attributedTitle = NSAttributedString(string: "Pull to refresh")
+            refreshControl!.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
+            tableView.addSubview(refreshControl!)
         }
+    }
+    func refresh(sender:AnyObject){
+        loadView()
     }
     
     // MARK: - Table view data source
