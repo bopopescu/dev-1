@@ -12,27 +12,66 @@ class sjs382_asteroidViewController: UIViewController, UICollisionBehaviorDelega
 
     @IBOutlet weak var imageView: UIImageView!
     var animator: UIDynamicAnimator!
+    var collision: UICollisionBehavior?
+    var gravity: UIGravityBehavior?
+    var timer: NSTimer!
+    var score: Int!
+    var remove:AnyObject?
+    var playing: Bool!
+    @IBOutlet weak var gameOverLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    
-    
-    
-    override func viewDidAppear(animated: Bool) {
         imageView.center = view.center
         animator = UIDynamicAnimator(referenceView: view)
-        let collisionBehavior = UICollisionBehavior(items: [imageView])
-        collisionBehavior.translatesReferenceBoundsIntoBoundary = true
-        collisionBehavior.collisionDelegate = self
-        animator.addBehavior(collisionBehavior)
+        self.collision = UICollisionBehavior(items: [imageView])
+        self.collision!.translatesReferenceBoundsIntoBoundary = true
+        self.collision!.collisionDelegate = self
+        animator.addBehavior(self.collision)
+        self.gravity = UIGravityBehavior(items: [])
+        animator.addBehavior(self.gravity)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.75, target: self, selector: "fireTimer:", userInfo: nil, repeats: true)
+        score = 0
+        playing = true
         // Do any additional setup after loading the view.
     }
     
-    func collisionBehavior(behavior: UICollisionBehavior, endedContactForItem item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying) {
+    func fireTimer(sender: NSTimer) {
+        if playing! {
+            let blackAsteriod = UIView(frame:CGRectMake(0,0,10,10))
         
-        imageView.image = UIImage(named: "ship")
+            blackAsteriod.center = CGPoint(x: CGFloat(drand48()) * 500, y: 30.0)
+        
+            blackAsteriod.backgroundColor = UIColor.blackColor()
+        
+            view.addSubview(blackAsteriod)
+            self.gravity?.addItem(blackAsteriod)
+            self.collision?.addItem(blackAsteriod)
+        }
+        
+        
+
+        
     }
+    func collisionBehavior(behavior: UICollisionBehavior, beganContactForItem item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying, atPoint p: CGPoint) {
+        
+        self.collision?.removeItem(item)
+        score! += 1
+        
+        scoreLabel.text = "Score: " + String(score)
+        
+        
+    }
+    
+    func collisionBehavior(behavior: UICollisionBehavior, beganContactForItem item1: UIDynamicItem, withItem item2: UIDynamicItem, atPoint p: CGPoint) {
+        imageView.removeFromSuperview()
+        animator.removeAllBehaviors()
+        gameOverLabel.text = "Game Over"
+        playing = false
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -43,6 +82,7 @@ class sjs382_asteroidViewController: UIViewController, UICollisionBehaviorDelega
         let point = sender.translationInView(view)
         view.center = CGPoint(x: view.center.x + point.x, y: view.center.y + point.y)
         sender.setTranslation(CGPointZero, inView: view)
+        animator.updateItemUsingCurrentState(view)
     }
 
     /*
