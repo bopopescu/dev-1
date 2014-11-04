@@ -31,7 +31,7 @@ class sjs382_asteroidViewController: UIViewController, UICollisionBehaviorDelega
         animator.addBehavior(self.collision)
         self.gravity = UIGravityBehavior(items: [])
         animator.addBehavior(self.gravity)
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.75, target: self, selector: "fireTimer:", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.20, target: self, selector: "fireTimer:", userInfo: nil, repeats: true)
         score = 0
         playing = true
         // Do any additional setup after loading the view.
@@ -39,27 +39,30 @@ class sjs382_asteroidViewController: UIViewController, UICollisionBehaviorDelega
     
     func fireTimer(sender: NSTimer) {
         if playing! {
-            let blackAsteriod = UIView(frame:CGRectMake(0,0,10,10))
+            let asteriod = UIView(frame:CGRectMake(0,0,10,10))
         
-            blackAsteriod.center = CGPoint(x: CGFloat(drand48()) * 500, y: 30.0)
+            asteriod.center = CGPoint(x: CGFloat(drand48()) * 500, y: 30.0)
         
-            blackAsteriod.backgroundColor = UIColor.blackColor()
+            asteriod.backgroundColor = UIColor.blackColor()
         
-            view.addSubview(blackAsteriod)
-            self.gravity?.addItem(blackAsteriod)
-            self.collision?.addItem(blackAsteriod)
+            view.addSubview(asteriod)
+            self.gravity?.addItem(asteriod)
+            self.collision?.addItem(asteriod)
         }
-        
-        
 
         
     }
+    
     func collisionBehavior(behavior: UICollisionBehavior, beganContactForItem item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying, atPoint p: CGPoint) {
         
-        self.collision?.removeItem(item)
-        score! += 1
+        if (item !== imageView){
+            self.gravity?.removeItem(item)
+            self.collision?.removeItem(item)
+            (item as UIView).removeFromSuperview()
+            score! += 1
+            scoreLabel.text = "Score: " + String(score)
+        }
         
-        scoreLabel.text = "Score: " + String(score)
         
         
     }
