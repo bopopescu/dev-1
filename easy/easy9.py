@@ -3,8 +3,8 @@ __author__ = 'ssven'
 # Sam Svenningsen (sjs382@cornell.edu)
 # November 6, 2014
 
-""" Can/will make nicer. Going to sleep now."""
-
+"""Sorts a list of digits separated by spaces
+printing one out on each line in ascending order"""
 numbers = []
 for num in raw_input("Enter digits separated by spaces: "):
     if num != " ":
