@@ -1,0 +1,77 @@
+NAME
+       gcloud-compute-forwarding-rules-list - List forwarding rules
+
+SYNOPSIS
+       gcloud compute forwarding-rules list
+         [NAME_REGEX ...]
+         [--global]
+         [--help]
+         [--limit LIMIT]
+         [--regions [REGION ...]]
+         [--sort-by SORT_BY]
+         [--uri]
+         [-h]
+
+DESCRIPTION
+       gcloud compute forwarding-rules list lists summary information of
+       forwarding rules in a project. The "--uri" option can be used to
+       display URIs instead. Users who want to see more data should use
+       "gcloud compute forwarding-rules get".
+
+       By default, global forwarding rules and forwarding rules from all
+       regions are listed. The results can be narrowed down by providing the
+       "--region" and/or "--global" flags.
+
+POSITIONAL ARGUMENTS
+       [NAME_REGEX ...]
+           Name regular expressions used to filter the resources fetched. The
+           regular expressions must conform to the re2 syntax (see
+           https://code.google.com/p/re2/wiki/Syntax).
+
+FLAGS
+       --global
+           If provided, global forwarding rules are shown.
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --regions [REGION ...]
+           If provided, forwarding rules from the given regions are shown.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       --uri
+           If provided, the list command will only print URIs for the
+           resources returned. If this flag is not provided, the list command
+           will print a human-readable table of useful resource data.
+
+       -h
+           Print a summary help and exit.
+
+EXAMPLES
+       To list all forwarding rules in a project in table form, run:
+
+           $ gcloud compute forwarding-rules list
+
+       To list the URIs of all forwarding rules in a project, run:
+
+           $ gcloud compute forwarding-rules list --uri
+
+       To list all of the global forwarding rules in a project, run:
+
+           $ gcloud compute forwarding-rules list --global
+
+       To list all of the regional forwarding rules in a project, run:
+
+           $ gcloud compute forwarding-rules list --regions
+
+       To list all of the forwarding rules from the "us-central1" and the
+       "europe-west1" regions, run:
+
+           $ gcloud compute forwarding-rules list --regions us-central1 europe-west1
+

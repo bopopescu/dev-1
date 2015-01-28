@@ -1,0 +1,34 @@
+NAME
+       gcloud-compute-disks - Read and manipulate Google Compute Engine disks
+
+SYNOPSIS
+       gcloud compute disks
+         COMMAND
+         [--help]
+         [-h]
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+
+COMMANDS
+       COMMAND is one of the following.
+
+       create
+           Create Google Compute Engine persistent disks.
+
+       delete
+           Delete Google Compute Engine disks.
+
+       get
+           Get Google Compute Engine disks.
+
+       list
+           List Google Compute Engine persistent disks.
+
+       snapshot
+           Snapshot Google Compute Engine disks.
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sgD-Qm-8nS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reddit.com-->
+        <scene sceneID="MWK-KF-dlj">
+            <objects>
+                <tableViewController id="JmD-Ua-h6e" customClass="FeedTableViewController" customModule="RedditClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="7mh-DF-8eA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <activityIndicatorView key="tableFooterView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="t8D-5p-CKO">
+                            <rect key="frame" x="0.0" y="186" width="600" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="aJs-fn-OGg" customClass="FeedTableViewCell" customModule="RedditClient" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aJs-fn-OGg" id="vjQ-Lg-hT6">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lBb-ef-HgP">
+                                            <rect key="frame" x="23" y="15" width="70" height="70"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="70" id="3CR-fB-b4H"/>
+                                                <constraint firstAttribute="width" constant="70" id="oAb-Kz-fYc"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="15"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="NaF-3W-D6g">
+                                            <rect key="frame" x="158" y="71" width="40" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="6LU-ew-odb"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                            <color key="textColor" red="0.17422829103496051" green="0.62655452806122447" blue="0.41412260090883546" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="V7j-Yh-9de">
+                                            <rect key="frame" x="108" y="71" width="40" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="Z4T-fs-nfI"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                            <color key="textColor" red="0.72337372448979598" green="0.0082201559601113115" blue="0.0082201559601113115" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LDZ-as-Imf">
+                                            <rect key="frame" x="208" y="71" width="40" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="lhh-v2-yu6"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                            <color key="textColor" red="0.76648198341836737" green="0.30854302740484413" blue="0.10543775075869824" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="cil-dq-mrB">
+                                            <rect key="frame" x="258" y="71" width="40" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="tl1-0H-dTs"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                            <color key="textColor" red="0.51138412483514983" green="0.054397699101213969" blue="0.66278698979591844" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQA-kd-b9E">
+                                            <rect key="frame" x="108" y="18" width="40" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.39855707908163263" green="0.39855707908163263" blue="0.39855707908163263" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="lBb-ef-HgP" firstAttribute="bottom" secondItem="V7j-Yh-9de" secondAttribute="bottom" id="3U5-b6-5mF"/>
+                                        <constraint firstItem="V7j-Yh-9de" firstAttribute="top" relation="greaterThanOrEqual" secondItem="xQA-kd-b9E" secondAttribute="bottom" constant="10" id="4xt-39-Eq0"/>
+                                        <constraint firstItem="NaF-3W-D6g" firstAttribute="bottom" secondItem="V7j-Yh-9de" secondAttribute="bottom" id="8vB-gI-z9r"/>
+                                        <constraint firstItem="cil-dq-mrB" firstAttribute="leading" secondItem="LDZ-as-Imf" secondAttribute="trailing" constant="10" id="BeA-AV-Wfn"/>
+                                        <constraint firstItem="NaF-3W-D6g" firstAttribute="leading" secondItem="V7j-Yh-9de" secondAttribute="trailing" constant="10" id="EVP-1J-yH9"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="xQA-kd-b9E" secondAttribute="trailing" constant="10" id="FYd-Za-EGo"/>
+                                        <constraint firstItem="lBb-ef-HgP" firstAttribute="leading" secondItem="vjQ-Lg-hT6" secondAttribute="leadingMargin" constant="15" id="HbO-OA-rdY"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="cil-dq-mrB" secondAttribute="trailing" constant="15" id="LWM-iP-QEQ"/>
+                                        <constraint firstItem="xQA-kd-b9E" firstAttribute="leading" secondItem="lBb-ef-HgP" secondAttribute="trailing" constant="15" id="NjL-gC-BeU"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="V7j-Yh-9de" secondAttribute="bottom" constant="5" id="Q3V-3d-IBy"/>
+                                        <constraint firstItem="V7j-Yh-9de" firstAttribute="leading" secondItem="lBb-ef-HgP" secondAttribute="trailing" constant="15" id="ZWK-tU-vZd"/>
+                                        <constraint firstAttribute="centerY" secondItem="lBb-ef-HgP" secondAttribute="centerY" id="jWw-Wl-T1T"/>
+                                        <constraint firstItem="LDZ-as-Imf" firstAttribute="leading" secondItem="NaF-3W-D6g" secondAttribute="trailing" constant="10" id="pu2-Z2-QVH"/>
+                                        <constraint firstItem="NaF-3W-D6g" firstAttribute="bottom" secondItem="LDZ-as-Imf" secondAttribute="bottom" id="rL5-xA-sWT"/>
+                                        <constraint firstItem="NaF-3W-D6g" firstAttribute="bottom" secondItem="cil-dq-mrB" secondAttribute="bottom" id="t77-o3-Nkw"/>
+                                        <constraint firstItem="xQA-kd-b9E" firstAttribute="top" secondItem="vjQ-Lg-hT6" secondAttribute="topMargin" constant="10" id="zEs-Wz-lEO"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="3U5-b6-5mF"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="authorLabel" destination="NaF-3W-D6g" id="vut-Ba-neV"/>
+                                    <outlet property="commentsLabel" destination="LDZ-as-Imf" id="2at-Rn-4iN"/>
+                                    <outlet property="scoreLabel" destination="cil-dq-mrB" id="oW2-5Z-XLA"/>
+                                    <outlet property="subredditLabel" destination="V7j-Yh-9de" id="EmY-HE-F8U"/>
+                                    <outlet property="thumbnailImageView" destination="lBb-ef-HgP" id="tfE-eK-GnK"/>
+                                    <outlet property="titleLabel" destination="xQA-kd-b9E" id="v9Y-EY-4Ut"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JmD-Ua-h6e" id="EmR-Tp-de0"/>
+                            <outlet property="delegate" destination="JmD-Ua-h6e" id="1wb-UW-53R"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Reddit.com" id="dqY-Kt-ZjT"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="t8D-5p-CKO" id="Z2W-CI-YBz"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HX8-CQ-7oY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="90"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oPp-XH-iUf">
+            <objects>
+                <navigationController id="sgD-Qm-8nS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ey3-jB-zCf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JmD-Ua-h6e" kind="relationship" relationship="rootViewController" id="Q9f-1K-tCe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhW-K8-xvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-418" y="90"/>
+        </scene>
+    </scenes>
+</document>

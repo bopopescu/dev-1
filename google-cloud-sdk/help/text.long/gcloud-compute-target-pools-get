@@ -1,0 +1,60 @@
+NAME
+       gcloud-compute-target-pools-get - Get Google Compute Engine target
+       pools
+
+SYNOPSIS
+       gcloud compute target-pools get
+         [NAME_REGEX ...]
+         [--fields FIELDS [FIELDS ...]]
+         [--help]
+         [--limit LIMIT]
+         [--regions REGION [REGION ...]]
+         [--sort-by SORT_BY]
+         [-h]
+
+DESCRIPTION
+       gcloud compute target-pools get displays all data associated with
+       Google Compute Engine target pools in a project.
+
+       By default, target pools from all regions are fetched. The results can
+       be narrowed down by providing "--region".
+
+POSITIONAL ARGUMENTS
+       [NAME_REGEX ...]
+           Name regular expressions used to filter the resources fetched. The
+           regular expressions must conform to the re2 syntax (see
+           https://code.google.com/p/re2/wiki/Syntax).
+
+FLAGS
+       --fields FIELDS [FIELDS ...]
+           Fields to display. Possible values are:
+
+               backupPool
+               creationTimestamp
+               description
+               failoverRatio
+               healthChecks[]
+               id
+               instances[]
+               kind
+               name
+               region
+               selfLink
+               sessionAffinity
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --regions REGION [REGION ...]
+           If provided, only resources from the given regions are queried.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       -h
+           Print a summary help and exit.
+

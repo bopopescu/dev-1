@@ -1,0 +1,60 @@
+NAME
+       gcloud-compute-url-maps-get - Get URL maps
+
+SYNOPSIS
+       gcloud compute url-maps get
+         [NAME_REGEX ...]
+         [--fields FIELDS [FIELDS ...]]
+         [--help]
+         [--limit LIMIT]
+         [--sort-by SORT_BY]
+         [-h]
+
+DESCRIPTION
+       gcloud compute url-maps get displays all data associated with URL maps
+       in a project.
+
+POSITIONAL ARGUMENTS
+       [NAME_REGEX ...]
+           Name regular expressions used to filter the resources fetched. The
+           regular expressions must conform to the re2 syntax (see
+           https://code.google.com/p/re2/wiki/Syntax).
+
+FLAGS
+       --fields FIELDS [FIELDS ...]
+           Fields to display. Possible values are:
+
+               creationTimestamp
+               defaultService
+               description
+               fingerprint
+               hostRules[].description
+               hostRules[].hosts[]
+               hostRules[].pathMatcher
+               id
+               kind
+               name
+               pathMatchers[].defaultService
+               pathMatchers[].description
+               pathMatchers[].name
+               pathMatchers[].pathRules[].paths[]
+               pathMatchers[].pathRules[].service
+               selfLink
+               tests[].description
+               tests[].host
+               tests[].path
+               tests[].service
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       -h
+           Print a summary help and exit.
+

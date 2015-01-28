@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "Explain xkcd",
+	"description":
+	"This extension brings you to the explainxkcd of the current page",
+	"version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action" :
+  {
+    "default_icon" : "xkcd_explain_url.png",
+    "default_title" : "There's a 'xkcd' in this URL!"
+  },
+  "permissions" : [
+    "declarativeContent", "tabs"
+  ],
+  "icons" : {
+    "48" : "xkcd_explain.png",
+    "128" : "xkcd_explain.png"
+  }
+}
+

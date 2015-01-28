@@ -1,0 +1,83 @@
+NAME
+       gcloud-compute-operations-get - Get Google Compute Engine operations
+
+SYNOPSIS
+       gcloud compute operations get
+         [NAME_REGEX ...]
+         [--fields FIELDS [FIELDS ...]]
+         [--global]
+         [--help]
+         [--limit LIMIT]
+         [--regions [REGION ...]]
+         [--sort-by SORT_BY]
+         [--zones [ZONE ...]]
+         [-h]
+
+DESCRIPTION
+       gcloud compute operations get displays all data associated with Google
+       Compute Engine operations in a project.
+
+       By default, global operations and operations from all regions and zones
+       are fetched. The results can be narrowed down by providing "--global",
+       "--regions" and/or "--zones".
+
+POSITIONAL ARGUMENTS
+       [NAME_REGEX ...]
+           Name regular expressions used to filter the resources fetched. The
+           regular expressions must conform to the re2 syntax (see
+           https://code.google.com/p/re2/wiki/Syntax).
+
+FLAGS
+       --fields FIELDS [FIELDS ...]
+           Fields to display. Possible values are:
+
+               clientOperationId
+               creationTimestamp
+               endTime
+               error.errors[].code
+               error.errors[].location
+               error.errors[].message
+               httpErrorMessage
+               httpErrorStatusCode
+               id
+               insertTime
+               kind
+               name
+               operationType
+               progress
+               region
+               selfLink
+               startTime
+               status
+               statusMessage
+               targetId
+               targetLink
+               user
+               warnings[].code
+               warnings[].data[].key
+               warnings[].data[].value
+               warnings[].message
+               zone
+
+       --global
+           If provided, operations from the global scope are queried.
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --regions [REGION ...]
+           If provided, operations from the given regions are queried.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       --zones [ZONE ...]
+           If provided, operations from the given zones are queried.
+
+       -h
+           Print a summary help and exit.
+

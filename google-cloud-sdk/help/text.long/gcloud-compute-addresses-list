@@ -1,0 +1,41 @@
+NAME
+       gcloud-compute-addresses-list - List Google Compute Engine addresses.
+
+SYNOPSIS
+       gcloud compute addresses list
+         [NAME_REGEX ...]
+         [--help]
+         [--limit LIMIT]
+         [--regions REGION [REGION ...]]
+         [--sort-by SORT_BY]
+         [--uri]
+         [-h]
+
+POSITIONAL ARGUMENTS
+       [NAME_REGEX ...]
+           Name regular expressions used to filter the resources fetched. The
+           regular expressions must conform to the re2 syntax (see
+           https://code.google.com/p/re2/wiki/Syntax).
+
+FLAGS
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --regions REGION [REGION ...]
+           If provided, only resources from the given regions are queried.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       --uri
+           If provided, the list command will only print URIs for the
+           resources returned. If this flag is not provided, the list command
+           will print a human-readable table of useful resource data.
+
+       -h
+           Print a summary help and exit.
+

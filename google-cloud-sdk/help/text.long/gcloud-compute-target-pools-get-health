@@ -1,0 +1,49 @@
+NAME
+       gcloud-compute-target-pools-get-health - Get the health of instances in
+       a target pool
+
+SYNOPSIS
+       gcloud compute target-pools get-health
+         NAME
+         [--fields FIELDS [FIELDS ...]]
+         [--help]
+         [--limit LIMIT]
+         [--region REGION]
+         [--sort-by SORT_BY]
+         [-h]
+
+DESCRIPTION
+       gcloud compute target-pools get-health displays the health of instances
+       in a target pool.
+
+POSITIONAL ARGUMENTS
+       NAME
+           The name of the target pool.
+
+FLAGS
+       --fields FIELDS [FIELDS ...]
+           Fields to display. Possible values are:
+
+               healthStatus[].healthState
+               healthStatus[].instance
+               healthStatus[].ipAddress
+               kind
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --region REGION
+           The region of the target pool to get health information for. If
+           omitted and the arguments are not all URIs, you will be prompted to
+           select a region.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       -h
+           Print a summary help and exit.
+

@@ -1,0 +1,42 @@
+'\" t
+.TH "GCLOUD\-COMPUTE\-TARGET\-INSTANCES\-DELETE" "1"
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.nh
+.ad l
+.SH "NAME"
+gcloud-compute-target-instances-delete \- Delete target instances
+.SH "SYNOPSIS"
+.sp
+.nf
+\fBgcloud compute target\-instances delete\fR
+  NAME [NAME \&...]
+  [\-\-help]
+  [\-\-zone ZONE]
+  [\-h]
+.fi
+.SH "DESCRIPTION"
+.sp
+\fBgcloud compute target\-instances delete\fR deletes one or more Google Compute Engine target instances\&. Target instances can be deleted only if they are not being used by any other resources like forwarding rules\&.
+.SH "POSITIONAL ARGUMENTS"
+.PP
+\fINAME [NAME \&...]\fR
+.RS 4
+The resources to delete\&.
+.RE
+.SH "FLAGS"
+.PP
+\fB\-\-help\fR
+.RS 4
+Display detailed help\&.
+.RE
+.PP
+\fB\-\-zone\fR \fIZONE\fR
+.RS 4
+The zone of the resources to delete\&. If omitted and the arguments are not all URIs, you will be prompted to select a zone\&.
+.RE
+.PP
+\fB\-h\fR
+.RS 4
+Print a summary help and exit\&.
+.RE

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87eea5ef-1532-4c18-bea0-63dcdaf459f3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/project.xcworkspace/xcshareddata/All_Hallows_Read.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/All_Hallows_Read.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/AddGiftsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/AddGiftsViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/AllHallowsEve.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/GiftListTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/GiftListTableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/MovieViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/MovieViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Neil.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/Recomendation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/WebViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/WebViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_Read/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_ReadTests/All_Hallows_ReadTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../All_Hallows_Read/All_Hallows_ReadTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/project.xcworkspace/xcshareddata/AutoLayout.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/AutoLayout.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayout/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayoutTests/AutoLayoutTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayout/AutoLayoutTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/project.xcworkspace/xcshareddata/AutoLayoutTesting.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/AutoLayoutTesting.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/cornell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTesting/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTestingTests/AutoLayoutTestingTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AutoLayoutTesting/AutoLayoutTestingTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/project.xcworkspace/xcshareddata/Final2048.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Final2048.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048Tests/Final2048Tests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Final2048/Final2048Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/FirstApplication.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/FirstApplication-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/FirstApplication-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/SSAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/SSAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/SSViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/SSViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplication/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplicationTests/FirstApplicationTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplicationTests/FirstApplicationTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/FirstApplicationTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/MyPlayground.playground/contents.xcplayground" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/MyPlayground.playground/section-1.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FirstApplication/MyPlayground.playground/timeline.xctimeline" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/project.xcworkspace/xcshareddata/LaTable.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/LaTable.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/HomeTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/HomeTableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/TableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/TableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTable/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTableTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaTable/LaTableTests/LaTableTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTMainTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTMainTableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LTViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LeTable-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/LeTable-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LeTable/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/project.xcworkspace/xcshareddata/Lecture 1.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Lecture 1.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Lecture 1/Lecture 1Tests/Lecture_1Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/project.xcworkspace/xcshareddata/Up Sliding Table.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Up Sliding Table.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STDetailViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STDetailViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STMasterViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/STMasterViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/Up Sliding Table-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/Up Sliding Table-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding Table/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding TableTests/Up Sliding TableTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding TableTests/Up_Sliding_TableTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Paraline/Up Sliding Table/Up Sliding TableTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/project.xcworkspace/xcshareddata/PropertiesMethods.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/PropertiesMethods.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/SampleObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/SampleObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethods/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethodsTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PropertiesMethods/PropertiesMethodsTests/PropertiesMethodsTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/project.xcworkspace/xcshareddata/TabBoredom.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/TabBoredom.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/FirstViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/FirstViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Images.xcassets/first.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Images.xcassets/first.imageset/first.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Images.xcassets/second.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Images.xcassets/second.imageset/second.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/SecondViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/SecondViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredom/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredomTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TabBoredom/TabBoredomTests/TabBoredomTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/project.xcworkspace/xcshareddata/TaskFieldFun.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/TaskFieldFun.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFun/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFunTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskFieldFun/TaskFieldFunTests/TaskFieldFunTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/project.xcworkspace/xcshareddata/TaskIt.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/TaskIt.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/Date.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/TaskCell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/TaskDetailViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/TaskModel.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskIt/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskItTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskIt/TaskItTests/TaskItTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/Date.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/TaskCell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/TaskDetailViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/TaskModel.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskIt/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/project.xcworkspace/xcshareddata/TaskIt.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/project.xcworkspace/xcshareddata/TaskItExt.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/TaskIt.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItExt.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TaskItExt/TaskItTests/TaskItTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/project.xcworkspace/xcshareddata/TheStory.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/TheStory.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/TSTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/TSTableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStory/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStoryTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TheStory/TheStoryTests/TheStoryTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/project.xcworkspace/xcuserdata/timnovikoff.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/ToolBox.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/xcuserdata/timnovikoff.xcuserdatad/xcschemes/ToolBox.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox.xcodeproj/xcuserdata/timnovikoff.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBLocalViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBLocalViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBLocalViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBRemoteViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBRemoteViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBRemoteViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBTableViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/TBViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/ToolBox-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/ToolBox-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/fox2.mov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBox/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBoxTests/ToolBoxTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBoxTests/ToolBoxTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../ToolBox/ToolBoxTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/project.xcworkspace/xcshareddata/Auto.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Auto.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/Auto/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/AutoTests/AutoTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Auto/AutoTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/project.xcworkspace/xcshareddata/Lecture 6.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Lecture 6.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/SadDoge.imageset/-6-1-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/SadDoge.imageset/-6-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/SadDoge.imageset/-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/SadDoge.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/doge.imageset/3f5a00acf72df93528b6bb7cd0a4fd0c-1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/doge.imageset/3f5a00acf72df93528b6bb7cd0a4fd0c-2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/doge.imageset/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Images.xcassets/doge.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 6/Lecture 6Tests/Lecture_6Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/project.xcworkspace/xcshareddata/Lecture 7.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/Lecture 7.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/SettingsViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/Lecture 7/Lecture 7Tests/Lecture_7Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/MyPlayground.playground/contents.xcplayground" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/MyPlayground.playground/section-1.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/MyPlayground.playground/timeline.xctimeline" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/project.xcworkspace/xcshareddata/lecture 5.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/lecture 5.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/Person.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5/TableViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/lecture 5/lecture 5Tests/lecture_5Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/project.xcworkspace/xcshareddata/navigator.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/navigator.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/ModalViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/ShapeViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigator/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigatorTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/navigator/navigatorTests/navigatorTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.xcworkspace/xcshareddata/secretMessage.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P1.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/secretMessage.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P1/sjs382_P1/sjs382ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P2.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/sjs382_P2.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2/sjs382ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P2/sjs382_P2Tests/sjs382_P2Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P3.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/sjs382_P3.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/sjs382BlueViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/sjs382RedViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/sjs382ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3/sjs382YellowViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P3/sjs382_P3Tests/sjs382_P3Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P4.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/sjs382_P4.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/sjs382ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/sjs382joffrey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4/sjs382patrickbio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P4/sjs382_P4Tests/sjs382_P4Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P5.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/sjs382_P5.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/sjs382Person.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/sjs382TableViewCell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/sjs382TableViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/sjs382emailIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5/sjs382phoneIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P5/sjs382_P5Tests/sjs382_P5Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/project.xcworkspace/xcshareddata/sjs382_P6.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/sjs382_P6.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/sjs382ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6/sjs382_asteroidViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Training/sjs382_P6/sjs382_P6Tests/sjs382_P6Tests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/project.xcworkspace/xcshareddata/HelloWorld.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/HelloWorld.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HWAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HWAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HWViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HWViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HelloWorld-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/HelloWorld-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorld/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorldTests/HelloWorldTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorldTests/HelloWorldTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/HelloWorld/HelloWorldTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/project.xcworkspace/xcshareddata/PortManteau.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/xcuserdata/ssven.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/PortManteau.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PMAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PMAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PMViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PMViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PortManteau-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/PortManteau-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteau/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteauTests/PortManteauTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteauTests/PortManteauTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../cs2048/PortManteau/PortManteauTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/.app.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/.app.yaml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/CONTRIB.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/XmlParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/app.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/appengine_config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/css/mystyles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/app.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/blueprints.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/ctx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/debughelpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/ext/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/exthook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/globals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/helpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/logging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/templating.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/flask/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/itsdangerous.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/_internal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/atom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/fixers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/iterio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/jsrouting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/limiter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/lint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/profiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/securecookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/testtools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/contrib/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/datastructures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/console.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/repr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/FONT_LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/console.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/debugger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/source.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/shared/ubuntu.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/debug/tbtools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/formparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/posixemulation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/routing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/script.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/security.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/serving.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/testapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/useragents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/lib/werkzeug/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/ascii.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/fizzbuzz.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/perma.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../orbital-clarity-669/templates/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/project.xcworkspace/xcshareddata/safetyApp.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/project.xcworkspace/xcuserdata/ssven.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/safetyApp.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp.xcodeproj/xcuserdata/ssven.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/safetyApp.xcdatamodeld/.xccurrentversion" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyApp/safetyApp.xcdatamodeld/safetyApp.xcdatamodel/contents" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyAppTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../safetyApp/safetyAppTests/safetyAppTests.swift" afterPath="" />
+    </list>
+    <ignored path="Starter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Starter" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="43" />
+    <option name="width" value="1260" />
+    <option name="height" value="676" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87eea5ef-1532-4c18-bea0-63dcdaf459f3" name="Default" comment="" />
+      <created>1422203447773</created>
+      <option name="number" value="Default" />
+      <updated>1422203447773</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="43" width="1260" height="676" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

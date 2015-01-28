@@ -1,0 +1,26 @@
+NAME
+       gcloud-compute-machine-types - Read Google Compute Engine virtual
+       machine types
+
+SYNOPSIS
+       gcloud compute machine-types
+         COMMAND
+         [--help]
+         [-h]
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+
+COMMANDS
+       COMMAND is one of the following.
+
+       get
+           Get Google Compute Engine machine types.
+
+       list
+           List Google Compute Engine machine types.
+

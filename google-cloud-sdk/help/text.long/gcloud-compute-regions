@@ -1,0 +1,25 @@
+NAME
+       gcloud-compute-regions - List Google Compute Engine regions
+
+SYNOPSIS
+       gcloud compute regions
+         COMMAND
+         [--help]
+         [-h]
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+
+COMMANDS
+       COMMAND is one of the following.
+
+       get
+           Get Google Compute Engine regions.
+
+       list
+           List Google Compute Engine regions.
+

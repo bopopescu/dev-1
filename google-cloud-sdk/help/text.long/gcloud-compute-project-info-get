@@ -1,0 +1,51 @@
+NAME
+       gcloud-compute-project-info-get - Get the Google Compute Engine project
+       resource
+
+SYNOPSIS
+       gcloud compute project-info get
+         [--fields FIELDS [FIELDS ...]]
+         [--help]
+         [--limit LIMIT]
+         [--sort-by SORT_BY]
+         [-h]
+
+DESCRIPTION
+       gcloud compute project-info get displays all data associated with the
+       Google Compute Engine project resource. The project resource contains
+       data such as global quotas, common instance metadata, and the project's
+       creation time.
+
+FLAGS
+       --fields FIELDS [FIELDS ...]
+           Fields to display. Possible values are:
+
+               commonInstanceMetadata.fingerprint
+               commonInstanceMetadata.items[].key
+               commonInstanceMetadata.items[].value
+               commonInstanceMetadata.kind
+               creationTimestamp
+               description
+               id
+               kind
+               name
+               quotas[].limit
+               quotas[].metric
+               quotas[].usage
+               selfLink
+               usageExportLocation.bucketName
+               usageExportLocation.reportNamePrefix
+
+       --help
+           Display detailed help.
+
+       --limit LIMIT
+           The maximum number of results.
+
+       --sort-by SORT_BY
+           A field to sort by. To perform a descending-order sort, prefix the
+           value of this flag with a tilde ("~").
+
+       -h
+           Print a summary help and exit.
+

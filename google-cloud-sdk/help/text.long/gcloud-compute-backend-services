@@ -1,0 +1,44 @@
+NAME
+       gcloud-compute-backend-services - List, create, and delete backend
+       services
+
+SYNOPSIS
+       gcloud compute backend-services
+         COMMAND
+         [--help]
+         [-h]
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+
+COMMANDS
+       COMMAND is one of the following.
+
+       add-backend
+           Add a backend to a backend service.
+
+       create
+           Create a backend service.
+
+       delete
+           Delete backend services.
+
+       edit
+           Modify backend services.
+
+       get
+           Get backend services.
+
+       get-health
+           Get health status of backend(s) in an backend service.
+
+       list
+           List backend services.
+
+       remove-backend
+           Remove a backend frome a backend service.
+

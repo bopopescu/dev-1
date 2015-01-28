@@ -1,0 +1,22 @@
+NAME
+       gcloud-help - Provide a specific command group or subcommand, without
+       flag arguments, to print detailed documentation about that command
+       group or subcommand.
+
+SYNOPSIS
+       gcloud help
+         [COMMAND ...]
+         [--help]
+         [-h]
+
+POSITIONAL ARGUMENTS
+       [COMMAND ...]
+           Command or group to get help for.
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+

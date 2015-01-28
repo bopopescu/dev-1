@@ -1,0 +1,24 @@
+NAME
+       gcloud-compute-target-http-proxies-delete - Delete target HTTP proxies
+
+SYNOPSIS
+       gcloud compute target-http-proxies delete
+         NAME [NAME ...]
+         [--help]
+         [-h]
+
+DESCRIPTION
+       gcloud compute target-http-proxies delete deletes one or more target
+       HTTP proxies.
+
+POSITIONAL ARGUMENTS
+       NAME [NAME ...]
+           The resources to delete.
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+

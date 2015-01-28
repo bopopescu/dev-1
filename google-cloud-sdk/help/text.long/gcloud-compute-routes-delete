@@ -1,0 +1,24 @@
+NAME
+       gcloud-compute-routes-delete - Delete routes
+
+SYNOPSIS
+       gcloud compute routes delete
+         NAME [NAME ...]
+         [--help]
+         [-h]
+
+DESCRIPTION
+       gcloud compute routes delete deletes one or more Google Compute Engine
+       routes.
+
+POSITIONAL ARGUMENTS
+       NAME [NAME ...]
+           The resources to delete.
+
+FLAGS
+       --help
+           Display detailed help.
+
+       -h
+           Print a summary help and exit.
+
