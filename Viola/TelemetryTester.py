@@ -1,4 +1,5 @@
 __author__ = 'ssven'
+__author__ = 'ssven'
 
 import sys
 from PyQt4 import QtGui, QtCore
@@ -84,28 +85,37 @@ class Example(QtGui.QWidget):
         #     button = QtGui.QPushButton(name)
         #     grid.addWidget(button, *position)
         #
+        telem_combo = QtGui.QComboBox(self)
+        telem_combo.addItem("Power Telemetry")
+        telem_combo.addItem("CMG Housekeeping")
 
-        # #basic text enrtry
-        # title = QtGui.QLabel('Title')
-        # author = QtGui.QLabel('Author')
-        # review = QtGui.QLabel('Review')
-        #
-        # titleEdit = QtGui.QLineEdit()
-        # authorEdit = QtGui.QLineEdit()
-        # reviewEdit = QtGui.QTextEdit()
-        #
-        # grid = QtGui.QGridLayout()
-        # grid.setSpacing(10)
-        #
-        # grid.addWidget(title, 1, 0)
-        # grid.addWidget(titleEdit,1,1)
-        #
-        # grid.addWidget(author, 2, 0)
-        # grid.addWidget(authorEdit,2,1)
-        #
-        # grid.addWidget(review, 3, 0)
-        # grid.addWidget(reviewEdit,3,1,5,1)
-        #
+
+        type_combo = QtGui.QComboBox(self)
+        type_combo.addItem("Random")
+        type_combo.addItem("Sequenced")
+
+        # combo.activated[str].connect(self.onActivated)
+
+        btn1 = QtGui.QPushButton('Send Telem',self)
+        btn1.clicked.connect(self.buttonClicked)
+        #basic text enrtry
+        Telem = QtGui.QLabel('Telemetry')
+        Type = QtGui.QLabel('Random or Sequenced')
+
+
+
+        grid = QtGui.QGridLayout()
+        grid.setSpacing(10)
+
+        grid.addWidget(Telem, 1, 0)
+        grid.addWidget(telem_combo,1,1)
+
+        grid.addWidget(Type, 2, 0)
+        grid.addWidget(type_combo,2,1)
+
+        grid.addWidget(btn1)
+
+
         # # cool count down style clock
         # lcd = QtGui.QLCDNumber(self)
         # sld = QtGui.QSlider(QtCore.Qt.Horizontal, self)
@@ -117,14 +127,12 @@ class Example(QtGui.QWidget):
         # self.setLayout(vbox)
         # sld.valueChanged.connect(lcd.display)
 
-        # #Buttons send text to status bar
-        # btn1 = QtGui.QPushButton('Button 1',self)
-        # btn1.move(30,50)
+
         #
         # btn2 = QtGui.QPushButton("Button 2", self)
         # btn2.move(150,50)
         #
-        # btn1.clicked.connect(self.buttonClicked)
+
         # btn2.clicked.connect(self.buttonClicked)
         #
         # self.statusBar()
@@ -141,38 +149,23 @@ class Example(QtGui.QWidget):
         #
         # self.le = QtGui.QLineEdit(self)
         # self.le.move(130,22)
+        self.setLayout(grid)
+        self.resize(500,300)
+        self.center()
 
-        self.lbl = QtGui.QLabel("Power Telemetry")
-        combo = QtGui.QComboBox(self)
-        combo.addItem("Power Telemetry")
-        combo.addItem("CMG Housekeeping")
-
-        combo.move(50,50)
-        self.lbl.move(50,150)
-
-        combo.activated[str].connect(self.onActivated)
-
-
-        self.setGeometry(300,300,300,200)
-        # self.center()
-
-        self.setWindowTitle('Input Dialog')
+        self.setWindowTitle('Telemetry Tester')
 
         self.show()
 
-    def onActivated(self, text):
-        self.lbl.setText(text)
-        self.lbl.adjustSize()
-    # def buttonClicked(self):
-    #     sender = self.sender()
-    #     self.statusBar().showMessage(sender.text() + ' was pressed')
+
+
+    def buttonClicked(self):
+        sender = self.sender()
+        self.statusBar().showMessage(sender.text() + ' was pressed')
     #
     # def keyPressEvent(self, e):
     #     if e.key() == QtCore.Qt.Key_Escape:
     #         self.close()
-
-    # def mousePressEvent(self, event):
-    #     self.c.closeApp.emit()
 
     # def showDialog(self):
     #
@@ -183,22 +176,14 @@ class Example(QtGui.QWidget):
     #         self.le.setText(str(text))
 
 
-    #
-    # def center(self):
-    #
-    #     qr = self.frameGeometry()
-    #     cp = QtGui.QDesktopWidget().availableGeometry().center()
-    #     qr.moveCenter(cp)
-    #     self.move(qr.topLeft())
 
-    #
-    # def closeEvent(self, event):
-    #
-    #     reply = QtGui.QMessageBox.question(self, 'Message',
-    #             "Are you sure you want to quit?", QtGui.QMessageBox.Yes
-    #     | QtGui.QMessageBox.No, QtGui.QMessageBox.No)
-    #
-    #     event.accept() if reply == QtGui.QMessageBox.Yes else event.ignore()
+    def center(self):
+
+        qr = self.frameGeometry()
+        cp = QtGui.QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
 
 
 def main():
