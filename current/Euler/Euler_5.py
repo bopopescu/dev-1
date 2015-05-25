@@ -1,6 +1,6 @@
 # Samuel Svenningsen (altock)
 # Project Euler Problem 5
-# from Euler_3 import is_prime
+# from Euler import is_prime
 
 # def lowest_multiple(num):
 #     p_dict = {2: 1}
