@@ -62,6 +62,9 @@ def sum_square_difference(num):
     square_sum = (num*(num+1)/2)**2
     return square_sum - sum_square
 
+# Made for 9th Problem
+def is_pythagorean(a, b, c):
+    return not (a**2 + b**2 - c**2)
 
 # Made for 2nd Problem
 class fib_iterator:
