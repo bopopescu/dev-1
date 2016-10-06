@@ -10,7 +10,7 @@ from create_sentiments_featuresets import create_feature_sets_and_labels
 
 
 # In[2]:
-train_x, train_y, test_x, test_y = pickle.load(open('sentiment_set.pickle','rb')) # create_feature_sets_and_labels('data/pos.txt', 'data/neg.txt')
+train_x, train_y, test_x, test_y = pickle.load(open('sentiment_set.pickle','rb')) # create_feature_sets_and_labels('../data/pos.txt', '../data/neg.txt')
 
 n_nodes_hl1 = 500
 n_nodes_hl2 = 500
