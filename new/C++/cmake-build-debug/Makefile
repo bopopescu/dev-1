@@ -123,6 +123,60 @@ C__/fast:
 	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/build
 .PHONY : C__/fast
 
+lesson_0.o: lesson_0.cpp.o
+
+.PHONY : lesson_0.o
+
+# target to build an object file
+lesson_0.cpp.o:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_0.cpp.o
+.PHONY : lesson_0.cpp.o
+
+lesson_0.i: lesson_0.cpp.i
+
+.PHONY : lesson_0.i
+
+# target to preprocess a source file
+lesson_0.cpp.i:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_0.cpp.i
+.PHONY : lesson_0.cpp.i
+
+lesson_0.s: lesson_0.cpp.s
+
+.PHONY : lesson_0.s
+
+# target to generate assembly for a file
+lesson_0.cpp.s:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_0.cpp.s
+.PHONY : lesson_0.cpp.s
+
+lesson_1.o: lesson_1.cpp.o
+
+.PHONY : lesson_1.o
+
+# target to build an object file
+lesson_1.cpp.o:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_1.cpp.o
+.PHONY : lesson_1.cpp.o
+
+lesson_1.i: lesson_1.cpp.i
+
+.PHONY : lesson_1.i
+
+# target to preprocess a source file
+lesson_1.cpp.i:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_1.cpp.i
+.PHONY : lesson_1.cpp.i
+
+lesson_1.s: lesson_1.cpp.s
+
+.PHONY : lesson_1.s
+
+# target to generate assembly for a file
+lesson_1.cpp.s:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_1.cpp.s
+.PHONY : lesson_1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__"
+	@echo "... lesson_0.o"
+	@echo "... lesson_0.i"
+	@echo "... lesson_0.s"
+	@echo "... lesson_1.o"
+	@echo "... lesson_1.i"
+	@echo "... lesson_1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

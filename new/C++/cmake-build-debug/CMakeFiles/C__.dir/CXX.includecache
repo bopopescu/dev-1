@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/altock/Documents/dev/new/C++/lesson_0.cpp
+iostream
+-
+lesson_0.h
+/home/altock/Documents/dev/new/C++/lesson_0.h
+
+/home/altock/Documents/dev/new/C++/lesson_0.h
+
+/home/altock/Documents/dev/new/C++/lesson_1.cpp
+lesson_1.h
+/home/altock/Documents/dev/new/C++/lesson_1.h
+iostream
+-
+string
+-
+
+/home/altock/Documents/dev/new/C++/lesson_1.h
+
 /home/altock/Documents/dev/new/C++/main.cpp
 iostream
 -
+lesson_0.h
+/home/altock/Documents/dev/new/C++/lesson_0.h
+lesson_1.h
+/home/altock/Documents/dev/new/C++/lesson_1.h
 
