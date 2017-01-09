@@ -3,12 +3,13 @@ from nltk.tokenize import word_tokenize
 
 ps = PorterStemmer()
 
-example_words = ["python","pythoner","pythoning","pythoned","pythonly"]
+example_words = ["python", "pythoner", "pythoning", "pythoned", "pythonly"]
 # for w in example_words:
 # 	print(ps.stem(w))
 
-new_text = "It is very important to be pyhtonly while you are pythoning with python. All pythoners have pythoned poorly at least once"
+new_text = "It is very important to be pythonly while you are pythoning with python. All pythoners have pythoned " \
+           "poorly at least once "
 
 words = word_tokenize(new_text)
 for w in words:
-	print(ps.stem(w))
+    print(ps.stem(w))
