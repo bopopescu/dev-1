@@ -7,7 +7,11 @@ CMakeFiles/C__.dir/lesson_0.cpp.o: ../lesson_0.h
 CMakeFiles/C__.dir/lesson_1.cpp.o: ../lesson_1.cpp
 CMakeFiles/C__.dir/lesson_1.cpp.o: ../lesson_1.h
 
+CMakeFiles/C__.dir/lesson_2.cpp.o: ../lesson_2.cpp
+CMakeFiles/C__.dir/lesson_2.cpp.o: ../lesson_2.h
+
 CMakeFiles/C__.dir/main.cpp.o: ../lesson_0.h
 CMakeFiles/C__.dir/main.cpp.o: ../lesson_1.h
+CMakeFiles/C__.dir/main.cpp.o: ../lesson_2.h
 CMakeFiles/C__.dir/main.cpp.o: ../main.cpp
 

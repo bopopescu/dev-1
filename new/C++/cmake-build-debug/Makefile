@@ -177,6 +177,33 @@ lesson_1.cpp.s:
 	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_1.cpp.s
 .PHONY : lesson_1.cpp.s
 
+lesson_2.o: lesson_2.cpp.o
+
+.PHONY : lesson_2.o
+
+# target to build an object file
+lesson_2.cpp.o:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_2.cpp.o
+.PHONY : lesson_2.cpp.o
+
+lesson_2.i: lesson_2.cpp.i
+
+.PHONY : lesson_2.i
+
+# target to preprocess a source file
+lesson_2.cpp.i:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_2.cpp.i
+.PHONY : lesson_2.cpp.i
+
+lesson_2.s: lesson_2.cpp.s
+
+.PHONY : lesson_2.s
+
+# target to generate assembly for a file
+lesson_2.cpp.s:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_2.cpp.s
+.PHONY : lesson_2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... lesson_1.o"
 	@echo "... lesson_1.i"
 	@echo "... lesson_1.s"
+	@echo "... lesson_2.o"
+	@echo "... lesson_2.i"
+	@echo "... lesson_2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

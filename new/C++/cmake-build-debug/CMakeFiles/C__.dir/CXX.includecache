@@ -24,6 +24,16 @@ string
 
 /home/altock/Documents/dev/new/C++/lesson_1.h
 
+/home/altock/Documents/dev/new/C++/lesson_2.cpp
+lesson_2.h
+/home/altock/Documents/dev/new/C++/lesson_2.h
+iostream
+-
+string
+-
+
+/home/altock/Documents/dev/new/C++/lesson_2.h
+
 /home/altock/Documents/dev/new/C++/main.cpp
 iostream
 -
@@ -31,4 +41,6 @@ lesson_0.h
 /home/altock/Documents/dev/new/C++/lesson_0.h
 lesson_1.h
 /home/altock/Documents/dev/new/C++/lesson_1.h
+lesson_2.h
+/home/altock/Documents/dev/new/C++/lesson_2.h
 

@@ -96,6 +96,12 @@
 		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_1.h">
 			<Option target="C__"/>
 		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_2.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_2.h">
+			<Option target="C__"/>
+		</Unit>
 		<Unit filename="/home/altock/Documents/dev/new/C++/main.cpp">
 			<Option target="C__"/>
 		</Unit>

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/altock/Documents/dev/new/C++/lesson_0.cpp" "/home/altock/Documents/dev/new/C++/cmake-build-debug/CMakeFiles/C__.dir/lesson_0.cpp.o"
   "/home/altock/Documents/dev/new/C++/lesson_1.cpp" "/home/altock/Documents/dev/new/C++/cmake-build-debug/CMakeFiles/C__.dir/lesson_1.cpp.o"
+  "/home/altock/Documents/dev/new/C++/lesson_2.cpp" "/home/altock/Documents/dev/new/C++/cmake-build-debug/CMakeFiles/C__.dir/lesson_2.cpp.o"
   "/home/altock/Documents/dev/new/C++/main.cpp" "/home/altock/Documents/dev/new/C++/cmake-build-debug/CMakeFiles/C__.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
