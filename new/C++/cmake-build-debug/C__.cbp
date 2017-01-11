@@ -102,6 +102,18 @@
 		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_2.h">
 			<Option target="C__"/>
 		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_3.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_3.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_4.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/altock/Documents/dev/new/C++/lesson_4.h">
+			<Option target="C__"/>
+		</Unit>
 		<Unit filename="/home/altock/Documents/dev/new/C++/main.cpp">
 			<Option target="C__"/>
 		</Unit>

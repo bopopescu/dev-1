@@ -32,8 +32,7 @@ void two_9() {
     std::string firstString;
     std::string secondString;
     std::cout << "Enter Two Numbers: ";
-    std::cin >> firstString;
-    std::cin >> secondString;
+    std::cin >> firstString >> secondString;
 
     int first = std::stoi(firstString);
     int second = std::stoi(secondString);
@@ -66,7 +65,8 @@ void lesson_2 (){
     const std::string greeting = "Hello, " + name + "!";
 
     // ask for the persons name
-    std::cout << "Please enter how much space to leave between the frame and the greeting: ";
+    std::cout << "Please enter how much space to leave between " ""
+            "the frame and the greeting: ";
 
     // read the name
     std::string stringRPad; // define name

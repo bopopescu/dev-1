@@ -204,6 +204,60 @@ lesson_2.cpp.s:
 	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_2.cpp.s
 .PHONY : lesson_2.cpp.s
 
+lesson_3.o: lesson_3.cpp.o
+
+.PHONY : lesson_3.o
+
+# target to build an object file
+lesson_3.cpp.o:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_3.cpp.o
+.PHONY : lesson_3.cpp.o
+
+lesson_3.i: lesson_3.cpp.i
+
+.PHONY : lesson_3.i
+
+# target to preprocess a source file
+lesson_3.cpp.i:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_3.cpp.i
+.PHONY : lesson_3.cpp.i
+
+lesson_3.s: lesson_3.cpp.s
+
+.PHONY : lesson_3.s
+
+# target to generate assembly for a file
+lesson_3.cpp.s:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_3.cpp.s
+.PHONY : lesson_3.cpp.s
+
+lesson_4.o: lesson_4.cpp.o
+
+.PHONY : lesson_4.o
+
+# target to build an object file
+lesson_4.cpp.o:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_4.cpp.o
+.PHONY : lesson_4.cpp.o
+
+lesson_4.i: lesson_4.cpp.i
+
+.PHONY : lesson_4.i
+
+# target to preprocess a source file
+lesson_4.cpp.i:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_4.cpp.i
+.PHONY : lesson_4.cpp.i
+
+lesson_4.s: lesson_4.cpp.s
+
+.PHONY : lesson_4.s
+
+# target to generate assembly for a file
+lesson_4.cpp.s:
+	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/lesson_4.cpp.s
+.PHONY : lesson_4.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +303,12 @@ help:
 	@echo "... lesson_2.o"
 	@echo "... lesson_2.i"
 	@echo "... lesson_2.s"
+	@echo "... lesson_3.o"
+	@echo "... lesson_3.i"
+	@echo "... lesson_3.s"
+	@echo "... lesson_4.o"
+	@echo "... lesson_4.i"
+	@echo "... lesson_4.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
