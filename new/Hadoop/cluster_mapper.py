@@ -1,12 +1,13 @@
 #!/usr/bin/env python
+
 from datetime import datetime
 import re
 import sys
 
 def mapper():
 	tld = "http://www.theassociates.co.uk"
-	#pattern = '^([\d.]+) ([\w-]+) ([\w-]+) \[(.+)\] \"(.+)\" (\d{3}) (\d+)$'
-	pattern = '^([\d.]+) ([\w-]+) ([\w-]+) [(.+)] \"(.+)\" (\d{3}) ([\d-]+)$'
+	pattern = '^([\d.]+) ([\w-]+) ([\w-]+) \[(.+)\] \"(.+)\" (\d{3}) (\d+)$'
+	#pattern = '^([\d.]+) ([\w-]+) ([\w-]+) [(.+)] \"(.+)\" (\d{3}) ([\d-]+)$'
 	for line in sys.stdin:
 		result = re.match(pattern, line)
 		if result is None:
@@ -28,4 +29,5 @@ def mapper():
 			print("{}\t1".format(time_ordinal))
 
 if __name__ == "__main__":
+	#print("hi")
 	mapper()
