@@ -56,6 +56,12 @@ map
 
 /home/altock/Documents/dev/new/C++/lesson_3.h
 
+/home/altock/Documents/dev/new/C++/lesson_4.cpp
+lesson_4.h
+/home/altock/Documents/dev/new/C++/lesson_4.h
+
+/home/altock/Documents/dev/new/C++/lesson_4.h
+
 /home/altock/Documents/dev/new/C++/main.cpp
 iostream
 -
@@ -65,6 +71,4 @@ lesson_1.h
 /home/altock/Documents/dev/new/C++/lesson_1.h
 lesson_2.h
 /home/altock/Documents/dev/new/C++/lesson_2.h
-lesson_3.h
-/home/altock/Documents/dev/new/C++/lesson_3.h
 
