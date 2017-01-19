@@ -15,8 +15,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="french_py_to_numpy.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="french_py_to_numpy.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/french_py_to_numpy.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Abbreviations.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Abbreviations.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -66,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -82,11 +90,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HarrisPythonProgramming/NatLanguageProcessing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../applications" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -154,7 +163,21 @@
     <entry file="file://$PROJECT_DIR$/french_py_to_numpy.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/french_py_to_numpy.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbreviations.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
         </state>
       </provider>
     </entry>
