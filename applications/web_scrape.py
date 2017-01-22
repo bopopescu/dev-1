@@ -8,9 +8,9 @@ EDGAR_BASE = 'http://data-interview.enigmalabs.org'
 EDGAR_COMPANY = EDGAR_BASE + '/companies/'
 
 
-EDGAR_PAGES = [""] + ["?page=" + str(x) for x in xrange(2,11)]
+EDGAR_PAGES = ["?page=" + str(x) for x in xrange(1,11)]
 
-COMPANY_IDS = ['street_address', 'street_address_2', 'city',
+COMPANY_IDS = ['street_address', 'street_address_2', 'city', 'description',
                'state', 'zipcode', 'phone_number', 'website']
 
 def get_site(site):
@@ -25,8 +25,7 @@ def get_url(tag):
     url = EDGAR_BASE + relative_url
     return url
 
-if __name__ == '__main__':
-
+def get_urls_from_pages(base_address,relative_endings):
     urls = []
     for ending in EDGAR_PAGES:
         # get's html of site from internet
@@ -38,26 +37,43 @@ if __name__ == '__main__':
         # link tags in html start with '<a', url itself is in href
         new_urls = [get_url(tag) for tag in parse.find_all('a') if not tag.get('id') is None]
         urls.extend(new_urls)
-    sites_to_scrape = [get_site(url) for url in urls]
+    return urls
 
-    print(urls)
-    companies = {}
+def get_info(sites):
+    info = {}
     for site in sites_to_scrape:
         p = BeautifulSoup(site, 'html.parser')
         name = None
-        comp_dict = {}
+        info_dict = {}
         tds = p.find_all('td')
         for td in tds:
             id = td.get('id')
             if id == 'name':
                 name = td.text
             elif id in COMPANY_IDS:
-                comp_dict[id] = td.text
-        if comp_dict != {} and not name is None:
-            companies[name] = comp_dict
-            print(comp_dict)
-    json_data = json.dumps(companies,sort_keys=True, indent=4, separators=(",", ":"))
-    print json_data
+                info_dict[id] = td.text
+            elif not id is None:
+                print(id, site)
+        if info_dict != {} and not name is None:
+            info[name] = info_dict
+            # print(comp_dict)
+        else:
+            print("FUCK: ", site)
+    return info
 
-    with open('solution.json','w') as json_file:
-        json.dump(json_data, json_file, sort_keys=True, indent=4, separators=(",", ":"))
+def write_to_json(info, filename):
+    json_data = json.dumps(info)
+    # print json_data
+
+    with open(filename, 'w') as json_file:
+        json.dump(json_data, json_file)
+
+if __name__ == '__main__':
+
+    urls = get_urls_from_pages(EDGAR_COMPANY, EDGAR_PAGES)
+    sites_to_scrape = [get_site(url) for url in urls]
+
+    companies = get_info(sites_to_scrape)
+
+    write_to_json(companies, 'output/solutions.json')
+
