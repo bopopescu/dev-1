@@ -32,22 +32,48 @@ class VoteClassifier(ClassifierI):
         conf = choice_votes / len(votes)
         return conf
 
-documents = [(list(movie_reviews.words(fileid)), category)
-             for category in movie_reviews.categories()
-             for fileid in movie_reviews.fileids(category)]
 
-random.shuffle(documents)
+def pickle_file(object, filename):
+    with open('pickled_algos/' + filename + '.pickle','wb') as f:
+        pickle.dump(object, f)
 
+short_pos = open("short_reviews/positive.txt","r", encoding='ISO-8859-1').read()
+short_neg = open("short_reviews/negative.txt","r", encoding='ISO-8859-1').read()
+
+documents = []
 all_words = []
-for w in movie_reviews.words():
-    all_words.append(w.lower())
+
+#  j is adject, r is adverb, and v is verb
+# allowed_word_types = ["J","R","V"]
+allowed_word_types = ["J"]
+
+for p in short_pos.split('\n'):
+    documents.append((p, "pos"))
+    words = nltk.word_tokenize(p)
+    pos = nltk.pos_tag(words)
+    for w in pos:
+        if w[1][0] in allowed_word_types:
+            all_words.append(w[0].lower())
+
+for p in short_neg.split('\n'):
+    documents.append((p, "neg"))
+    words = nltk.word_tokenize(p)
+    pos = nltk.pos_tag(words)
+    for w in pos:
+        if w[1][0] in allowed_word_types:
+            all_words.append(w[0].lower())
+
+pickle_file(documents, 'documents')
+
 
 all_words = nltk.FreqDist(all_words)
 
-word_features = list(all_words.keys())[:3000]
+word_features = list(all_words.keys())[:5000]
+
+pickle_file(word_features, 'word_features5k')
 
 def find_features(document):
-    words = set(document)
+    words = nltk.word_tokenize(document)
     features = {}
     for w in word_features:
         features[w] = (w in words)
@@ -56,25 +82,26 @@ def find_features(document):
 
 featuresets = [(find_features(rev), category) for (rev, category) in documents]
 
-training_set = featuresets[:1900]
-testing_set = featuresets[1900:]
+pickle_file(featuresets, 'featuresets')
+
+random.shuffle(featuresets)
+
+training_set = featuresets[:10000]
+testing_set = featuresets[10000:]
 
 # Naive Bayes
 # posterior = prior x likelihood/evidence
 
 
-# classifier = nltk.NaiveBayesClassifier.train(training_set)
-classifier_f = open("naivebayes.pickle",'rb')
-classifier = pickle.load(classifier_f)
-classifier_f.close()
-
+classifier = nltk.NaiveBayesClassifier.train(training_set)
+# classifier_f = open("naivebayes.pickle",'rb')
+# classifier = pickle.load(classifier_f)
+# classifier_f.close()
 print("Original Naive Bayes Algo Accuracy: ", nltk.classify.accuracy(classifier, testing_set)*100)
 
 classifier.show_most_informative_features(15)
 
-# save_classifier = open("naivebayes.pickle","wb")
-# pickle.dump(classifier, save_classifier)
-# save_classifier.close()
+
 
 MNB_classifier = SklearnClassifier(MultinomialNB())
 MNB_classifier.train(training_set)
@@ -115,8 +142,17 @@ voted_classifier = VoteClassifier(classifier,MNB_classifier, BernoulliNB_classif
 
 print("voted_classifier Algo Accuracy: ", nltk.classify.accuracy(voted_classifier, testing_set)*100)
 
-for i in range(5):
-    print("Classification: ", voted_classifier.classify(testing_set[i][0]), "\nConfidence: ", voted_classifier.confidence(testing_set[i][0]))
+
+pickle_file(classifier, 'originalnaivebayes5k')
+pickle_file(MNB_classifier, 'MNB_classifier5k')
+pickle_file(BernoulliNB_classifier, 'BernoulliNB_classifier5k')
+pickle_file(LogisticRegression_classifier, 'LogisticRegression_classifier5k')
+pickle_file(LinearSVC_classifier, 'LinearSVC_classifier5k')
+pickle_file(SGDClassifier_classifier, 'SGDC_classifier5k')
+
+pickle_file(NuSVC_classifier, 'NuSVC_classifier5k')
+# for i in range(5):
+#     print("Classification: ", voted_classifier.classify(testing_set[i][0]), "\nConfidence: ", voted_classifier.confidence(testing_set[i][0]))
 
 
 
