@@ -37,4 +37,4 @@ auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
 
-twitterStream.filter(track=['obama'])
+twitterStream.filter(track=['trump'])
