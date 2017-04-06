@@ -4,7 +4,31 @@
 import sys
 import os
 import numpy as np
+import pandas as pd
 from utility import load_instances, load_labels, load_timestamps, convert_to_classlabels, write_results
+
+
+def generate_audio_features(instances):
+    """ generate features
+        param instances: a list of Instance class objects
+        return: a feature matrix
+    """
+
+    X = pd.DataFrame(np.array([instance.audio.astype(float) for instance in instances]))
+    X.columns = ["aud_" + str(k) for k in X.columns]
+    return X
+
+
+def generate_touch_features(instances):
+    """ generate features
+        param instances: a list of Instance class objects
+        return: a feature matrix
+    """
+    touch_dict = [instance.touch for instance in instances]
+
+    X = pd.DataFrame.from_dict(touch_dict)
+
+    return X
 
 
 def generate_features(instances):
@@ -12,9 +36,12 @@ def generate_features(instances):
         param instances: a list of Instance class objects
         return: a feature matrix
     """
-    # create a naive feature set
-    X = np.array([instance.audio.astype(float) for instance in instances])
-    return X
+
+    # Load info as well later
+    touch = generate_touch_features(instances)
+    audio = generate_audio_features(instances)
+
+    return pd.concat([touch, audio], axis=1)
 
 
 def train_model(X, y):

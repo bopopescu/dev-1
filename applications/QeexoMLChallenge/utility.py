@@ -101,7 +101,7 @@ def write_results(timestamps, classlabels, output):
     """
     if len(timestamps) != len(classlabels):
         raise Exception("The number of timestamps and classlabels doesn't match.")
-    with open(output, "wb") as f:
+    with open(output, "w") as f:
         f.write("timestamp,label\n")
         for timestamp, classlabel in zip(timestamps, classlabels):
             f.write(timestamp + "," + classlabel + "\n")
