@@ -26083,5 +26083,535 @@
     "uid" : "0RNzlqfDyXOZJNFmstOHefDAITN2",
     "uidDate" : "0RNzlqfDyXOZJNFmstOHefDAITN2-1487192607.59125",
     "user" : "Sven"
+  },
+  "-KdAn5HrknZ_tebuhBK5" : {
+    "KBExercises" : {
+      "-KdAn5Hs7HLn0dIPtA-U" : {
+        "calories" : 2.96316,
+        "joules" : 794148.1494372549,
+        "reps" : 10,
+        "timeFinish" : 1.487329439211E9,
+        "timeStart" : 1.487329418601E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p104",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5Hs7HLn0dIPtA-V" : {
+        "calories" : 3.092555,
+        "joules" : 1104981.697144108,
+        "reps" : 11,
+        "timeFinish" : 1.487329526512E9,
+        "timeStart" : 1.487329505002E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p105",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5Hs7HLn0dIPtA-W" : {
+        "calories" : 2.95022,
+        "joules" : 1293654.840615263,
+        "reps" : 10,
+        "timeFinish" : 1.487329611712E9,
+        "timeStart" : 1.487329590202E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p106",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5Hs7HLn0dIPtA-X" : {
+        "calories" : 2.958846,
+        "joules" : 855174.0504921065,
+        "reps" : 10,
+        "timeFinish" : 1.487329727993E9,
+        "timeStart" : 1.487329708403E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p107",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5Hs7HLn0dIPtA-Y" : {
+        "calories" : 3.148626,
+        "joules" : 863823.3625024075,
+        "reps" : 11,
+        "timeFinish" : 1.487329830203E9,
+        "timeStart" : 1.487329808303E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p108",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5HtOCrQpE-0gtmS" : {
+        "calories" : 3.151358,
+        "joules" : 807634.8053174904,
+        "reps" : 10,
+        "timeFinish" : 1.487329923913E9,
+        "timeStart" : 1.487329901605E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p109",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5HtOCrQpE-0gtmT" : {
+        "calories" : 3.204554,
+        "joules" : 752292.0269351706,
+        "reps" : 10,
+        "timeFinish" : 1.487330034594E9,
+        "timeStart" : 1.487330011704E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p110",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5HtOCrQpE-0gtmU" : {
+        "calories" : 3.135687,
+        "joules" : 778470.163350413,
+        "reps" : 11,
+        "timeFinish" : 1.487330133205E9,
+        "timeStart" : 1.487330110795E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p111",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5HtOCrQpE-0gtmV" : {
+        "calories" : 1.367424,
+        "joules" : 89029.97473776905,
+        "reps" : 10,
+        "timeFinish" : 1.487330227106E9,
+        "timeStart" : 1.487330216605E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p112",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      },
+      "-KdAn5HtOCrQpE-0gtmW" : {
+        "calories" : 3.075302,
+        "joules" : 871320.9462626629,
+        "reps" : 11,
+        "timeFinish" : 1.487330360096E9,
+        "timeStart" : 1.487330338706E9,
+        "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSet/p113",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 55
+      }
+    },
+    "commentPath" : "-KdAn5HrknZ_tebuhBK6",
+    "date" : 1.487329405723354E9,
+    "negativeDate" : -1487329405,
+    "typeId" : "x-coredata://90759543-8E42-4EF7-AC86-8BFED38F0AC8/SKSession/p103",
+    "uid" : "SELWJWUndgdGMvxATabJk8o6KQE3",
+    "uidDate" : "SELWJWUndgdGMvxATabJk8o6KQE3-1487329405.72335",
+    "user" : "ezempel@umich.edu"
+  },
+  "-KdBHLiAPFFRtPd8w7cS" : {
+    "KBExercises" : {
+      "-KdBHLiEbQo1Z5Bt7jvx" : {
+        "calories" : 2.898605,
+        "joules" : 1299343.918130836,
+        "reps" : 10,
+        "timeFinish" : 1.487338421579E9,
+        "timeStart" : 1.487338400728E9,
+        "typeId" : "x-coredata:///SKSet/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E43",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdBHLiFxgN6GOEiNPGt" : {
+        "calories" : 3.424814,
+        "joules" : 1431488.327280051,
+        "reps" : 10,
+        "timeFinish" : 1.48733846043E9,
+        "timeStart" : 1.487338437029E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p88",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdBHLiFxgN6GOEiNPGu" : {
+        "calories" : 3.377369,
+        "joules" : 1828120.807384822,
+        "reps" : 10,
+        "timeFinish" : 1.487338508222E9,
+        "timeStart" : 1.487338482421E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p89",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdBHLiFxgN6GOEiNPGv" : {
+        "calories" : 4.084732,
+        "joules" : 1514512.778887198,
+        "reps" : 10,
+        "timeFinish" : 1.487338554364E9,
+        "timeStart" : 1.487338525953E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p90",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdBHLiAPFFRtPd8w7cT",
+    "date" : 1.487338394608191E9,
+    "negativeDate" : -1487338394,
+    "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSession/p86",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487338394.60819",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdBIFhZ5mNF-f8Rxh6M" : {
+    "KBExercises" : {
+      "-KdBIFh_Wct1VXLWPTEP" : {
+        "calories" : 3.312671,
+        "joules" : 1268615.618087358,
+        "reps" : 10,
+        "timeFinish" : 1.487338705209E9,
+        "timeStart" : 1.487338677309E9,
+        "typeId" : "x-coredata:///SKSet/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E48",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdBIFhaH2ySegtycmrI" : {
+        "calories" : 2.15228,
+        "joules" : 713085.8448264342,
+        "reps" : 10,
+        "timeFinish" : 1.487338788222E9,
+        "timeStart" : 1.487338760233E9,
+        "typeId" : "x-coredata:///SKSet/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E411",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdBIFhZ5mNF-f8Rxh6N",
+    "date" : 1.48733866966244E9,
+    "negativeDate" : -1487338669,
+    "typeId" : "x-coredata:///SKSession/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E47",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487338669.66244",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdBJ0oKAzc3eS6I-F93" : {
+    "KBExercises" : {
+      "-KdBJ0oMF80sKpeAdZ3k" : {
+        "calories" : 3.580089,
+        "joules" : 1253066.260415758,
+        "reps" : 10,
+        "timeFinish" : 1.487338910176E9,
+        "timeStart" : 1.487338885275E9,
+        "typeId" : "x-coredata:///SKSet/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E413",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdBJ0oMF80sKpeAdZ3m" : {
+        "calories" : 5.397954,
+        "joules" : 1627240.970673486,
+        "reps" : 10,
+        "timeFinish" : 1.487338984893E9,
+        "timeStart" : 1.48733894706E9,
+        "typeId" : "x-coredata:///SKSet/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E415",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdBJ0oKAzc3eS6I-F94",
+    "date" : 1.487338871797147E9,
+    "negativeDate" : -1487338871,
+    "typeId" : "x-coredata:///SKSession/t8810AD4E-3BDF-4B79-9843-D3BE5A9EA4E412",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487338871.79715",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdQmvf-il2G_xHljanJ" : {
+    "KBExercises" : {
+      "-KdQmvf2T14ILen-62Ex" : {
+        "calories" : 7.785734,
+        "joules" : 5846277.400062303,
+        "reps" : 20,
+        "timeFinish" : 1.487598678114E9,
+        "timeStart" : 1.487598621862E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p92",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdQmvf2T14ILen-62Ey" : {
+        "calories" : 7.626002,
+        "joules" : 5220109.864780513,
+        "reps" : 20,
+        "timeFinish" : 1.487598750897E9,
+        "timeStart" : 1.487598697075E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p93",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdQmvf-il2G_xHljanK",
+    "date" : 1.487598616125938E9,
+    "negativeDate" : -1487598616,
+    "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSession/p91",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487598616.12594",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdQncHeK5teiKoV6BhL" : {
+    "KBExercises" : {
+      "-KdQncHfK72gkyqdt-P6" : {
+        "calories" : 5.128954,
+        "joules" : 1211546.116370806,
+        "reps" : 10,
+        "timeFinish" : 1.487598870513E9,
+        "timeStart" : 1.487598834839E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p95",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      },
+      "-KdQncHj-pEMIjCggzzs" : {
+        "calories" : 5.193221,
+        "joules" : 1591694.0392195,
+        "reps" : 10,
+        "timeFinish" : 1.487598931113E9,
+        "timeStart" : 1.487598894992E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p96",
+        "typeString" : "Push Press",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdQncHeK5teiKoV6BhM",
+    "date" : 1.487598823341304E9,
+    "negativeDate" : -1487598823,
+    "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSession/p94",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487598823.3413",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdQnrPO9bFMAqchAHOk" : {
+    "KBExercises" : {
+      "-KdQnrPPpBzqzQIyXAy5" : {
+        "calories" : 4.830769,
+        "joules" : 3728698.490146431,
+        "reps" : 20,
+        "timeFinish" : 1.487598995105E9,
+        "timeStart" : 1.487598960844E9,
+        "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSet/p98",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 25
+      }
+    },
+    "commentPath" : "-KdQnrPO9bFMAqchAHOl",
+    "date" : 1.487598953864747E9,
+    "likes" : [ "yvW1qzlV2TVj084CP8g2OCdebEf2", "0RNzlqfDyXOZJNFmstOHefDAITN2" ],
+    "negativeDate" : -1487598953,
+    "typeId" : "x-coredata://51318EA4-F99E-4048-AF4C-EA728C059449/SKSession/p97",
+    "uid" : "yvW1qzlV2TVj084CP8g2OCdebEf2",
+    "uidDate" : "yvW1qzlV2TVj084CP8g2OCdebEf2-1487598953.86475",
+    "user" : "Robert Aaron Lewis"
+  },
+  "-KdRaZZ6tACk7zlt8yLL" : {
+    "KBExercises" : {
+      "-KdRaZZ7Uq2aH-LbSeLi" : {
+        "calories" : 9.814694,
+        "joules" : 6736093.916749307,
+        "reps" : 18,
+        "timeFinish" : 1.487612291379E9,
+        "timeStart" : 1.487612227268E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p36",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 35
+      }
+    },
+    "commentPath" : "-KdRaZZ7Uq2aH-LbSeLh",
+    "date" : 1.487612211470338E9,
+    "negativeDate" : -1487612211,
+    "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSession/p35",
+    "uid" : "0THdeTjVvsecD9t0Wl8OBVMFjX43",
+    "uidDate" : "0THdeTjVvsecD9t0Wl8OBVMFjX43-1487612211.47034",
+    "user" : "Brett Hemus"
+  },
+  "-KdRbAcGAYOqxvJ8FR7R" : {
+    "KBExercises" : {
+      "-KdRbAcIx843Af-b1w28" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 2,
+        "timeFinish" : 1.487612452550538E9,
+        "timeStart" : 1.487612444470312E9,
+        "typeId" : "",
+        "typeString" : "Unknown",
+        "unit" : 0,
+        "weight" : 5
+      },
+      "-KdRbAcIx843Af-b1w29" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 8,
+        "timeFinish" : 1.487612455589592E9,
+        "timeStart" : 1.487612452550777E9,
+        "typeId" : "",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 5
+      },
+      "-KdRbAcIx843Af-b1w2A" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 9,
+        "timeFinish" : 1.487612459536952E9,
+        "timeStart" : 1.487612455589884E9,
+        "typeId" : "",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 5
+      }
+    },
+    "commentPath" : "-KdRbAcGAYOqxvJ8FR7S",
+    "date" : 1.487612444468612E9,
+    "negativeDate" : -1487612444,
+    "typeId" : "",
+    "uid" : "0RNzlqfDyXOZJNFmstOHefDAITN2",
+    "uidDate" : "0RNzlqfDyXOZJNFmstOHefDAITN2-1487612444.46861",
+    "user" : "Sven"
+  },
+  "-KdU4-Wp7hP3c8J2-StO" : {
+    "KBExercises" : {
+      "-KdU4-WqLbSL8bnVmJDb" : {
+        "calories" : 8.20282,
+        "joules" : 3332363.062342773,
+        "reps" : 25,
+        "timeFinish" : 1.487653196764E9,
+        "timeStart" : 1.487653143362E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p38",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDc" : {
+        "calories" : 5.019639,
+        "joules" : 1191021.611510245,
+        "reps" : 12,
+        "timeFinish" : 1.487653255681E9,
+        "timeStart" : 1.4876532219E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p39",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDd" : {
+        "calories" : 2.719015,
+        "joules" : 107964.1423439268,
+        "reps" : 5,
+        "timeFinish" : 1.487653365273E9,
+        "timeStart" : 1.4876533479E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p40",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDe" : {
+        "calories" : 4.693864,
+        "joules" : 80974.45031054127,
+        "reps" : 8,
+        "timeFinish" : 1.487653378173E9,
+        "timeStart" : 1.487653347512E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p41",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDf" : {
+        "calories" : 2.38375,
+        "joules" : 230182.8303100381,
+        "reps" : 4,
+        "timeFinish" : 1.487653447024E9,
+        "timeStart" : 1.487653426053E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p42",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDg" : {
+        "calories" : 2.002712,
+        "joules" : 0,
+        "reps" : 3,
+        "timeFinish" : 1.487653466075E9,
+        "timeStart" : 1.487653452993E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p43",
+        "typeString" : "Snatch",
+        "unit" : 0,
+        "weight" : 35
+      },
+      "-KdU4-WqLbSL8bnVmJDh" : {
+        "calories" : 3.582284,
+        "joules" : 625042.6871361565,
+        "reps" : 9,
+        "timeFinish" : 1.487653549655E9,
+        "timeStart" : 1.487653525924E9,
+        "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSet/p44",
+        "typeString" : "Swing",
+        "unit" : 0,
+        "weight" : 35
+      }
+    },
+    "commentPath" : "-KdU4-Wp7hP3c8J2-StP",
+    "date" : 1.48765312572556E9,
+    "likes" : [ "0RNzlqfDyXOZJNFmstOHefDAITN2" ],
+    "negativeDate" : -1487653125,
+    "typeId" : "x-coredata://50B407C1-789F-4100-9778-0A2639DA3843/SKSession/p37",
+    "uid" : "0THdeTjVvsecD9t0Wl8OBVMFjX43",
+    "uidDate" : "0THdeTjVvsecD9t0Wl8OBVMFjX43-1487653125.72556",
+    "user" : "Brett Hemus"
+  },
+  "-KdWwieLjyRm1Fk7MWhu" : {
+    "KBExercises" : {
+      "-KdWwieM-Wv1d0A3j31M" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 5,
+        "timeFinish" : 1.487701993144882E9,
+        "timeStart" : 1.487701991064251E9,
+        "typeId" : "",
+        "typeString" : "Unknown",
+        "unit" : 0,
+        "weight" : 5
+      },
+      "-KdWwieM-Wv1d0A3j31N" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 3,
+        "timeFinish" : 1.487701993186023E9,
+        "timeStart" : 1.487701993145269E9,
+        "typeId" : "",
+        "typeString" : "Clean",
+        "unit" : 0,
+        "weight" : 5
+      },
+      "-KdWwieM-Wv1d0A3j31O" : {
+        "calories" : 0,
+        "joules" : 0,
+        "reps" : 5,
+        "timeFinish" : 1.487701994152827E9,
+        "timeStart" : 1.48770199318655E9,
+        "typeId" : "",
+        "typeString" : "Unknown",
+        "unit" : 0,
+        "weight" : 5
+      }
+    },
+    "commentPath" : "-KdWwieLjyRm1Fk7MWhv",
+    "date" : 1.487701991061584E9,
+    "negativeDate" : -1487701991,
+    "typeId" : "",
+    "uid" : "oUvY6XfbaBVjTzWxVtZNPDkd3jW2",
+    "uidDate" : "oUvY6XfbaBVjTzWxVtZNPDkd3jW2-1487701991.06158",
+    "user" : "krucraft"
   }
 }

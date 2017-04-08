@@ -10,7 +10,7 @@ with open('project-8035943003290177832-KBSets-export.json') as kb_json_data:
 		user = d[i]["user"]
 		date = d[i]["date"]
 
-		if "KBExercises" not in d[i] or date <= 1486679820:
+		if "KBExercises" not in d[i] or date <= 1487358000:
 			continue
 		exercises = d[i]["KBExercises"]
 		reps = 0
