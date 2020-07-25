@@ -266,13 +266,13 @@ class KeystoneInstall(object):
     """Return the filename of the post-install Keystone daemon launchd plist."""
     return 'com.google.keystone.daemon.plist'
 
-  def _IsMasterDisabled(self):
-    """Check for master disable MCX preference."""
+  def _IsMainDisabled(self):
+    """Check for main disable MCX preference."""
     # 'defaults' does not honor MCX, so read the file directly
     if os.path.exists('/Library/Managed Preferences/com.google.Keystone.plist'):
       cmd = ['/usr/bin/defaults', 'read',
              '/Library/Managed Preferences/com.google.Keystone',
-             'masterDisable']
+             'mainDisable']
       (result, out, errout) = self.RunCommand(cmd)
       if result == 0 and out.strip() == '1':
         return True
@@ -280,7 +280,7 @@ class KeystoneInstall(object):
     if os.path.exists('/Library/Preferences/com.google.Keystone.plist'):
       cmd = ['/usr/bin/defaults', 'read',
              '/Library/Preferences/com.google.Keystone',
-             'masterDisable']
+             'mainDisable']
       (result, out, errout) = self.RunCommand(cmd)
       if result == 0 and out.strip() == '1':
         return True
@@ -1266,7 +1266,7 @@ class Keystone(object):
                 and prevent uninstall.  This will happen even if an install
                 of Keystone itself is not needed.
     """
-    if self.installer._IsMasterDisabled():
+    if self.installer._IsMainDisabled():
       raise Error(None, None, MASTER_DISABLE_ERROR_CODE,
           'Google Software Update installer failed. An administrator has '
           'disabled Google Software Update.')
